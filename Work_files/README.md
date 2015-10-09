@@ -6,4 +6,5 @@ Located in sparc1 server, path:
 It contains:
 - mahesha_assemblies_workfolder
 - rawdata_workfolder
+- Folder for different pdf files created with information of the results obtained.
 
