@@ -53,7 +53,7 @@ Strain information in a pdf.
 
 - Bedtools: create tables with coverage:
 
-	$ genomeCoverageBed -bga -ibam 1001_pea_DehaAH_sorted.bam | sort -n -r -k4 > genomecoverage1001AH
+		$ genomeCoverageBed -bga -ibam 1001_pea_DehaAH_sorted.bam | sort -n -r -k4 > genomecoverage1001AH
 
 	(-bga: include 0 coverage regions, sort -n (numerically), -r (reverse), -k4 (by column 4)).
 
@@ -61,17 +61,17 @@ Strain information in a pdf.
 
 - Divide the coverage data per chromosomes, to make it easier to visualize:
 
-	$ grep -e"CR382133.2" genomecoverageAH > CR382133.2_coverage1001AH
+		$ grep -e"CR382133.2" genomecoverageAH > CR382133.2_coverage1001AH
 
 	- Repeat with each chromosome 33 to 39 and in all the coverage files.
 
 - Taking a look at the principal results:
 
-	$ head -n 100 CR382133.2* > head100_CR382133.2_all
+		$ head -n 100 CR382133.2* > head100_CR382133.2_all
 
 	To see the regions with better coverage in all the strains.
 
-	$ tail -n 100 CR382133.2* > tail100_CR382133.2_all
+		$ tail -n 100 CR382133.2* > tail100_CR382133.2_all
 
 	To see the regions with lowest coverage in all the strains.
 
