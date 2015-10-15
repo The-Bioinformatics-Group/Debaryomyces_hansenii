@@ -46,7 +46,9 @@ Repeat with all the sequences, using both sets (AH and BC) for each strain (1001
 | 1018   | 0.08  | 0.08  |
 | 1019   | 87.51 | 87.94 |
 
-Strain information in a pdf.
+1001 = CBS767 (*D. hansenii* reference)
+1017 and 1018 known to be *S. cerevisiae*
+1006, 1010 and 1012, probably not *D. hanenii*
 
 ### Coverage
 - Visualized using IGV
