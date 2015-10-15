@@ -50,3 +50,5 @@ Indexing bam file:
 1017 and 1018 known to be *S. cerevisiae*.
 
 1001 CBS767 (*D. hansenii* reference)
+
+[Complete table with all the alternative names for every strain](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Strains.md)

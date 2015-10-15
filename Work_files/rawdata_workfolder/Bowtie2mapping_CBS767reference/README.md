@@ -52,6 +52,8 @@ Repeat with all the sequences, using both sets (AH and BC) for each strain (1001
 
 1006, 1010 and 1012, probably not *D. hanenii*
 
+[Complete table with all the alternative names for every strain](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Strains.md)
+
 ### Coverage
 - Visualized using IGV
 
