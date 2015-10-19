@@ -7,3 +7,5 @@ Folder contains:
 - The folder contains also a folder with the VarScan analysis.
  
 - raw_reads folder, with all the fastq files and fastqc.
+
+- Contamination check
