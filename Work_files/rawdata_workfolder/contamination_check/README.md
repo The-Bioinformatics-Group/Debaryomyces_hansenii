@@ -19,7 +19,7 @@ Contamination analysis run to the raw reads in fastq format:
  
  - Repeat with all the fastq files (forward and reverse for each one (1, 2), and both sets of every strain (AH, BC))
 
-### Results
+#### Results
 
 General first result, percentaje of contaminated sequences.
 
