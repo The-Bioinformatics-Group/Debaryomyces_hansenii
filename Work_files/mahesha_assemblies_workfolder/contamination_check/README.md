@@ -67,28 +67,21 @@ Each sequence classified by Kraken results in a single line of output. Output li
 
 5. A space-delimited list indicating the LCA mapping of each k-mer in the sequence. For example, "562:13 561:4 A:31 0:1 562:3" would indicate that:
 
-
 	- the first 13 k-mers mapped to taxonomy ID #562
-
         - the next 4 k-mers mapped to taxonomy ID #561
-
         - the next 31 k-mers contained an ambiguous nucleotide
-
         - the next k-mer was not in the database
-
         - the last 3 k-mers mapped to taxonomy ID #562
 
 #### Output translation
 
 It only reports classified sequences, the output format generated is a text file with two tab-delimited columns and one line for each sequence. The first column is the sequence ID of the classified sequences, and the second column contains the taxonomy of the sequence. 
 
-- Example: `SEQ1  root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Escherichia;Escherichia coli`
-
+Example: `SEQ1  root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Escherichia;Escherichia coli`
 
 	$ kraken-translate --db /data01/tomas/kraken_dbs/standardkraken_20151015 1001_stdkraken.kraken > 1001_stdkraken.labels
 
-
-	- Repeat with all the kraken outputs.
+- Repeat with all the kraken outputs.
 
 #### Output report
 
@@ -112,6 +105,5 @@ The scientific names are indented using spaces, according to the tree structure 
 	
 	$ kraken-report --db /data01/tomas/kraken_dbs/standardkraken_20151015 1001_stdkraken.kraken > 1001_stdkraken.report
 	
-
-	- Repeat with all the kraken outputs.
+- Repeat with all the kraken outputs.
 
