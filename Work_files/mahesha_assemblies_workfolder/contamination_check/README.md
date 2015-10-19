@@ -58,13 +58,9 @@ General first result, percentaje of contaminated sequences.
 Each sequence classified by Kraken results in a single line of output. Output lines contain five tab-delimited fields; from left to right, they are:
 
 1. "C"/"U": one letter code indicating that the sequence was either classified or unclassified.
-
 2. The sequence ID, obtained from the FASTA/FASTQ header.
-
 3. The taxonomy ID Kraken used to label the sequence; this is 0 if the sequence is unclassified.
-
 4. The length of the sequence in bp.
-
 5. A space-delimited list indicating the LCA mapping of each k-mer in the sequence. For example, "562:13 561:4 A:31 0:1 562:3" would indicate that:
 
 	- the first 13 k-mers mapped to taxonomy ID #562
@@ -88,15 +84,10 @@ Used to get an idea of the kraken's results across the entire sample.
 The output is tab delimites, with one line per taxon. Fields:
 
 1. Percentage of reads covered by the clade rooted at this taxon
-
 2. Number of reads covered by the clade rooted at this taxon
-
 3. Number of reads assigned directly to this taxon
-
 4. A rank code, indicating (U)nclassified, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. All other ranks are simply '-'.
-
 5. NCBI taxonomy ID 
-
 6. indented scientific name
 
 The scientific names are indented using spaces, according to the tree structure specified by the taxonomy.
