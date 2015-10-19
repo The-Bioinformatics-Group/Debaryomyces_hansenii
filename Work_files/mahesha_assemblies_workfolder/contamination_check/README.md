@@ -75,11 +75,7 @@ Each sequence classified by Kraken results in a single line of output. Output li
 
 #### Output translation
 
-It only reports classified sequences, the output format generated is a text file with two tab-delimited columns and one line for each sequence. The first column is the sequence ID of the classified sequences, and the second column contains the taxonomy of the sequence. 
-
-Example: 
-
-`SEQ1  root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Escherichia;Escherichia coli`
+It only reports classified sequences, the output format generated is a text file with two tab-delimited columns and one line for each sequence. The first column is the sequence ID of the classified sequences, and the second column contains the taxonomy of the sequence. Example: `SEQ1  root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Escherichia;Escherichia coli`
 
 	$ kraken-translate --db /data01/tomas/kraken_dbs/standardkraken_20151015 1001_stdkraken.kraken > 1001_stdkraken.labels
 
