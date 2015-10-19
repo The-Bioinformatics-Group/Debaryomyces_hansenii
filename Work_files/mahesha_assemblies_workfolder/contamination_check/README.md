@@ -19,7 +19,7 @@ Contamination analysis run to the raw reads in fastq format:
  
  - Repeat with the rest of the fasta files of the strains (1 to 19).
 
-### Results
+#### Results
 
 General first result, percentaje of contaminated sequences.
 
@@ -50,4 +50,64 @@ General first result, percentaje of contaminated sequences.
 | 1019   |  	1023 	   |	89 (8.70%)        |	934 (91.30%)       |
 
 [Complete table with all the alternative names for every strain](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Strains.md)
+
+### Output
+
+#### Output format
+
+Each sequence classified by Kraken results in a single line of output. Output lines contain five tab-delimited fields; from left to right, they are:
+
+1. "C"/"U": one letter code indicating that the sequence was either classified or unclassified.
+
+2. The sequence ID, obtained from the FASTA/FASTQ header.
+
+3. The taxonomy ID Kraken used to label the sequence; this is 0 if the sequence is unclassified.
+
+4. The length of the sequence in bp.
+
+5. A space-delimited list indicating the LCA mapping of each k-mer in the sequence. For example, "562:13 561:4 A:31 0:1 562:3" would indicate that:
+
+	- the first 13 k-mers mapped to taxonomy ID #562
+
+        - the next 4 k-mers mapped to taxonomy ID #561
+
+        - the next 31 k-mers contained an ambiguous nucleotide
+
+        - the next k-mer was not in the database
+
+        - the last 3 k-mers mapped to taxonomy ID #562
+
+#### Output translation
+
+It only reports classified sequences, the output format generated is a text file with two tab-delimited columns and one line for each sequence. The first column is the sequence ID of the classified sequences, and the second column contains the taxonomy of the sequence. 
+
+- Example: `SEQ1  root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Escherichia;Escherichia coli`
+
+	$ kraken-translate --db /data01/tomas/kraken_dbs/standardkraken_20151015 1001_stdkraken.kraken > 1001_stdkraken.labels
+
+	- Repeat with all the kraken outputs.
+
+#### Output report
+
+Used to get an idea of the kraken's results across the entire sample.
+
+The output is tab delimites, with one line per taxon. Fields:
+
+1. Percentage of reads covered by the clade rooted at this taxon
+
+2. Number of reads covered by the clade rooted at this taxon
+
+3. Number of reads assigned directly to this taxon
+
+4. A rank code, indicating (U)nclassified, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. All other ranks are simply '-'.
+
+5. NCBI taxonomy ID 
+
+6. indented scientific name
+
+The scientific names are indented using spaces, according to the tree structure specified by the taxonomy.
+	
+	$ kraken-report --db /data01/tomas/kraken_dbs/standardkraken_20151015 1001_stdkraken.kraken > 1001_stdkraken.report
+	
+	- Repeat with all the kraken outputs.
 
