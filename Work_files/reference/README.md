@@ -17,7 +17,7 @@ The database contains NCBI taxonomic information, as well as the complete genome
 
 Contamination analysis run to the raw reads in fastq format:
 
-	$ kraken --threads 24 --db /data01/tomas/kraken_dbs/standardkraken_20151015 --fasta-input P1260_1001_preliminary_assembly.fasta > tests_kraken/1001_stdkraken.kraken
+	$ kraken --threads 24 --db /data01/tomas/kraken_dbs/standardkraken_20151015/ --fasta-input GCA_000006445.2_ASM644v2_genomic.fna > CBS767_stdkraken.kraken
  
  - Repeat with the rest of the fasta files of the strains (1 to 19).
 
