@@ -1,4 +1,4 @@
-# *Debaryomyces hanenii* project
+# *Debaryomyces hansenii* project
 ## Organization of folders (sparc1):
 /data3/debaryomyces/debaryomyces_merce/
 
