@@ -9,6 +9,10 @@
 
 nr db
 
+Unformatted version downloaded from NCBI.
+
+	$ formatdb -t NCBInrdb20151022 -i nr -o T -p T
+
 ## Tests
 
 ### Default blastn
