@@ -18,7 +18,9 @@
 
 ## Tests
 
-### Default blastn
+### Blastn
+
+#### Default
 
 Tested in 6 strains (1001 - 1006)
 
@@ -28,7 +30,7 @@ Tested in 6 strains (1001 - 1006)
 
 - Same with each strain.
 
-### Outputfmt
+#### Outfmt
 
 Tested in 8 strains (1001 - 1006, 1017 and 1018)
 
@@ -37,3 +39,9 @@ Tested in 8 strains (1001 - 1006, 1017 and 1018)
 	$ blastn -outfmt '7 std qlen slen' -db blastdb_S288c/GCF_000146045.2_R64_genomic.fna -query P1260_1001_preliminary_assembly.fasta -out blastn_secondtest_outfmt_7_std_qlen_slen_CBS767_S288c/1001_blastnS288c_outfmt7stdqlenslen.out
 
 - Same with each strain.
+
+### Blastx
+
+#### nr - num_alignments 10
+
+	$ blastx -query P1260_1001_preliminary_assembly.fasta -db blastdb_nr20151022/nr -num_alignments 10 -num_threads 24 -out blastx_tests/1001_blastx_a10test.txt
