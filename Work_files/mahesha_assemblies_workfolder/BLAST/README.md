@@ -3,11 +3,11 @@
 ## Databases
 
 2015-10-22
-** *Debaryomyces hansenii* db**: Reference CBS767
+***Debaryomyces hansenii* db**: Reference CBS767
 
 	$ makeblastdb -in GCA_000006445.2_ASM644v2_genomic.fna -parse_seqids -dbtype nucl
 
-** *Saccharomyces cerevisiae* db**: Reference S288c
+***Saccharomyces cerevisiae* db**: Reference S288c
 
 	$ makeblastdb -in GCF_000146045.2_R64_genomic.fna -parse_seqids -dbtype nucl
 
