@@ -20,3 +20,4 @@ Work_files/rawdata_workfolder/VarScan/GCA_000006445.2_ASM644v2_genomic.fna.fai
 Work_files/rawdata_workfolder/VarScan/VarScan_mpileup2cns_Deha
 data_references/
 Work_files/rawdata_workfolder/raw_reads/
+Work_files/reference/*.fna
