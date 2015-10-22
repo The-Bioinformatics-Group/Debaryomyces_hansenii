@@ -1,0 +1,39 @@
+  0.00	0	0	U	0	unclassified
+100.00	7	0	-	1	root
+100.00	7	0	-	131567	  cellular organisms
+100.00	7	0	D	2	    Bacteria
+ 71.43	5	0	P	1224	      Proteobacteria
+ 71.43	5	1	C	1236	        Gammaproteobacteria
+ 42.86	3	0	O	135614	          Xanthomonadales
+ 42.86	3	0	F	32033	            Xanthomonadaceae
+ 28.57	2	0	G	338	              Xanthomonas
+ 28.57	2	0	S	339	                Xanthomonas campestris
+ 14.29	1	0	-	340	                  Xanthomonas campestris pv. campestris
+ 14.29	1	1	-	314565	                    Xanthomonas campestris pv. campestris str. 8004
+ 14.29	1	0	-	359385	                  Xanthomonas campestris pv. raphani
+ 14.29	1	1	-	990315	                    Xanthomonas campestris pv. raphani 756C
+ 14.29	1	0	G	40323	              Stenotrophomonas
+ 14.29	1	0	-	995085	                Stenotrophomonas maltophilia group
+ 14.29	1	0	S	40324	                  Stenotrophomonas maltophilia
+ 14.29	1	1	-	391008	                    Stenotrophomonas maltophilia R551-3
+ 14.29	1	0	O	135622	          Alteromonadales
+ 14.29	1	0	F	72275	            Alteromonadaceae
+ 14.29	1	0	G	226	              Alteromonas
+ 14.29	1	0	S	28108	                Alteromonas macleodii
+ 14.29	1	1	-	1004785	                  Alteromonas macleodii str. 'Black Sea 11'
+ 28.57	2	0	-	68336	      Bacteroidetes/Chlorobi group
+ 14.29	1	0	P	976	        Bacteroidetes
+ 14.29	1	0	C	768503	          Cytophagia
+ 14.29	1	0	O	768507	            Cytophagales
+ 14.29	1	0	F	89373	              Cytophagaceae
+ 14.29	1	0	G	978	                Cytophaga
+ 14.29	1	0	S	985	                  Cytophaga hutchinsonii
+ 14.29	1	1	-	269798	                    Cytophaga hutchinsonii ATCC 33406
+ 14.29	1	0	P	1090	        Chlorobi
+ 14.29	1	0	C	191410	          Chlorobia
+ 14.29	1	0	O	191411	            Chlorobiales
+ 14.29	1	0	F	191412	              Chlorobiaceae
+ 14.29	1	0	-	274493	                Chlorobium/Pelodictyon group
+ 14.29	1	0	G	1091	                  Chlorobium
+ 14.29	1	0	S	1096	                    Chlorobium phaeobacteroides
+ 14.29	1	1	-	331678	                      Chlorobium phaeobacteroides BS1
