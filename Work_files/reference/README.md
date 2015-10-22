@@ -28,3 +28,8 @@ General first result, percentaje of contaminated sequences.
 - **Classified sequences:** Found in the kraken standard database, sequences matching bacterial, archaeal or viral domains.
 
 - **Unclassified sequences:** Not found in the standard database. Not archaeal, bacterial or viral domain. Before future analysis we could assume that the rest would be sequences of our specie.
+
+7 sequences processed
+
+- 7 sequences classified (100%)
+- 0 sequences unclassified (0%)
