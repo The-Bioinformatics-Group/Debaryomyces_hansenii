@@ -45,3 +45,7 @@ Tested in 8 strains (1001 - 1006, 1017 and 1018)
 #### nr - num_alignments 10
 
 	$ blastx -query P1260_1001_preliminary_assembly.fasta -db blastdb_nr20151022/nr -num_alignments 10 -num_threads 24 -out blastx_tests/1001_blastx_a10test.txt
+
+2015-10-23
+
+**Firts test**: Running blastx with 1001, 1002 (Known to be *Debaryomyces hansenii*), 1006 (Doubts that it is *Debaryomyces hansenii*) and 1017 (Known to be *Saccharomyces cerevisiae*).
