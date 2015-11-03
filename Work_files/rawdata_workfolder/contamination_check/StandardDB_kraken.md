@@ -1,6 +1,4 @@
-# Analysis of contamination of the sequences
-
-## Kraken
+## Kraken StandardDB
 
 ### Database
 Standard database build and saved in `/data01/tomas/kraken_dbs/standardkraken_20151015` using the building command:
