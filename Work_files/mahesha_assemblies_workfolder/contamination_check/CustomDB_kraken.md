@@ -10,8 +10,8 @@ Creating a Custom kraken database, steps:
 2. Add the genomic libraries that kraken have available to download:
 
 		$ kraken-build --download-library bacteria --db CustomDB
-		ï¿$ kraken-build --download-library plasmids --db CustomDB
-	$ 	$ kraken-build --download-library viruses --db CustomDB
+		$ kraken-build --download-library plasmids --db CustomDB
+	 	$ kraken-build --download-library viruses --db CustomDB
 		$ kraken-build --download-library human --db CustomDB
 
 3. Add custom genomic libraries, in this case, fungi genomic library.
@@ -20,15 +20,15 @@ Creating a Custom kraken database, steps:
 
 	- Add to the database:
 
-		$ kraken-build --add-to-library fungi_all/fungi.1.1.genomic.fna --db CustomDB
+			$ kraken-build --add-to-library fungi_all/fungi.1.1.genomic.fna --db CustomDB
 
-			- Repeat with all the fungal genomic libraries. 
+				- Repeat with all the fungal genomic libraries. 
 
 4. Build the database:
 
-	$ kraken-build --build --threads 24 --db CustomDB
+		$ kraken-build --build --threads 24 --db CustomDB
 
-		- Note: It needs Jellyfish 1. 
+			- Note: It needs Jellyfish 1. 
 
 
 ### Run classification
