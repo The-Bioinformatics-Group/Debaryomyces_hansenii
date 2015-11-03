@@ -5,14 +5,14 @@ Creating a Custom kraken database, steps:
 
 1. Download taxonomy from NCBI Taxonomy:
 
-	$ kraken-build --download-taxonomy --db CustomDB
+		$ kraken-build --download-taxonomy --db CustomDB
 
 2. Add the genomic libraries that kraken have available to download:
 
-	$ kraken-build --download-library bacteria --db CustomDB
-	ï¿½Â·ï¿½$ kraken-build --download-library plasmids --db CustomDB
-	$ kraken-build --download-library viruses --db CustomDB
-	$ kraken-build --download-library human --db CustomDB
+		$ kraken-build --download-library bacteria --db CustomDB
+		ï¿$ kraken-build --download-library plasmids --db CustomDB
+	$ 	$ kraken-build --download-library viruses --db CustomDB
+		$ kraken-build --download-library human --db CustomDB
 
 3. Add custom genomic libraries, in this case, fungi genomic library.
 
