@@ -1,4 +1,4 @@
-## Kraken
+## Kraken StandardDB
 
 ### Database
 Standard database build and saved in dna server: `/data01/tomas/kraken_dbs/standardkraken_20151015` using the building command:
