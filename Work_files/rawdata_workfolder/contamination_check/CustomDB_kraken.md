@@ -33,24 +33,22 @@ Creating a Custom kraken database, steps:
 
 ### Run classification
 
-Not run yet. 
+	$ kraken --threads 24 --db /data02/merce/kraken_db/CustomDB --fastq-input 1_140716_AH9BY4ADXX_P1260_1001_1.fastq > cstm_tests_kraken/1001_AH1_cstmkraken.kraken 
 
 #### Results
-
-No results yet.
 
 - **Classified sequences:** Found in the kraken custom database, sequences matching bacterial, archaeal, plasmids, viral, human or fungi domains.
 
 - **Unclassified sequences:** Not found in the custom database.  
 
-| fastq      | Total sequences | Classified sequences | Unclassified sequences |
-|------------|-----------------|----------------------|------------------------| 
-|            |                 |		      |			       |	
+| fastq		|Total sequences| Classified sequences  | Unclassified sequences|
+|---------------|---------------|-----------------------|-----------------------| 
+| 1001 AH 1	|2462393	|2029147 (82.41%)	|433246 (17.59%)	|
+
+	
 [Complete table with all the alternative names for every strain](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Strains.md)
 
 ### Output
-
-No ouput yet
 
 #### Output format
 
@@ -71,10 +69,13 @@ Each sequence classified by Kraken results in a single line of output. Output li
 
 It only reports classified sequences, the output format generated is a text file with two tab-delimited columns and one line for each sequence. The first column is the sequence ID of the classified sequences, and the second column contains the taxonomy of the sequence. Example: `SEQ1  root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Escherichia;Escherichia coli`
 
+	$ kraken-translate --db /data02/merce/kraken_db/CustomDB cstm_tests_kraken/1001_AH1_cstmkraken.kraken > cstm_tests_kraken/1001_AH1_cstmkraken.labels
 	
 #### Output report
 
 Used to get an idea of the kraken's results across the entire sample.
+
+	$ kraken-report --db /data02/merce/kraken_db/CustomDB cstm_tests_kraken/1001_AH1_cstmkraken.kraken > cstm_tests_kraken/1001_AH1_cstmkraken.report
 
 The output is tab delimites, with one line per taxon. Fields:
 
