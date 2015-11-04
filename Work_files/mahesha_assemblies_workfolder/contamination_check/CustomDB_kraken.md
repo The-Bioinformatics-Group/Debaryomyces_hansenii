@@ -126,3 +126,13 @@ The scientific names are indented using spaces, according to the tree structure 
 | 1017		| 98.91%	| 0.10%		| - 		| -		| - 		| 0.99%		|
 | 1018		| 97.89%	| -		| -		| -		| -		| 2.11%		|
 | 1019		| 65.59%	| 3.03%		| 0.20%		| - 		| -		| 30.11%	|
+
+1001 CBS767 reference
+
+1006, 1010 and 1012 Probably not *Debaryomyces hansenii*
+
+1009, 1011 Genome ~double size
+
+1017, 1018 *Saccharomyces cerevisiae*
+
+[Complete table with all the alternative names for every strain](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Strains.md)
