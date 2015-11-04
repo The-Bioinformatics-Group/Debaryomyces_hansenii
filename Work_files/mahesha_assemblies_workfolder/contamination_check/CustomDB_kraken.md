@@ -105,6 +105,8 @@ The output is tab delimites, with one line per taxon. Fields:
 
 The scientific names are indented using spaces, according to the tree structure specified by the taxonomy.
 
+##### Table resume of the reports
+
 | Strain	| Fungi		| Bacteria	| Viruses	| Archaea	| Others	| Unclassified	|
 |---------------|---------------|---------------|---------------|---------------|---------------|---------------|
 | 1001		| 80.36%	| 0.48%		| -		| -		| -		| 18.57%	|
