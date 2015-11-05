@@ -36,11 +36,11 @@ General first result, percentaje of contaminated sequences.
 
 ##### Output report
 
-28.57% **Xanthomonas campestris**
-14.29% **Stenotrophomonas maltophilia**
-14.29% **Alteromonas macleodii**
-14.29% **Cytophaga hutchinsonii**
-14.29% **Chlorobium phaeobacteroides**
+- 28.57% *Xanthomonas campestris*
+- 14.29% *Stenotrophomonas maltophilia*
+- 14.29% *Alteromonas macleodii*
+- 14.29% *Cytophaga hutchinsonii*
+- 14.29% *Chlorobium phaeobacteroides*
 
 
 #### Custom database
@@ -91,6 +91,6 @@ Creating a Custom kraken database, steps:
 
 ###### Output report
 
-	$ kraken-report --db /data02/merce/kraken_db/CustomDB CBS767_cstmkraken.kraken > CBS767_cstmkraken.report
+		$ kraken-report --db /data02/merce/kraken_db/CustomDB CBS767_cstmkraken.kraken > CBS767_cstmkraken.report
 
-100% **Debaryomyces hansenii**
+100% *Debaryomyces hansenii*
