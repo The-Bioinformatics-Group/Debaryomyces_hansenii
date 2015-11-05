@@ -1,0 +1,42 @@
+ 10.00	114	114	U	0	unclassified
+ 90.00	1026	7	-	1	root
+ 89.39	1019	5	-	131567	  cellular organisms
+ 88.68	1011	0	D	2759	    Eukaryota
+ 88.68	1011	0	-	33154	      Opisthokonta
+ 88.68	1011	0	K	4751	        Fungi
+ 88.68	1011	1	-	451864	          Dikarya
+ 88.51	1009	0	P	4890	            Ascomycota
+ 88.51	1009	77	-	716545	              saccharomyceta
+ 79.91	911	0	-	147537	                Saccharomycotina
+ 79.91	911	0	C	4891	                  Saccharomycetes
+ 79.91	911	0	O	4892	                    Saccharomycetales
+ 79.91	911	1	F	766764	                      Debaryomycetaceae
+ 79.82	910	0	G	4958	                        Debaryomyces
+ 79.82	910	30	S	4959	                          Debaryomyces hansenii
+ 77.19	880	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 77.19	880	880	-	284592	                              Debaryomyces hansenii CBS767
+  1.84	21	0	-	147538	                Pezizomycotina
+  1.84	21	0	-	716546	                  leotiomyceta
+  1.84	21	0	C	147545	                    Eurotiomycetes
+  1.84	21	0	-	451871	                      Eurotiomycetidae
+  1.84	21	0	O	5042	                        Eurotiales
+  1.84	21	0	F	28568	                          Trichocomaceae
+  1.84	21	0	G	5094	                            Talaromyces
+  1.84	21	0	S	37727	                              Talaromyces marneffei
+  1.84	21	21	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.09	1	0	P	5204	            Basidiomycota
+  0.09	1	0	-	452284	              Ustilaginomycotina
+  0.09	1	0	C	1538075	                Malasseziomycetes
+  0.09	1	0	O	162474	                  Malasseziales
+  0.09	1	0	F	742845	                    Malasseziaceae
+  0.09	1	0	G	55193	                      Malassezia
+  0.09	1	0	S	76773	                        Malassezia globosa
+  0.09	1	1	-	425265	                          Malassezia globosa CBS 7966
+  0.26	3	0	D	2	    Bacteria
+  0.26	3	0	P	1224	      Proteobacteria
+  0.26	3	0	C	1236	        Gammaproteobacteria
+  0.26	3	0	O	135622	          Alteromonadales
+  0.26	3	0	F	72275	            Alteromonadaceae
+  0.26	3	0	G	226	              Alteromonas
+  0.26	3	0	S	28108	                Alteromonas macleodii
+  0.26	3	3	-	1300257	                  Alteromonas macleodii str. 'Ionian Sea U8'

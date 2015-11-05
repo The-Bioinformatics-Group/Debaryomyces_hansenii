@@ -1,0 +1,83 @@
+  4.21	248	248	U	0	unclassified
+ 95.79	5641	0	-	1	root
+ 95.79	5641	0	-	131567	  cellular organisms
+ 95.77	5640	0	D	2759	    Eukaryota
+ 95.77	5640	0	-	33154	      Opisthokonta
+ 95.77	5640	0	K	4751	        Fungi
+ 95.77	5640	0	-	451864	          Dikarya
+ 95.75	5639	0	P	4890	            Ascomycota
+ 95.75	5639	5	-	716545	              saccharomyceta
+ 95.35	5615	0	-	147537	                Saccharomycotina
+ 95.35	5615	0	C	4891	                  Saccharomycetes
+ 95.35	5615	0	O	4892	                    Saccharomycetales
+ 95.28	5611	2	F	766764	                      Debaryomycetaceae
+ 95.19	5606	0	G	4958	                        Debaryomyces
+ 95.19	5606	5	S	4959	                          Debaryomyces hansenii
+ 95.11	5601	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 95.11	5601	5601	-	284592	                              Debaryomyces hansenii CBS767
+  0.03	2	0	G	766502	                        Millerozyma
+  0.03	2	0	S	4920	                          Millerozyma farinosa
+  0.03	2	2	-	559304	                            Millerozyma farinosa CBS 7064
+  0.02	1	0	G	412764	                        Spathaspora
+  0.02	1	0	S	340170	                          Spathaspora passalidarum
+  0.02	1	1	-	619300	                            Spathaspora passalidarum NRRL Y-27907
+  0.03	2	0	F	4893	                      Saccharomycetaceae
+  0.02	1	0	G	4930	                        Saccharomyces
+  0.02	1	1	S	4932	                          Saccharomyces cerevisiae
+  0.02	1	0	G	71245	                        Kazachstania
+  0.02	1	0	S	432096	                          Kazachstania africana
+  0.02	1	1	-	1071382	                            Kazachstania africana CBS 2517
+  0.03	2	0	F	115784	                      Phaffomycetaceae
+  0.03	2	0	G	599737	                        Wickerhamomyces
+  0.03	2	2	S	1041607	                          Wickerhamomyces ciferrii
+  0.32	19	0	-	147538	                Pezizomycotina
+  0.32	19	1	-	716546	                  leotiomyceta
+  0.25	15	0	C	147545	                    Eurotiomycetes
+  0.25	15	0	-	451871	                      Eurotiomycetidae
+  0.22	13	0	O	5042	                        Eurotiales
+  0.22	13	0	F	28568	                          Trichocomaceae
+  0.22	13	0	G	5094	                            Talaromyces
+  0.22	13	0	S	37727	                              Talaromyces marneffei
+  0.22	13	13	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.03	2	0	O	33183	                        Onygenales
+  0.02	1	0	-	34383	                          mitosporic Onygenales
+  0.02	1	0	G	38946	                            Paracoccidioides
+  0.02	1	0	S	1048829	                              Paracoccidioides lutzii
+  0.02	1	1	-	502779	                                Paracoccidioides lutzii Pb01
+  0.02	1	0	F	299071	                          Ajellomycetaceae
+  0.02	1	0	G	229219	                            Blastomyces
+  0.02	1	0	S	1681229	                              Blastomyces gilchristii
+  0.02	1	1	-	559298	                                Blastomyces gilchristii SLH14081
+  0.03	2	0	C	147547	                    Lecanoromycetes
+  0.03	2	0	-	1520881	                      OSLEUM clade
+  0.03	2	0	-	388435	                        Lecanoromycetidae
+  0.03	2	0	O	388450	                          Peltigerales
+  0.03	2	0	-	157824	                            Peltigerineae
+  0.03	2	0	F	48860	                              Peltigeraceae
+  0.03	2	0	G	48861	                                Peltigera
+  0.03	2	2	S	52884	                                  Peltigera malacea
+  0.02	1	0	-	715989	                    sordariomyceta
+  0.02	1	0	C	147550	                      Sordariomycetes
+  0.02	1	0	-	222544	                        Sordariomycetidae
+  0.02	1	0	O	5139	                          Sordariales
+  0.02	1	0	F	5148	                            Sordariaceae
+  0.02	1	0	G	5140	                              Neurospora
+  0.02	1	0	S	40127	                                Neurospora tetrasperma
+  0.02	1	1	-	510951	                                  Neurospora tetrasperma FGSC 2508
+  0.02	1	0	P	5204	            Basidiomycota
+  0.02	1	0	-	29000	              Pucciniomycotina
+  0.02	1	0	C	162484	                Pucciniomycetes
+  0.02	1	0	O	5258	                  Pucciniales
+  0.02	1	0	F	5262	                    Pucciniaceae
+  0.02	1	0	G	5296	                      Puccinia
+  0.02	1	0	S	5297	                        Puccinia graminis
+  0.02	1	0	-	56615	                          Puccinia graminis f. sp. tritici
+  0.02	1	1	-	418459	                            Puccinia graminis f. sp. tritici CRL 75-36-700-3
+  0.02	1	0	D	2157	    Archaea
+  0.02	1	0	P	28890	      Euryarchaeota
+  0.02	1	0	C	183939	        Methanococci
+  0.02	1	0	O	2182	          Methanococcales
+  0.02	1	0	F	2183	            Methanococcaceae
+  0.02	1	0	G	2184	              Methanococcus
+  0.02	1	0	S	2188	                Methanococcus voltae
+  0.02	1	1	-	456320	                  Methanococcus voltae A3

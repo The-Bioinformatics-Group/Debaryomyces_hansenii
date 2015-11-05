@@ -1,0 +1,39 @@
+  0.99	10	10	U	0	unclassified
+ 99.01	998	0	-	1	root
+ 99.01	998	0	-	131567	  cellular organisms
+ 98.91	997	0	D	2759	    Eukaryota
+ 98.91	997	0	-	33154	      Opisthokonta
+ 98.91	997	0	K	4751	        Fungi
+ 98.91	997	0	-	451864	          Dikarya
+ 98.91	997	0	P	4890	            Ascomycota
+ 98.91	997	0	-	716545	              saccharomyceta
+ 98.51	993	0	-	147537	                Saccharomycotina
+ 98.51	993	0	C	4891	                  Saccharomycetes
+ 98.51	993	4	O	4892	                    Saccharomycetales
+ 98.12	989	0	F	4893	                      Saccharomycetaceae
+ 98.12	989	0	G	4930	                        Saccharomyces
+ 98.02	988	3	S	4932	                          Saccharomyces cerevisiae
+ 97.72	985	985	-	559292	                            Saccharomyces cerevisiae S288c
+  0.10	1	1	S	27291	                          Saccharomyces paradoxus
+  0.40	4	0	-	147538	                Pezizomycotina
+  0.40	4	0	-	716546	                  leotiomyceta
+  0.40	4	0	C	147545	                    Eurotiomycetes
+  0.40	4	0	-	451871	                      Eurotiomycetidae
+  0.30	3	0	O	5042	                        Eurotiales
+  0.30	3	0	F	28568	                          Trichocomaceae
+  0.30	3	0	G	5094	                            Talaromyces
+  0.30	3	0	S	28564	                              Talaromyces stipitatus
+  0.30	3	3	-	441959	                                Talaromyces stipitatus ATCC 10500
+  0.10	1	0	O	33183	                        Onygenales
+  0.10	1	0	-	34383	                          mitosporic Onygenales
+  0.10	1	0	G	38946	                            Paracoccidioides
+  0.10	1	0	S	1048829	                              Paracoccidioides lutzii
+  0.10	1	1	-	502779	                                Paracoccidioides lutzii Pb01
+  0.10	1	0	D	2	    Bacteria
+  0.10	1	0	P	1224	      Proteobacteria
+  0.10	1	0	C	1236	        Gammaproteobacteria
+  0.10	1	0	O	135622	          Alteromonadales
+  0.10	1	0	F	72275	            Alteromonadaceae
+  0.10	1	0	G	89404	              Glaciecola
+  0.10	1	0	S	300231	                Glaciecola nitratireducens
+  0.10	1	1	-	1085623	                  Glaciecola nitratireducens FR1064

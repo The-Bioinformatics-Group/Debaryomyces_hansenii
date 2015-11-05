@@ -1,0 +1,26 @@
+  2.11	28	28	U	0	unclassified
+ 97.89	1298	0	-	1	root
+ 97.89	1298	0	-	131567	  cellular organisms
+ 97.89	1298	0	D	2759	    Eukaryota
+ 97.89	1298	0	-	33154	      Opisthokonta
+ 97.89	1298	0	K	4751	        Fungi
+ 97.89	1298	0	-	451864	          Dikarya
+ 97.89	1298	0	P	4890	            Ascomycota
+ 97.89	1298	0	-	716545	              saccharomyceta
+ 97.74	1296	0	-	147537	                Saccharomycotina
+ 97.74	1296	0	C	4891	                  Saccharomycetes
+ 97.74	1296	3	O	4892	                    Saccharomycetales
+ 97.51	1293	0	F	4893	                      Saccharomycetaceae
+ 97.51	1293	0	G	4930	                        Saccharomyces
+ 97.44	1292	3	S	4932	                          Saccharomyces cerevisiae
+ 97.21	1289	1289	-	559292	                            Saccharomyces cerevisiae S288c
+  0.08	1	1	S	27291	                          Saccharomyces paradoxus
+  0.15	2	0	-	147538	                Pezizomycotina
+  0.15	2	0	-	716546	                  leotiomyceta
+  0.15	2	0	C	147545	                    Eurotiomycetes
+  0.15	2	0	-	451871	                      Eurotiomycetidae
+  0.15	2	0	O	5042	                        Eurotiales
+  0.15	2	0	F	28568	                          Trichocomaceae
+  0.15	2	0	G	5094	                            Talaromyces
+  0.15	2	0	S	28564	                              Talaromyces stipitatus
+  0.15	2	2	-	441959	                                Talaromyces stipitatus ATCC 10500

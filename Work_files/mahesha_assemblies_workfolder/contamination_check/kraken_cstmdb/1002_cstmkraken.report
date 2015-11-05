@@ -1,0 +1,50 @@
+  8.83	71	71	U	0	unclassified
+ 91.17	733	8	-	1	root
+ 90.17	725	4	-	131567	  cellular organisms
+ 89.43	719	0	D	2759	    Eukaryota
+ 89.43	719	0	-	33154	      Opisthokonta
+ 89.43	719	0	K	4751	        Fungi
+ 89.43	719	2	-	451864	          Dikarya
+ 89.18	717	0	P	4890	            Ascomycota
+ 89.18	717	37	-	716545	              saccharomyceta
+ 81.72	657	0	-	147537	                Saccharomycotina
+ 81.72	657	0	C	4891	                  Saccharomycetes
+ 81.72	657	0	O	4892	                    Saccharomycetales
+ 81.72	657	1	F	766764	                      Debaryomycetaceae
+ 81.59	656	0	G	4958	                        Debaryomyces
+ 81.59	656	33	S	4959	                          Debaryomyces hansenii
+ 77.49	623	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 77.49	623	623	-	284592	                              Debaryomyces hansenii CBS767
+  2.86	23	0	-	147538	                Pezizomycotina
+  2.86	23	0	-	716546	                  leotiomyceta
+  2.61	21	0	C	147545	                    Eurotiomycetes
+  2.61	21	0	-	451871	                      Eurotiomycetidae
+  2.61	21	0	O	5042	                        Eurotiales
+  2.61	21	0	F	28568	                          Trichocomaceae
+  2.61	21	0	G	5094	                            Talaromyces
+  2.36	19	0	S	37727	                              Talaromyces marneffei
+  2.36	19	19	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.25	2	0	S	28564	                              Talaromyces stipitatus
+  0.25	2	2	-	441959	                                Talaromyces stipitatus ATCC 10500
+  0.25	2	0	-	715989	                    sordariomyceta
+  0.12	1	0	C	147548	                      Leotiomycetes
+  0.12	1	0	O	5178	                        Helotiales
+  0.12	1	0	F	28983	                          Sclerotiniaceae
+  0.12	1	0	G	33196	                            Botrytis
+  0.12	1	0	S	40559	                              Botrytis cinerea
+  0.12	1	1	-	332648	                                Botrytis cinerea B05.10
+  0.12	1	0	C	147550	                      Sordariomycetes
+  0.12	1	0	-	222543	                        Hypocreomycetidae
+  0.12	1	0	O	1028384	                          Glomerellales
+  0.12	1	0	F	681950	                            Glomerellaceae
+  0.12	1	0	G	5455	                              Colletotrichum
+  0.12	1	0	S	710243	                                Colletotrichum fioriniae
+  0.12	1	1	-	1445577	                                  Colletotrichum fioriniae PJ7
+  0.25	2	0	D	2	    Bacteria
+  0.25	2	0	P	1224	      Proteobacteria
+  0.25	2	0	C	1236	        Gammaproteobacteria
+  0.25	2	0	O	135622	          Alteromonadales
+  0.25	2	0	F	72275	            Alteromonadaceae
+  0.25	2	0	G	226	              Alteromonas
+  0.25	2	0	S	28108	                Alteromonas macleodii
+  0.25	2	2	-	1300257	                  Alteromonas macleodii str. 'Ionian Sea U8'

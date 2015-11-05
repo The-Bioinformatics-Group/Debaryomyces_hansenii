@@ -1,0 +1,147 @@
+ 63.24	375	375	U	0	unclassified
+ 36.76	218	7	-	1	root
+ 35.08	208	1	-	131567	  cellular organisms
+ 30.69	182	0	D	2759	    Eukaryota
+ 30.69	182	0	-	33154	      Opisthokonta
+ 30.69	182	0	K	4751	        Fungi
+ 30.69	182	3	-	451864	          Dikarya
+ 29.51	175	0	P	4890	            Ascomycota
+ 29.51	175	5	-	716545	              saccharomyceta
+ 27.82	165	0	-	147537	                Saccharomycotina
+ 27.82	165	0	C	4891	                  Saccharomycetes
+ 27.82	165	1	O	4892	                    Saccharomycetales
+ 27.49	163	4	F	766764	                      Debaryomycetaceae
+ 25.80	153	0	G	4958	                        Debaryomyces
+ 25.80	153	17	S	4959	                          Debaryomyces hansenii
+ 22.93	136	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 22.93	136	136	-	284592	                              Debaryomyces hansenii CBS767
+  0.51	3	0	-	1535325	                        Candida/Lodderomyces clade
+  0.34	2	0	G	1535326	                          Candida
+  0.17	1	0	S	5482	                            Candida tropicalis
+  0.17	1	1	-	294747	                              Candida tropicalis MYA-3404
+  0.17	1	0	S	42374	                            Candida dubliniensis
+  0.17	1	1	-	573826	                              Candida dubliniensis CD36
+  0.17	1	0	G	36913	                          Lodderomyces
+  0.17	1	0	S	36914	                            Lodderomyces elongisporus
+  0.17	1	1	-	379508	                              Lodderomyces elongisporus NRRL YB-4239
+  0.17	1	0	G	766502	                        Millerozyma
+  0.17	1	1	S	4920	                          Millerozyma farinosa
+  0.17	1	0	G	766733	                        Scheffersomyces
+  0.17	1	0	S	4924	                          Scheffersomyces stipitis
+  0.17	1	1	-	322104	                            Scheffersomyces stipitis CBS 6054
+  0.17	1	0	G	766758	                        Schwanniomyces
+  0.17	1	1	S	28550	                          Schwanniomyces etchellsii
+  0.17	1	0	F	115784	                      Phaffomycetaceae
+  0.17	1	0	G	599737	                        Wickerhamomyces
+  0.17	1	1	S	1041607	                          Wickerhamomyces ciferrii
+  0.84	5	0	-	147538	                Pezizomycotina
+  0.84	5	0	-	716546	                  leotiomyceta
+  0.67	4	0	-	715989	                    sordariomyceta
+  0.51	3	0	C	147548	                      Leotiomycetes
+  0.51	3	0	-	221903	                        Leotiomycetes incertae sedis
+  0.51	3	0	F	34379	                          Pseudeurotiaceae
+  0.51	3	0	G	78156	                            Pseudogymnoascus
+  0.51	3	0	S	655981	                              Pseudogymnoascus destructans
+  0.51	3	3	-	658429	                                Pseudogymnoascus destructans 20631-21
+  0.17	1	0	C	147550	                      Sordariomycetes
+  0.17	1	0	-	222544	                        Sordariomycetidae
+  0.17	1	0	O	5139	                          Sordariales
+  0.17	1	0	F	35718	                            Chaetomiaceae
+  0.17	1	0	G	35719	                              Thielavia
+  0.17	1	0	S	35720	                                Thielavia terrestris
+  0.17	1	1	-	578455	                                  Thielavia terrestris NRRL 8126
+  0.17	1	0	C	147545	                    Eurotiomycetes
+  0.17	1	0	-	451871	                      Eurotiomycetidae
+  0.17	1	0	O	5042	                        Eurotiales
+  0.17	1	0	F	28568	                          Trichocomaceae
+  0.17	1	0	G	5094	                            Talaromyces
+  0.17	1	0	S	37727	                              Talaromyces marneffei
+  0.17	1	1	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.67	4	0	P	5204	            Basidiomycota
+  0.51	3	0	-	5302	              Agaricomycotina
+  0.51	3	0	C	155619	                Agaricomycetes
+  0.51	3	0	-	452333	                  Agaricomycetidae
+  0.51	3	0	O	5338	                    Agaricales
+  0.51	3	0	F	104366	                      Pleurotaceae
+  0.51	3	0	G	5320	                        Pleurotus
+  0.51	3	3	S	5322	                          Pleurotus ostreatus
+  0.17	1	0	-	452284	              Ustilaginomycotina
+  0.17	1	0	C	1538075	                Malasseziomycetes
+  0.17	1	0	O	162474	                  Malasseziales
+  0.17	1	0	F	742845	                    Malasseziaceae
+  0.17	1	0	G	55193	                      Malassezia
+  0.17	1	0	S	76773	                        Malassezia globosa
+  0.17	1	1	-	425265	                          Malassezia globosa CBS 7966
+  4.22	25	0	D	2	    Bacteria
+  2.19	13	0	P	1239	      Firmicutes
+  2.02	12	0	C	91061	        Bacilli
+  1.85	11	1	O	186826	          Lactobacillales
+  1.69	10	0	F	186828	            Carnobacteriaceae
+  1.69	10	1	G	2747	              Carnobacterium
+  1.18	7	7	S	1266845	                Carnobacterium sp. WN1359
+  0.17	1	0	S	2751	                Carnobacterium maltaromaticum
+  0.17	1	1	-	1234679	                  Carnobacterium maltaromaticum LMA28
+  0.17	1	1	S	208596	                Carnobacterium sp. 17-4
+  0.17	1	0	O	1385	          Bacillales
+  0.17	1	0	F	186817	            Bacillaceae
+  0.17	1	0	G	1386	              Bacillus
+  0.17	1	1	S	666686	                Bacillus sp. 1NLA3E
+  0.17	1	0	C	186801	        Clostridia
+  0.17	1	0	O	186802	          Clostridiales
+  0.17	1	0	F	186803	            Lachnospiraceae
+  0.17	1	0	G	698776	              Cellulosilyticum
+  0.17	1	0	S	29360	                Cellulosilyticum lentocellum
+  0.17	1	1	-	642492	                  Clostridium lentocellum DSM 5427
+  1.35	8	0	P	1224	      Proteobacteria
+  1.35	8	0	C	1236	        Gammaproteobacteria
+  0.84	5	0	O	91347	          Enterobacteriales
+  0.84	5	3	F	543	            Enterobacteriaceae
+  0.34	2	0	G	586	              Providencia
+  0.34	2	0	S	588	                Providencia stuartii
+  0.34	2	2	-	1157951	                  Providencia stuartii MRSN 2154
+  0.34	2	0	O	135622	          Alteromonadales
+  0.34	2	0	F	72275	            Alteromonadaceae
+  0.34	2	0	G	226	              Alteromonas
+  0.34	2	0	S	28108	                Alteromonas macleodii
+  0.34	2	2	-	1300257	                  Alteromonas macleodii str. 'Ionian Sea U8'
+  0.17	1	0	O	135623	          Vibrionales
+  0.17	1	0	F	641	            Vibrionaceae
+  0.17	1	0	G	662	              Vibrio
+  0.17	1	1	S	190893	                Vibrio coralliilyticus
+  0.17	1	0	P	1117	      Cyanobacteria
+  0.17	1	0	O	1161	        Nostocales
+  0.17	1	0	F	1162	          Nostocaceae
+  0.17	1	0	G	264688	            Trichormus
+  0.17	1	0	S	1164	              Trichormus azollae
+  0.17	1	1	-	551115	                'Nostoc azollae' 0708
+  0.17	1	0	-	51290	      Chlamydiae/Verrucomicrobia group
+  0.17	1	0	P	204428	        Chlamydiae
+  0.17	1	0	C	204429	          Chlamydiia
+  0.17	1	0	O	51291	            Chlamydiales
+  0.17	1	0	F	809	              Chlamydiaceae
+  0.17	1	0	-	1113537	                Chlamydia/Chlamydophila group
+  0.17	1	0	G	83553	                  Chlamydophila
+  0.17	1	0	S	83556	                    Chlamydophila felis
+  0.17	1	1	-	264202	                      Chlamydophila felis Fe/C-56
+  0.17	1	0	-	68336	      Bacteroidetes/Chlorobi group
+  0.17	1	0	P	976	        Bacteroidetes
+  0.17	1	0	C	117743	          Flavobacteriia
+  0.17	1	0	O	200644	            Flavobacteriales
+  0.17	1	0	F	49546	              Flavobacteriaceae
+  0.17	1	0	G	104264	                Cellulophaga
+  0.17	1	0	S	59600	                  Cellulophaga algicola
+  0.17	1	1	-	688270	                    Cellulophaga algicola DSM 14237
+  0.17	1	0	P	201174	      Actinobacteria
+  0.17	1	0	C	1760	        Actinobacteria
+  0.17	1	0	O	85014	          Glycomycetales
+  0.17	1	0	F	85034	            Glycomycetaceae
+  0.17	1	0	G	283810	              Stackebrandtia
+  0.17	1	0	S	283811	                Stackebrandtia nassauensis
+  0.17	1	1	-	446470	                  Stackebrandtia nassauensis DSM 44728
+  0.51	3	0	D	10239	  Viruses
+  0.51	3	0	-	35237	    dsDNA viruses, no RNA stage
+  0.51	3	0	O	28883	      Caudovirales
+  0.51	3	0	F	10662	        Myoviridae
+  0.51	3	0	-	196896	          unclassified Myoviridae
+  0.34	2	2	S	1124849	            Pseudomonas phage OBP
+  0.17	1	1	S	1206545	            Klebsiella phage 0507-KN2-1

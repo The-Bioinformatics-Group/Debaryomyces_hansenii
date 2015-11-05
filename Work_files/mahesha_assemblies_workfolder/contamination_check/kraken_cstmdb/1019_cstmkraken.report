@@ -1,0 +1,76 @@
+ 30.11	308	308	U	0	unclassified
+ 69.89	715	6	-	1	root
+ 69.11	707	5	-	131567	  cellular organisms
+ 65.59	671	0	D	2759	    Eukaryota
+ 65.59	671	0	-	33154	      Opisthokonta
+ 65.59	671	0	K	4751	        Fungi
+ 65.59	671	1	-	451864	          Dikarya
+ 65.49	670	0	P	4890	            Ascomycota
+ 65.49	670	30	-	716545	              saccharomyceta
+ 61.39	628	0	-	147537	                Saccharomycotina
+ 61.39	628	0	C	4891	                  Saccharomycetes
+ 61.39	628	0	O	4892	                    Saccharomycetales
+ 61.19	626	2	F	766764	                      Debaryomycetaceae
+ 61.00	624	0	G	4958	                        Debaryomyces
+ 61.00	624	33	S	4959	                          Debaryomyces hansenii
+ 57.77	591	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 57.77	591	591	-	284592	                              Debaryomyces hansenii CBS767
+  0.20	2	0	F	4893	                      Saccharomycetaceae
+  0.20	2	0	G	4930	                        Saccharomyces
+  0.20	2	0	S	4932	                          Saccharomyces cerevisiae
+  0.20	2	2	-	559292	                            Saccharomyces cerevisiae S288c
+  1.17	12	0	-	147538	                Pezizomycotina
+  1.17	12	0	-	716546	                  leotiomyceta
+  1.17	12	0	C	147545	                    Eurotiomycetes
+  1.17	12	0	-	451871	                      Eurotiomycetidae
+  1.17	12	0	O	5042	                        Eurotiales
+  1.17	12	0	F	28568	                          Trichocomaceae
+  1.17	12	0	G	5094	                            Talaromyces
+  1.17	12	0	S	37727	                              Talaromyces marneffei
+  1.17	12	12	-	441960	                                Talaromyces marneffei ATCC 18224
+  3.03	31	0	D	2	    Bacteria
+  2.05	21	1	P	1239	      Firmicutes
+  1.96	20	0	C	91061	        Bacilli
+  1.96	20	0	O	186826	          Lactobacillales
+  1.76	18	0	F	186828	            Carnobacteriaceae
+  1.76	18	2	G	2747	              Carnobacterium
+  1.08	11	11	S	1266845	                Carnobacterium sp. WN1359
+  0.29	3	3	S	208596	                Carnobacterium sp. 17-4
+  0.20	2	0	S	2751	                Carnobacterium maltaromaticum
+  0.20	2	2	-	1234679	                  Carnobacterium maltaromaticum LMA28
+  0.20	2	0	F	1300	            Streptococcaceae
+  0.20	2	0	G	1301	              Streptococcus
+  0.10	1	0	S	195041	                Streptococcus oligofermentans
+  0.10	1	1	-	1302863	                  Streptococcus oligofermentans AS 1.3089
+  0.10	1	0	S	315405	                Streptococcus gallolyticus
+  0.10	1	1	-	53354	                  Streptococcus gallolyticus subsp. gallolyticus
+  0.98	10	0	P	1224	      Proteobacteria
+  0.98	10	1	C	1236	        Gammaproteobacteria
+  0.49	5	0	O	91347	          Enterobacteriales
+  0.49	5	1	F	543	            Enterobacteriaceae
+  0.20	2	0	G	586	              Providencia
+  0.20	2	0	S	588	                Providencia stuartii
+  0.20	2	2	-	1157951	                  Providencia stuartii MRSN 2154
+  0.10	1	0	G	583	              Proteus
+  0.10	1	1	S	584	                Proteus mirabilis
+  0.10	1	1	G	626	              Xenorhabdus
+  0.20	2	0	O	135622	          Alteromonadales
+  0.20	2	0	F	72275	            Alteromonadaceae
+  0.20	2	0	G	226	              Alteromonas
+  0.20	2	0	S	28108	                Alteromonas macleodii
+  0.20	2	2	-	1300257	                  Alteromonas macleodii str. 'Ionian Sea U8'
+  0.10	1	0	O	135623	          Vibrionales
+  0.10	1	0	F	641	            Vibrionaceae
+  0.10	1	0	G	511678	              Aliivibrio
+  0.10	1	1	S	668	                Aliivibrio fischeri
+  0.10	1	0	O	135624	          Aeromonadales
+  0.10	1	0	F	84642	            Aeromonadaceae
+  0.10	1	0	G	642	              Aeromonas
+  0.10	1	0	S	644	                Aeromonas hydrophila
+  0.10	1	1	-	1288394	                  Aeromonas hydrophila ML09-119
+  0.20	2	0	D	10239	  Viruses
+  0.20	2	0	-	35237	    dsDNA viruses, no RNA stage
+  0.20	2	0	O	28883	      Caudovirales
+  0.20	2	0	F	10662	        Myoviridae
+  0.20	2	0	-	196896	          unclassified Myoviridae
+  0.20	2	2	S	1124849	            Pseudomonas phage OBP

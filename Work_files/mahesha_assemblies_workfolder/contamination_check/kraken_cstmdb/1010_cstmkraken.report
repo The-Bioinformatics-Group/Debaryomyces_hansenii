@@ -1,0 +1,73 @@
+ 25.76	102	102	U	0	unclassified
+ 74.24	294	0	-	1	root
+ 74.24	294	0	-	131567	  cellular organisms
+ 73.74	292	0	D	2759	    Eukaryota
+ 73.74	292	0	-	33154	      Opisthokonta
+ 73.74	292	0	K	4751	        Fungi
+ 73.74	292	1	-	451864	          Dikarya
+ 73.48	291	1	P	4890	            Ascomycota
+ 73.23	290	2	-	716545	              saccharomyceta
+ 69.70	276	0	-	147537	                Saccharomycotina
+ 69.70	276	0	C	4891	                  Saccharomycetes
+ 69.70	276	0	O	4892	                    Saccharomycetales
+ 69.19	274	0	F	766764	                      Debaryomycetaceae
+ 66.41	263	0	G	4958	                        Debaryomyces
+ 66.41	263	14	S	4959	                          Debaryomyces hansenii
+ 62.88	249	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 62.88	249	249	-	284592	                              Debaryomyces hansenii CBS767
+  1.01	4	0	G	766502	                        Millerozyma
+  1.01	4	4	S	4920	                          Millerozyma farinosa
+  1.01	4	0	-	1535325	                        Candida/Lodderomyces clade
+  0.76	3	0	G	1535326	                          Candida
+  0.51	2	0	S	273371	                            Candida orthopsilosis
+  0.51	2	2	-	1136231	                              Candida orthopsilosis Co 90-125
+  0.25	1	1	S	5486	                            Candida viswanathii
+  0.25	1	0	G	36913	                          Lodderomyces
+  0.25	1	0	S	36914	                            Lodderomyces elongisporus
+  0.25	1	1	-	379508	                              Lodderomyces elongisporus NRRL YB-4239
+  0.51	2	0	G	412764	                        Spathaspora
+  0.51	2	0	S	340170	                          Spathaspora passalidarum
+  0.51	2	2	-	619300	                            Spathaspora passalidarum NRRL Y-27907
+  0.25	1	0	G	766728	                        Meyerozyma
+  0.25	1	1	S	4929	                          Meyerozyma guilliermondii
+  0.25	1	0	F	34353	                      Dipodascaceae
+  0.25	1	0	G	4951	                        Yarrowia
+  0.25	1	0	S	4952	                          Yarrowia lipolytica
+  0.25	1	1	-	284591	                            Yarrowia lipolytica CLIB122
+  0.25	1	0	F	115784	                      Phaffomycetaceae
+  0.25	1	0	G	599737	                        Wickerhamomyces
+  0.25	1	1	S	1041607	                          Wickerhamomyces ciferrii
+  3.03	12	0	-	147538	                Pezizomycotina
+  3.03	12	0	-	716546	                  leotiomyceta
+  2.27	9	0	C	147545	                    Eurotiomycetes
+  1.52	6	0	-	451871	                      Eurotiomycetidae
+  1.26	5	0	O	5042	                        Eurotiales
+  1.26	5	0	F	28568	                          Trichocomaceae
+  1.26	5	0	G	5094	                            Talaromyces
+  1.26	5	0	S	37727	                              Talaromyces marneffei
+  1.26	5	5	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.25	1	0	O	33183	                        Onygenales
+  0.25	1	0	F	34384	                          Arthrodermataceae
+  0.25	1	0	G	34392	                            Microsporum
+  0.25	1	0	S	63402	                              Microsporum gypseum
+  0.25	1	1	-	535722	                                Microsporum gypseum CBS 118893
+  0.76	3	1	-	451870	                      Chaetothyriomycetidae
+  0.51	2	0	O	34395	                        Chaetothyriales
+  0.51	2	0	F	43219	                          Herpotrichiellaceae
+  0.51	2	0	G	82105	                            Cladophialophora
+  0.51	2	0	S	86049	                              Cladophialophora carrionii
+  0.51	2	2	-	1279043	                                Cladophialophora carrionii CBS 160.54
+  0.76	3	0	-	715989	                    sordariomyceta
+  0.76	3	0	C	147548	                      Leotiomycetes
+  0.76	3	0	O	5178	                        Helotiales
+  0.76	3	0	F	28983	                          Sclerotiniaceae
+  0.76	3	0	G	33196	                            Botrytis
+  0.76	3	0	S	40559	                              Botrytis cinerea
+  0.76	3	3	-	332648	                                Botrytis cinerea B05.10
+  0.51	2	0	D	2	    Bacteria
+  0.51	2	0	P	1239	      Firmicutes
+  0.51	2	0	C	186801	        Clostridia
+  0.51	2	0	O	186802	          Clostridiales
+  0.51	2	0	F	186804	            Peptostreptococcaceae
+  0.51	2	0	G	1481960	              Peptoclostridium
+  0.51	2	2	S	1511	                [Clostridium] sticklandii

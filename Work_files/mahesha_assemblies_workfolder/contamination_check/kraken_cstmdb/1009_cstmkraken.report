@@ -1,0 +1,31 @@
+  3.40	35	35	U	0	unclassified
+ 96.60	994	0	-	1	root
+ 96.60	994	0	-	131567	  cellular organisms
+ 96.60	994	0	D	2759	    Eukaryota
+ 96.60	994	0	-	33154	      Opisthokonta
+ 96.60	994	0	K	4751	        Fungi
+ 96.60	994	0	-	451864	          Dikarya
+ 96.60	994	0	P	4890	            Ascomycota
+ 96.60	994	3	-	716545	              saccharomyceta
+ 95.92	987	0	-	147537	                Saccharomycotina
+ 95.92	987	0	C	4891	                  Saccharomycetes
+ 95.92	987	0	O	4892	                    Saccharomycetales
+ 95.92	987	1	F	766764	                      Debaryomycetaceae
+ 95.63	984	2	G	4958	                        Debaryomyces
+ 95.43	982	13	S	4959	                          Debaryomyces hansenii
+ 94.17	969	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 94.17	969	969	-	284592	                              Debaryomyces hansenii CBS767
+  0.10	1	0	G	766502	                        Millerozyma
+  0.10	1	1	S	4920	                          Millerozyma farinosa
+  0.10	1	0	G	766765	                        Yamadazyma
+  0.10	1	0	-	1539853	                          Yamadazyma/Candida clade
+  0.10	1	1	S	681098	                            Candida olivae
+  0.39	4	0	-	147538	                Pezizomycotina
+  0.39	4	0	-	716546	                  leotiomyceta
+  0.39	4	0	C	147545	                    Eurotiomycetes
+  0.39	4	0	-	451871	                      Eurotiomycetidae
+  0.39	4	0	O	5042	                        Eurotiales
+  0.39	4	0	F	28568	                          Trichocomaceae
+  0.39	4	0	G	5094	                            Talaromyces
+  0.39	4	0	S	37727	                              Talaromyces marneffei
+  0.39	4	4	-	441960	                                Talaromyces marneffei ATCC 18224

@@ -1,0 +1,47 @@
+ 26.16	237	237	U	0	unclassified
+ 73.84	669	7	-	1	root
+ 73.07	662	1	-	131567	  cellular organisms
+ 72.63	658	0	D	2759	    Eukaryota
+ 72.63	658	0	-	33154	      Opisthokonta
+ 72.63	658	0	K	4751	        Fungi
+ 72.63	658	4	-	451864	          Dikarya
+ 72.19	654	0	P	4890	            Ascomycota
+ 72.19	654	26	-	716545	              saccharomyceta
+ 66.78	605	0	-	147537	                Saccharomycotina
+ 66.78	605	0	C	4891	                  Saccharomycetes
+ 66.78	605	0	O	4892	                    Saccharomycetales
+ 66.78	605	1	F	766764	                      Debaryomycetaceae
+ 66.67	604	0	G	4958	                        Debaryomyces
+ 66.67	604	15	S	4959	                          Debaryomyces hansenii
+ 65.01	589	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 65.01	589	589	-	284592	                              Debaryomyces hansenii CBS767
+  2.54	23	0	-	147538	                Pezizomycotina
+  2.54	23	1	-	716546	                  leotiomyceta
+  2.32	21	0	C	147545	                    Eurotiomycetes
+  2.32	21	0	-	451871	                      Eurotiomycetidae
+  2.21	20	0	O	5042	                        Eurotiales
+  2.21	20	0	F	28568	                          Trichocomaceae
+  2.21	20	0	G	5094	                            Talaromyces
+  2.21	20	0	S	37727	                              Talaromyces marneffei
+  2.21	20	20	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.11	1	0	O	33183	                        Onygenales
+  0.11	1	0	-	34383	                          mitosporic Onygenales
+  0.11	1	0	G	38946	                            Paracoccidioides
+  0.11	1	0	S	121759	                              Paracoccidioides brasiliensis
+  0.11	1	1	-	502780	                                Paracoccidioides brasiliensis Pb18
+  0.11	1	0	-	715989	                    sordariomyceta
+  0.11	1	0	C	147550	                      Sordariomycetes
+  0.11	1	0	-	222544	                        Sordariomycetidae
+  0.11	1	0	O	5139	                          Sordariales
+  0.11	1	0	F	35718	                            Chaetomiaceae
+  0.11	1	0	G	5149	                              Chaetomium
+  0.11	1	0	S	38033	                                Chaetomium globosum
+  0.11	1	1	-	306901	                                  Chaetomium globosum CBS 148.51
+  0.33	3	0	D	2	    Bacteria
+  0.33	3	0	P	1224	      Proteobacteria
+  0.33	3	0	C	1236	        Gammaproteobacteria
+  0.33	3	0	O	135622	          Alteromonadales
+  0.33	3	0	F	72275	            Alteromonadaceae
+  0.33	3	0	G	226	              Alteromonas
+  0.33	3	0	S	28108	                Alteromonas macleodii
+  0.33	3	3	-	1300257	                  Alteromonas macleodii str. 'Ionian Sea U8'

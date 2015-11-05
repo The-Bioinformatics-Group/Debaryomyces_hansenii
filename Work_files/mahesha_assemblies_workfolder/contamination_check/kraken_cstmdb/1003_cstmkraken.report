@@ -1,0 +1,87 @@
+ 27.59	197	197	U	0	unclassified
+ 72.41	517	6	-	1	root
+ 71.43	510	0	-	131567	  cellular organisms
+ 70.17	501	0	D	2759	    Eukaryota
+ 70.17	501	0	-	33154	      Opisthokonta
+ 70.17	501	0	K	4751	        Fungi
+ 70.17	501	0	-	451864	          Dikarya
+ 70.17	501	0	P	4890	            Ascomycota
+ 70.17	501	23	-	716545	              saccharomyceta
+ 65.27	466	0	-	147537	                Saccharomycotina
+ 65.27	466	0	C	4891	                  Saccharomycetes
+ 65.27	466	0	O	4892	                    Saccharomycetales
+ 65.13	465	2	F	766764	                      Debaryomycetaceae
+ 64.85	463	0	G	4958	                        Debaryomyces
+ 64.85	463	19	S	4959	                          Debaryomyces hansenii
+ 62.18	444	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 62.18	444	444	-	284592	                              Debaryomyces hansenii CBS767
+  0.14	1	0	F	27319	                      Metschnikowiaceae
+  0.14	1	0	G	36910	                        Clavispora
+  0.14	1	1	S	36911	                          Clavispora lusitaniae
+  1.68	12	0	-	147538	                Pezizomycotina
+  1.68	12	0	-	716546	                  leotiomyceta
+  1.40	10	0	C	147545	                    Eurotiomycetes
+  1.40	10	0	-	451871	                      Eurotiomycetidae
+  1.40	10	0	O	5042	                        Eurotiales
+  1.40	10	0	F	28568	                          Trichocomaceae
+  1.40	10	0	G	5094	                            Talaromyces
+  1.40	10	0	S	37727	                              Talaromyces marneffei
+  1.40	10	10	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.14	1	0	-	715962	                    dothideomyceta
+  0.14	1	0	C	147541	                      Dothideomycetes
+  0.14	1	0	-	451868	                        Pleosporomycetidae
+  0.14	1	0	O	92860	                          Pleosporales
+  0.14	1	0	-	715340	                            Pleosporineae
+  0.14	1	0	F	28556	                              Pleosporaceae
+  0.14	1	0	G	5027	                                Pyrenophora
+  0.14	1	0	S	53485	                                  Pyrenophora teres
+  0.14	1	0	-	97479	                                    Pyrenophora teres f. teres
+  0.14	1	1	-	861557	                                      Pyrenophora teres f. teres 0-1
+  0.14	1	0	-	715989	                    sordariomyceta
+  0.14	1	0	C	147550	                      Sordariomycetes
+  0.14	1	0	-	222544	                        Sordariomycetidae
+  0.14	1	0	O	5139	                          Sordariales
+  0.14	1	0	F	35718	                            Chaetomiaceae
+  0.14	1	0	G	5149	                              Chaetomium
+  0.14	1	0	S	38033	                                Chaetomium globosum
+  0.14	1	1	-	306901	                                  Chaetomium globosum CBS 148.51
+  1.26	9	0	D	2	    Bacteria
+  0.56	4	0	P	1224	      Proteobacteria
+  0.56	4	0	C	1236	        Gammaproteobacteria
+  0.28	2	0	O	91347	          Enterobacteriales
+  0.28	2	0	F	543	            Enterobacteriaceae
+  0.14	1	0	G	547	              Enterobacter
+  0.14	1	0	-	354276	                Enterobacter cloacae complex
+  0.14	1	0	S	550	                  Enterobacter cloacae
+  0.14	1	0	-	69219	                    Enterobacter cloacae subsp. dissolvens
+  0.14	1	1	-	1104326	                      Enterobacter cloacae subsp. dissolvens SDM
+  0.14	1	0	G	613	              Serratia
+  0.14	1	0	S	615	                Serratia marcescens
+  0.14	1	1	-	435998	                  Serratia marcescens WW4
+  0.28	2	0	O	135622	          Alteromonadales
+  0.28	2	0	F	72275	            Alteromonadaceae
+  0.28	2	0	G	226	              Alteromonas
+  0.28	2	0	S	28108	                Alteromonas macleodii
+  0.28	2	2	-	1300257	                  Alteromonas macleodii str. 'Ionian Sea U8'
+  0.56	4	0	P	1239	      Firmicutes
+  0.56	4	0	C	91061	        Bacilli
+  0.42	3	0	O	186826	          Lactobacillales
+  0.42	3	0	F	186828	            Carnobacteriaceae
+  0.42	3	0	G	2747	              Carnobacterium
+  0.28	2	0	S	2751	                Carnobacterium maltaromaticum
+  0.28	2	2	-	1234679	                  Carnobacterium maltaromaticum LMA28
+  0.14	1	1	S	208596	                Carnobacterium sp. 17-4
+  0.14	1	1	O	1385	          Bacillales
+  0.14	1	0	P	201174	      Actinobacteria
+  0.14	1	0	C	1760	        Actinobacteria
+  0.14	1	0	O	85011	          Streptomycetales
+  0.14	1	0	F	2062	            Streptomycetaceae
+  0.14	1	0	G	1883	              Streptomyces
+  0.14	1	0	S	33903	                Streptomyces avermitilis
+  0.14	1	1	-	227882	                  Streptomyces avermitilis MA-4680 = NBRC 14893
+  0.14	1	0	D	10239	  Viruses
+  0.14	1	0	-	35237	    dsDNA viruses, no RNA stage
+  0.14	1	0	O	28883	      Caudovirales
+  0.14	1	0	F	10662	        Myoviridae
+  0.14	1	0	-	196896	          unclassified Myoviridae
+  0.14	1	1	S	1124849	            Pseudomonas phage OBP

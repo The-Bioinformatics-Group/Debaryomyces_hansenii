@@ -1,0 +1,54 @@
+ 18.57	156	156	U	0	unclassified
+ 81.43	684	5	-	1	root
+ 80.83	679	0	-	131567	  cellular organisms
+ 80.36	675	0	D	2759	    Eukaryota
+ 80.36	675	0	-	33154	      Opisthokonta
+ 80.36	675	0	K	4751	        Fungi
+ 80.36	675	0	-	451864	          Dikarya
+ 80.36	675	0	P	4890	            Ascomycota
+ 80.36	675	37	-	716545	              saccharomyceta
+ 74.29	624	0	-	147537	                Saccharomycotina
+ 74.29	624	0	C	4891	                  Saccharomycetes
+ 74.29	624	0	O	4892	                    Saccharomycetales
+ 74.29	624	0	F	766764	                      Debaryomycetaceae
+ 74.29	624	0	G	4958	                        Debaryomyces
+ 74.29	624	11	S	4959	                          Debaryomyces hansenii
+ 72.98	613	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 72.98	613	613	-	284592	                              Debaryomyces hansenii CBS767
+  1.67	14	0	-	147538	                Pezizomycotina
+  1.67	14	0	-	716546	                  leotiomyceta
+  1.43	12	0	C	147545	                    Eurotiomycetes
+  1.43	12	0	-	451871	                      Eurotiomycetidae
+  1.43	12	0	O	5042	                        Eurotiales
+  1.43	12	0	F	28568	                          Trichocomaceae
+  1.43	12	0	G	5094	                            Talaromyces
+  1.31	11	0	S	37727	                              Talaromyces marneffei
+  1.31	11	11	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.12	1	0	S	28564	                              Talaromyces stipitatus
+  0.12	1	1	-	441959	                                Talaromyces stipitatus ATCC 10500
+  0.12	1	0	-	715962	                    dothideomyceta
+  0.12	1	0	C	147541	                      Dothideomycetes
+  0.12	1	0	-	451868	                        Pleosporomycetidae
+  0.12	1	0	O	92860	                          Pleosporales
+  0.12	1	0	-	715340	                            Pleosporineae
+  0.12	1	0	F	28556	                              Pleosporaceae
+  0.12	1	0	G	5027	                                Pyrenophora
+  0.12	1	0	S	53485	                                  Pyrenophora teres
+  0.12	1	0	-	97479	                                    Pyrenophora teres f. teres
+  0.12	1	1	-	861557	                                      Pyrenophora teres f. teres 0-1
+  0.12	1	0	-	715989	                    sordariomyceta
+  0.12	1	0	C	147550	                      Sordariomycetes
+  0.12	1	0	-	222544	                        Sordariomycetidae
+  0.12	1	0	O	5139	                          Sordariales
+  0.12	1	0	F	35718	                            Chaetomiaceae
+  0.12	1	0	G	5149	                              Chaetomium
+  0.12	1	0	S	38033	                                Chaetomium globosum
+  0.12	1	1	-	306901	                                  Chaetomium globosum CBS 148.51
+  0.48	4	0	D	2	    Bacteria
+  0.48	4	0	P	1224	      Proteobacteria
+  0.48	4	0	C	1236	        Gammaproteobacteria
+  0.48	4	0	O	135622	          Alteromonadales
+  0.48	4	0	F	72275	            Alteromonadaceae
+  0.48	4	0	G	89404	              Glaciecola
+  0.48	4	0	S	300231	                Glaciecola nitratireducens
+  0.48	4	4	-	1085623	                  Glaciecola nitratireducens FR1064

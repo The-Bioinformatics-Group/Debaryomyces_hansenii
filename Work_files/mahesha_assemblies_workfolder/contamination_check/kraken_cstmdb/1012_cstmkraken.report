@@ -1,0 +1,81 @@
+ 55.95	254	254	U	0	unclassified
+ 44.05	200	8	-	1	root
+ 42.29	192	2	-	131567	  cellular organisms
+ 40.97	186	0	D	2759	    Eukaryota
+ 40.97	186	0	-	33154	      Opisthokonta
+ 40.97	186	0	K	4751	        Fungi
+ 40.97	186	2	-	451864	          Dikarya
+ 40.53	184	0	P	4890	            Ascomycota
+ 40.53	184	9	-	716545	              saccharomyceta
+ 36.78	167	0	-	147537	                Saccharomycotina
+ 36.78	167	0	C	4891	                  Saccharomycetes
+ 36.78	167	1	O	4892	                    Saccharomycetales
+ 36.12	164	2	F	766764	                      Debaryomycetaceae
+ 33.48	152	0	G	4958	                        Debaryomyces
+ 33.48	152	10	S	4959	                          Debaryomyces hansenii
+ 31.28	142	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 31.28	142	142	-	284592	                              Debaryomyces hansenii CBS767
+  0.88	4	0	-	1535325	                        Candida/Lodderomyces clade
+  0.66	3	0	G	1535326	                          Candida
+  0.22	1	0	S	5482	                            Candida tropicalis
+  0.22	1	1	-	294747	                              Candida tropicalis MYA-3404
+  0.22	1	0	S	42374	                            Candida dubliniensis
+  0.22	1	1	-	573826	                              Candida dubliniensis CD36
+  0.22	1	1	S	1198502	                            Candida theae
+  0.22	1	0	G	36913	                          Lodderomyces
+  0.22	1	0	S	36914	                            Lodderomyces elongisporus
+  0.22	1	1	-	379508	                              Lodderomyces elongisporus NRRL YB-4239
+  0.66	3	0	G	766748	                        Babjeviella
+  0.66	3	3	S	45609	                          Babjeviella inositovora
+  0.22	1	0	G	766502	                        Millerozyma
+  0.22	1	1	S	4920	                          Millerozyma farinosa
+  0.22	1	0	G	766733	                        Scheffersomyces
+  0.22	1	0	S	4924	                          Scheffersomyces stipitis
+  0.22	1	1	-	322104	                            Scheffersomyces stipitis CBS 6054
+  0.22	1	0	G	766758	                        Schwanniomyces
+  0.22	1	1	S	28550	                          Schwanniomyces etchellsii
+  0.22	1	0	F	4893	                      Saccharomycetaceae
+  0.22	1	0	G	4930	                        Saccharomyces
+  0.22	1	0	S	4932	                          Saccharomyces cerevisiae
+  0.22	1	1	-	559292	                            Saccharomyces cerevisiae S288c
+  0.22	1	0	F	115784	                      Phaffomycetaceae
+  0.22	1	0	G	599737	                        Wickerhamomyces
+  0.22	1	1	S	1041607	                          Wickerhamomyces ciferrii
+  1.76	8	0	-	147538	                Pezizomycotina
+  1.76	8	1	-	716546	                  leotiomyceta
+  0.88	4	0	-	715989	                    sordariomyceta
+  0.66	3	0	C	147548	                      Leotiomycetes
+  0.66	3	0	-	221903	                        Leotiomycetes incertae sedis
+  0.66	3	0	F	34379	                          Pseudeurotiaceae
+  0.66	3	0	G	78156	                            Pseudogymnoascus
+  0.66	3	0	S	655981	                              Pseudogymnoascus destructans
+  0.66	3	3	-	658429	                                Pseudogymnoascus destructans 20631-21
+  0.22	1	0	C	147550	                      Sordariomycetes
+  0.22	1	0	-	222544	                        Sordariomycetidae
+  0.22	1	0	O	5139	                          Sordariales
+  0.22	1	0	F	35718	                            Chaetomiaceae
+  0.22	1	0	G	35719	                              Thielavia
+  0.22	1	0	S	35720	                                Thielavia terrestris
+  0.22	1	1	-	578455	                                  Thielavia terrestris NRRL 8126
+  0.66	3	0	C	147545	                    Eurotiomycetes
+  0.66	3	0	-	451871	                      Eurotiomycetidae
+  0.66	3	0	O	5042	                        Eurotiales
+  0.66	3	0	F	28568	                          Trichocomaceae
+  0.66	3	0	G	5094	                            Talaromyces
+  0.66	3	0	S	37727	                              Talaromyces marneffei
+  0.66	3	3	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.88	4	0	D	2	    Bacteria
+  0.66	3	0	P	1224	      Proteobacteria
+  0.66	3	0	C	1236	        Gammaproteobacteria
+  0.66	3	0	O	135622	          Alteromonadales
+  0.66	3	0	F	72275	            Alteromonadaceae
+  0.66	3	0	G	226	              Alteromonas
+  0.66	3	0	S	28108	                Alteromonas macleodii
+  0.66	3	3	-	1300257	                  Alteromonas macleodii str. 'Ionian Sea U8'
+  0.22	1	0	P	201174	      Actinobacteria
+  0.22	1	0	C	1760	        Actinobacteria
+  0.22	1	0	O	85014	          Glycomycetales
+  0.22	1	0	F	85034	            Glycomycetaceae
+  0.22	1	0	G	283810	              Stackebrandtia
+  0.22	1	0	S	283811	                Stackebrandtia nassauensis
+  0.22	1	1	-	446470	                  Stackebrandtia nassauensis DSM 44728

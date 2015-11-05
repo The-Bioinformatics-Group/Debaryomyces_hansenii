@@ -1,0 +1,65 @@
+ 24.90	180	180	U	0	unclassified
+ 75.10	543	7	-	1	root
+ 74.14	536	0	-	131567	  cellular organisms
+ 73.44	531	0	D	2759	    Eukaryota
+ 73.44	531	0	-	33154	      Opisthokonta
+ 73.44	531	0	K	4751	        Fungi
+ 73.44	531	0	-	451864	          Dikarya
+ 73.44	531	0	P	4890	            Ascomycota
+ 73.44	531	23	-	716545	              saccharomyceta
+ 66.11	478	0	-	147537	                Saccharomycotina
+ 66.11	478	0	C	4891	                  Saccharomycetes
+ 66.11	478	0	O	4892	                    Saccharomycetales
+ 66.11	478	2	F	766764	                      Debaryomycetaceae
+ 65.28	472	1	G	4958	                        Debaryomyces
+ 65.15	471	23	S	4959	                          Debaryomyces hansenii
+ 61.96	448	0	-	58641	                            Debaryomyces hansenii var. hansenii
+ 61.96	448	448	-	284592	                              Debaryomyces hansenii CBS767
+  0.55	4	0	-	1535325	                        Candida/Lodderomyces clade
+  0.55	4	0	G	1535326	                          Candida
+  0.55	4	0	S	273371	                            Candida orthopsilosis
+  0.55	4	4	-	1136231	                              Candida orthopsilosis Co 90-125
+  4.15	30	0	-	147538	                Pezizomycotina
+  4.15	30	1	-	716546	                  leotiomyceta
+  3.73	27	0	C	147545	                    Eurotiomycetes
+  3.73	27	0	-	451871	                      Eurotiomycetidae
+  3.73	27	0	O	5042	                        Eurotiales
+  3.73	27	0	F	28568	                          Trichocomaceae
+  3.73	27	0	G	5094	                            Talaromyces
+  3.73	27	0	S	37727	                              Talaromyces marneffei
+  3.73	27	27	-	441960	                                Talaromyces marneffei ATCC 18224
+  0.14	1	0	-	715962	                    dothideomyceta
+  0.14	1	0	C	147541	                      Dothideomycetes
+  0.14	1	0	-	451868	                        Pleosporomycetidae
+  0.14	1	0	O	92860	                          Pleosporales
+  0.14	1	0	-	715340	                            Pleosporineae
+  0.14	1	0	F	28556	                              Pleosporaceae
+  0.14	1	0	G	5027	                                Pyrenophora
+  0.14	1	0	S	45151	                                  Pyrenophora tritici-repentis
+  0.14	1	1	-	426418	                                    Pyrenophora tritici-repentis Pt-1C-BFP
+  0.14	1	0	-	715989	                    sordariomyceta
+  0.14	1	0	C	147550	                      Sordariomycetes
+  0.14	1	0	-	222544	                        Sordariomycetidae
+  0.14	1	0	O	5139	                          Sordariales
+  0.14	1	0	F	35718	                            Chaetomiaceae
+  0.14	1	0	G	5149	                              Chaetomium
+  0.14	1	0	S	38033	                                Chaetomium globosum
+  0.14	1	1	-	306901	                                  Chaetomium globosum CBS 148.51
+  0.69	5	0	D	2	    Bacteria
+  0.55	4	0	P	1224	      Proteobacteria
+  0.41	3	0	C	1236	        Gammaproteobacteria
+  0.41	3	0	O	135622	          Alteromonadales
+  0.41	3	0	F	72275	            Alteromonadaceae
+  0.41	3	0	G	226	              Alteromonas
+  0.41	3	0	S	28108	                Alteromonas macleodii
+  0.41	3	3	-	1300257	                  Alteromonas macleodii str. 'Ionian Sea U8'
+  0.14	1	0	C	28216	        Betaproteobacteria
+  0.14	1	0	O	80840	          Burkholderiales
+  0.14	1	0	F	80864	            Comamonadaceae
+  0.14	1	1	G	52972	              Polaromonas
+  0.14	1	0	P	1239	      Firmicutes
+  0.14	1	0	C	91061	        Bacilli
+  0.14	1	0	O	186826	          Lactobacillales
+  0.14	1	0	F	1300	            Streptococcaceae
+  0.14	1	0	G	1301	              Streptococcus
+  0.14	1	1	S	1156433	                Streptococcus sp. I-P16
