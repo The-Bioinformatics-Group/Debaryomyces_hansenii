@@ -36,11 +36,15 @@ General first result, percentaje of contaminated sequences.
 
 ##### Output report
 
-- 28.57% *Xanthomonas campestris*
-- 14.29% *Stenotrophomonas maltophilia*
-- 14.29% *Alteromonas macleodii*
-- 14.29% *Cytophaga hutchinsonii*
-- 14.29% *Chlorobium phaeobacteroides*
+28.57% *Xanthomonas campestris*
+
+14.29% *Stenotrophomonas maltophilia*
+
+14.29% *Alteromonas macleodii*
+
+14.29% *Cytophaga hutchinsonii*
+
+14.29% *Chlorobium phaeobacteroides*
 
 
 #### Custom database
