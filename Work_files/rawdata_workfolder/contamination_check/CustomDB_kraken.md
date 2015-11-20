@@ -51,6 +51,9 @@ Creating a Custom kraken database, steps:
 
 	$ kraken --threads 24 --db /data02/merce/kraken_db/CustomDB --fastq-input 1_140716_AH9BY4ADXX_P1260_1001_1.fastq > cstm_tests_kraken/1001_AH1_cstmkraken.kraken 
 
+
+	- Repeat with all the sequences (AH, BC and forward and reverse)
+
 #### Results
 
 - **Classified sequences:** Found in the kraken custom database, sequences matching bacterial, archaeal, plasmids, viral, human or fungi domains.
@@ -60,7 +63,24 @@ Creating a Custom kraken database, steps:
 | fastq		|Total sequences| Classified sequences  | Unclassified sequences|
 |---------------|---------------|-----------------------|-----------------------| 
 | 1001 AH 1	|2462393	|2029147 (82.41%)	|433246 (17.59%)	|
-
+| 1002 AH 1	|1160378	|1140993 (98.33%)	|19385 (1.67%)		|
+| 1003 AH 1	|2193546	|1817189 (82.84%)	|376357 (17.16%)	|
+| 1004 AH 1	|1558691	|1433365 (91.96%)	|125326 (8.04%)		|
+| 1005 AH 1	|2088288	|2057955 (98.55%)	|30333 (1.45%)		|
+| 1006 AH 1	|1929277	|335761 (17.40%)	|1593516 (82.60%)	|
+| 1007 AH 1	|2305984	|2267226 (98.32%)	|38758 (1.68%)		|
+| 1008 AH 1	|1312616	|1281379 (97.62%)	|31237 (2.38%)		|
+| 1009 AH 1	|1944249	|1419587 (73.01%)	|524662 (26.99%)	|
+| 1010 AH 1	|1319601	|189904 (14.39%)	|1129697 (85.61%)	|
+| 1011 AH 1	|768699		|450133 (58.56%)	|318566 (41.44%)	|
+| 1012 AH 1	|2073205	|359992 (17.36%)	|1713213 (82.64%)	|
+| 1013 AH 1	|1828482	|1765439 (96.55%)	|63043 (3.45%)		|
+| 1014 AH 1	|2206902	|1806751 (81.87%)	|400151 (18.13%)	|
+| 1015 AH 1	|1923464	|1859416 (96.67%)	|64048 (3.33%)		|
+| 1016 AH 1	|2646260	|2151919 (81.32%)	|494341 (18.68%)	|
+| 1017 AH 1	|1889165	|1853424 (98.11%)	|35741 (1.89%)		|
+| 1018 AH 1	|2628541	|2580100 (98.16%)	|48441 (1.84%)		|
+| 1019 AH 1	|2000344	|1964810 (98.22%)	|35534 (1.78%)		|
 	
 [Complete table with all the alternative names for every strain](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Strains.md)
 
