@@ -18,27 +18,27 @@ Creating a Custom kraken database, steps:
 
 	- Download the RefSeq from NCBI: 
 		
-		$ wget ftp://ftp.ncbi.nlm.nih.gov/refseq/release/fungi/
+			$ wget ftp://ftp.ncbi.nlm.nih.gov/refseq/release/fungi/
 
-		$ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/H_sapiens/Assembled_chromosomes/seq/*.fa.*
+			$ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/H_sapiens/Assembled_chromosomes/seq/*.fa.*
 
 	- Add to the database:
 
 		Fungi:
 
-		$ #!/bin/bash
+			$ #!/bin/bash
 
-		$	find fungi_all/ -name '*.fna' -print0 | \
+			$	find fungi_all/ -name '*.fna' -print0 | \
         		
-		$	xargs -0 -I{} -n1 kraken-build --add-to-library {} --db CustomDB
+			$	xargs -0 -I{} -n1 kraken-build --add-to-library {} --db CustomDB
 
 		Human:
 		
-		$ #!/bin/bash
+			$ #!/bin/bash
 
-		$	find Human/ -name '*.fa' -print0 | \
-
-        	$	xargs -0 -I{} -n1 kraken-build --add-to-library {} --db CustomDB	 
+			$	find Human/ -name '*.fa' -print0 | \
+	
+        		$	xargs -0 -I{} -n1 kraken-build --add-to-library {} --db CustomDB	 
 
 4. Build the database:
 
