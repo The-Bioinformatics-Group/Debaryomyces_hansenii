@@ -38,7 +38,7 @@ Creating a Custom kraken database, steps:
 
 				find Human/ -name '*.fa' -print0 | \
 	
-        			xargs -0 -I{} -n1 kraken-build --add-to-library {} --db CustomDB	 
+				xargs -0 -I{} -n1 kraken-build --add-to-library {} --db CustomDB	 
 
 4. Build the database:
 
