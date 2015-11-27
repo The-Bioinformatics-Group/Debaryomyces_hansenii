@@ -12,17 +12,35 @@ Creating a Custom kraken database, steps:
 		$ kraken-build --download-library bacteria --db CustomDB
 		$ kraken-build --download-library plasmids --db CustomDB
 	 	$ kraken-build --download-library viruses --db CustomDB
-		$ kraken-build --download-library human --db CustomDB
+		$ kraken-build --download-library human --db CustomDB --> Found out that this command wasn't working. Human added manually.
 
-3. Add custom genomic libraries, in this case, fungi genomic library.
+3. Add custom genomic libraries, fungi and human genomic library.
 
-	- Download the RefSeq from NCBI: ftp://ftp.ncbi.nlm.nih.gov/refseq/release/fungi/
+	- Download the RefSeq from NCBI: 
+		
+			$ wget ftp://ftp.ncbi.nlm.nih.gov/refseq/release/fungi/
+
+			$ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/H_sapiens/Assembled_chromosomes/seq/*.fa.*
 
 	- Add to the database:
 
-			$ kraken-build --add-to-library fungi_all/fungi.1.1.genomic.fna --db CustomDB
+		Fungi:
 
-				- Repeat with all the fungal genomic libraries. 
+			$ #!/bin/bash
+
+				find fungi_all/ -name '*.fna' -print0 | \
+        		
+				xargs -0 -I{} -n1 kraken-build --add-to-library {} --db CustomDB
+
+		Human:
+		
+			$ #!/bin/bash
+
+				find Human/ -name '*.fa' -print0 | \
+	
+				xargs -0 -I{} -n1 kraken-build --add-to-library {} --db CustomDB	
+
+ 
 
 4. Build the database:
 
