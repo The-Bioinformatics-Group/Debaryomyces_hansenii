@@ -16,25 +16,25 @@ I tried to search for the most complete sequences of the whole 18s - ITS1 - 5.8s
 
 Partial sequence of 18s:
 
-gi|5738918|dbj|AB030914.1| Debaryomyces hansenii gene for 18S rRNA, partial sequence, strain:IEY3
+`gi|5738918|dbj|AB030914.1| Debaryomyces hansenii gene for 18S rRNA, partial sequence, strain:IEY3`
 
 Partial sequence of 18s, complete ITS1, complete 5.8s, complete ITS2, partial 28s:
 
-gi|124303237|gb|EF192224.1| Debaryomyces hansenii 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence
+`gi|124303237|gb|EF192224.1| Debaryomyces hansenii 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence`
 
 Complete sequence of 5.8s, complete ITS2 and partial sequence of 28s:
 
-gi|17386056|gb|AF444785.1| Debaryomyces hansenii strain CJLPHD5 5.8S ribosomal RNA gene, and internal transcribed spacer 2, partial sequence
+`gi|17386056|gb|AF444785.1| Debaryomyces hansenii strain CJLPHD5 5.8S ribosomal RNA gene, and internal transcribed spacer 2, partial sequence`
 
 Partial sequence of 28s:
 
-gi|944549174|gb|KR872423.1| Debaryomyces hansenii 28S ribosomal RNA gene, partial sequence
+`gi|944549174|gb|KR872423.1| Debaryomyces hansenii 28S ribosomal RNA gene, partial sequence`
 
 ###### *Saccharomyces cerevisiae*
 
 Partial sequence of ITS1, complete sequence of 5.8s, complete sequence of ITS2 and partial sequence of 28s:
 
-gi|768803449|gb|KP723680.1| Saccharomyces cerevisiae isolate M9 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence
+`gi|768803449|gb|KP723680.1| Saccharomyces cerevisiae isolate M9 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence`
 
 
 ##### Running BLASTn
