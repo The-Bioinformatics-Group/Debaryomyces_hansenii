@@ -37,6 +37,8 @@ Partial sequence of ITS1, complete sequence of 5.8s, complete sequence of ITS2 a
 `gi|768803449|gb|KP723680.1| Saccharomyces cerevisiae isolate M9 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence`
 
 
+---
+
 ##### Running BLASTn
 
 	$ blastn -db db/DeHa_Allassemblies.fasta -query Query_Deha/Deha18spart.fasta -out Dehaall_Deha18_ali.txt
