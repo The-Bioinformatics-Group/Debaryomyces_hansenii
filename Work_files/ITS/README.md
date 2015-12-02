@@ -6,7 +6,7 @@
 
 Using cat, merge of all assemblies in one fasta.
 
-	$ makeblastdb -in Allassemblies.fasta -dbtype nucl -parse-seqids
+	$ makeblastdb -in Allassemblies.fasta -dbtype nucl -parse_seqids
 
 ##### Queries
 
@@ -176,3 +176,22 @@ Partial sequence of ITS1, complete sequence of 5.8s, complete sequence of ITS2 a
 	$ blastdbcmd -db db/DeHa_Allassemblies.fasta -entry 1017_jcf7180000031087 -range 1-461 -strand minus -out 1017_ITS.fasta
 
 1018: Not found
+
+
+#### CBS767
+
+##### Create database
+
+	$ makeblastdb -in GCA_000006445.2_ASM644v2_genomic.fna -dbtype nucl -parse_seqids
+
+##### Run blastn
+
+	$ blastn -db blastdb_CBS767/GCA_000006445.2_ASM644v2_genomic.fna -query Query_Deha/Deha18spart.fasta -out DehaCBS767_Deha18_ali.txt
+
+	$ blastn -db blastdb_CBS767/GCA_000006445.2_ASM644v2_genomic.fna -query Query_Deha/Deha18spart_ITS1_58s_ITS2_28spart.fasta -out DehaCBS767_DehaITS1and2_ali.txt
+
+	$ blastn -db blastdb_CBS767/GCA_000006445.2_ASM644v2_genomic.fna -query Query_Deha/Deha28spart.fasta -out DehaCBS767_Deha28_ali.txt
+
+Surprisingly...
+
+**NO HITS FOUND**
