@@ -20,7 +20,7 @@
 |---------------|---------------|---------------|
 |1001		|98.25%		|98.13%		|
 |1002		|97.87%		|
-|1003		|
+|1003		|98.42%		|
 |1004		|
 |1005		|
 |1006		|
@@ -104,6 +104,24 @@
 - 1002 BC
 
 - 1003 AH:
+
+```
+2193546 reads; of these:
+  2193546 (100.00%) were paired; of these:
+    715892 (32.64%) aligned concordantly 0 times
+    1415060 (64.51%) aligned concordantly exactly 1 time
+    62594 (2.85%) aligned concordantly >1 times
+    ----
+    715892 pairs aligned concordantly 0 times; of these:
+      603736 (84.33%) aligned discordantly 1 time
+    ----
+    112156 pairs aligned 0 times concordantly or discordantly; of these:
+      224312 mates make up the pairs; of these:
+        69431 (30.95%) aligned 0 times
+        51644 (23.02%) aligned exactly 1 time
+        103237 (46.02%) aligned >1 times
+98.42% overall alignment rate
+```
 
 - 1003 BC:
 
