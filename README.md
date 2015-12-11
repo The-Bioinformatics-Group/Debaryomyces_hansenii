@@ -19,3 +19,15 @@ Contents (Folders that start with a number come from Mahesha):
 	- Reference2: MTCC234
 - Work_files: space of work for Merce Montoliu Nerin.
 	README files explaining each of the contents and results in each folder.  
+
+## Workflow
+
+### 1. Bowtie2 
+
+- Mapping of raw reads to *Debaryomyces hansenii* reference strain CBS767, results can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/Bowtie2mapping_CBS767reference).
+
+- Mapping of raw reads to *Saccharomyces cerevisiae* reference strain S288c, results can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/Bowtie2mapping_S288c).
+
+- Mapping of raw reads to known previously mistaken species like *Meyerozyma guilliermondii*, results can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/Bowtie2mapping_ATCC6260). 
+
+ 
