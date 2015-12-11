@@ -25,5 +25,5 @@ Work_files/rawdata_workfolder/Bowtie2mapping_ATCC6260/*.sam
 Work_files/rawdata_workfolder/Bowtie2mapping_ATCC6260/*.fastq
 Work_files/rawdata_workfolder/Bowtie2mapping_ATCC6260/*.bt2
 Work_files/rawdata_workfolder/Bowtie2mapping_ATCC6260/*.fna
-Work_files/mahesha_assemblies_workfolder/Assemblies/
+Work_files/mahesh_assemblies_workfolder/Assemblies/
 Work_files/kraken_dbs/*
