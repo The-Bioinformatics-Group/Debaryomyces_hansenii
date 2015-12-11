@@ -40,9 +40,9 @@ Contents (Folders that start with a number come from Mahesha):
 
 ##### 3. Information on how kraken works.
 
-	- Manual [here](http://ccb.jhu.edu/software/kraken/MANUAL.html)
+- Manual [here](http://ccb.jhu.edu/software/kraken/MANUAL.html)
 
-	- Article for more specific information [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/kraken_article.pdf).
+- Article for more specific information [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/kraken_article.pdf).
 
 ##### 4. Kraken standard database to check contamination
 
@@ -56,11 +56,11 @@ Contents (Folders that start with a number come from Mahesha):
 
 ##### 5. VarScan first tests
 
-	- Used on raw reads, see [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/VarScan)
+- Used on raw reads, see [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/VarScan)
 
 ##### 6. BLAST tests
 
-	- blastn and blastx tests [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesha_assemblies_workfolder/BLAST).
+- blastn and blastx tests [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesha_assemblies_workfolder/BLAST).
 
 #### Second meeting - 2nd of November, [resume of results](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/meeting2ndNov_Dhansenii.pdf).
 
