@@ -459,7 +459,7 @@
         37935 (12.14%) aligned exactly 1 time
         58547 (18.73%) aligned >1 times
 85.94% overall alignment rate
-```Â
+```
 
 - 1011 BC:
 
