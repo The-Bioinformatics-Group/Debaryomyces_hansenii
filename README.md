@@ -90,4 +90,4 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 ##### 12. PreQC on 1006 and 1012 to prepare for an improvement of the assembly.
 
-- Process and results [here]
+- Process and results [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/PreQC)
