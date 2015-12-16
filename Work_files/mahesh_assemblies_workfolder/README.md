@@ -1,10 +1,17 @@
-# Mahesha assemblies
+## Mahesha assemblies
 
-##### Contamination check (Kraken)
+Folder contains:
 
-##### BLAST
+Contamination check (Kraken)
 
-##### ITS
+BLAST
 
-##### Assemblies (Not on git)
+ITS
+
+Assemblies (Not on github)
+
+Mapping reads to its own assembly (Check_assemblies_map_reads)
+
+Mapping weird strains between each other (Check_weird_strains)
+
 

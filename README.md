@@ -76,3 +76,18 @@ Contents (Folders that start with a number come from Mahesha):
 
 #### Third meeting - 8th of December, [results](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/Meeting_Deha_8th%20of%20December.pdf), [more resumed results](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/8thdecember2.pdf).
 
+##### 9. Include hybrid strains in Kraken database
+
+Not possible, it needs a GI number to work, it needs to be included on the taxonomy.
+
+##### 10. Map raw reads to its own assembly to check assemblies
+
+- Bowtie2 used. Results can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Check_assemblies_map_reads)
+
+##### 11. Map weird strains between each other to check how close they are.
+
+- Bowtie2 used. Results can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Check_weird_strains)
+
+##### 12. PreQC on 1006 and 1012 to prepare for an improvement of the assembly.
+
+- Process and results [here]
