@@ -1,0 +1,11 @@
+PASS	Basic Statistics	1006_BC_uniq2.fastq
+PASS	Per base sequence quality	1006_BC_uniq2.fastq
+PASS	Per sequence quality scores	1006_BC_uniq2.fastq
+FAIL	Per base sequence content	1006_BC_uniq2.fastq
+FAIL	Per base GC content	1006_BC_uniq2.fastq
+PASS	Per sequence GC content	1006_BC_uniq2.fastq
+PASS	Per base N content	1006_BC_uniq2.fastq
+PASS	Sequence Length Distribution	1006_BC_uniq2.fastq
+WARN	Sequence Duplication Levels	1006_BC_uniq2.fastq
+PASS	Overrepresented sequences	1006_BC_uniq2.fastq
+WARN	Kmer Content	1006_BC_uniq2.fastq
