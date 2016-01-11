@@ -91,3 +91,19 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 ##### 12. PreQC on 1006 and 1012 to prepare for an improvement of the assembly.
 
 - Process and results [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/PreQC)
+
+##### 13. SOAPdenovo assembly
+
+- Only of 1006 and 1012, can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/merce_assemblies_workfolder)
+
+- Only commands and config files, results stored on sparc1: `/data3/debaryomyces/debaryomyces_merce/Work_files/merce_assemblies_workfolder`
+
+##### 14. Coverage before and after removing duplicates of 1006 and 1012
+
+- To check is it is worth it to continue trying to improve the assembly. 
+
+- Still not put into git.
+
+##### 15. Debaryomyces Quality Assessment Report
+
+- From Mahesh. Found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/DebaryomycesQualityAssessmentReport.docx).
