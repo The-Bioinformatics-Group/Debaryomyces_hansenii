@@ -1,0 +1,11 @@
+PASS	Basic Statistics	1012_BC_uniq1.fastq
+PASS	Per base sequence quality	1012_BC_uniq1.fastq
+PASS	Per sequence quality scores	1012_BC_uniq1.fastq
+FAIL	Per base sequence content	1012_BC_uniq1.fastq
+FAIL	Per base GC content	1012_BC_uniq1.fastq
+PASS	Per sequence GC content	1012_BC_uniq1.fastq
+PASS	Per base N content	1012_BC_uniq1.fastq
+PASS	Sequence Length Distribution	1012_BC_uniq1.fastq
+WARN	Sequence Duplication Levels	1012_BC_uniq1.fastq
+PASS	Overrepresented sequences	1012_BC_uniq1.fastq
+WARN	Kmer Content	1012_BC_uniq1.fastq
