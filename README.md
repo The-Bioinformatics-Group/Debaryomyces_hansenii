@@ -102,8 +102,12 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - To check is it is worth it to continue trying to improve the assembly. 
 
-- Still not put into git.
+- Can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/Coverage_only06and12.md). Not many diferences between before and after removing duplicates.
 
 ##### 15. Debaryomyces Quality Assessment Report
 
 - From Mahesh. Found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/DebaryomycesQualityAssessmentReport.docx).
+
+##### 16. Coverage of all the raw data of all the strains.
+
+- Table of coverages [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/Coverage.md). Some have really bad coverages, impossible to improve assembly. Those should be sequenced again.
