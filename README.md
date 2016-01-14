@@ -111,3 +111,9 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 ##### 16. Coverage of all the raw data of all the strains.
 
 - Table of coverages [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/Coverage.md). Some have really bad coverages, impossible to improve assembly. Those should be sequenced again.
+
+##### 17. Compare weird strains with CBS767 to check regions in common
+
+- Done with blastn and parsing resulting table, results [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767)
+
+- Check results comparing them with other strains known to be Debaryomyces hansenii (In the same folder).
