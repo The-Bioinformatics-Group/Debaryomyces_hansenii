@@ -78,18 +78,3 @@ Use of a script from Tomas Larsson to keep only hits that are at least 1000 base
 		$ sort -k 3 -n -r cbs767_09_parse.out > cbs767_09_parseSorted.out
 
 Results:
-
-- [1006](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767/cbs767_06_parseSorted.out)
-
-- [1012](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767/cbs767_12_parseSorted.out)
-
-- [1010](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767/cbs767_10_parseSorted.out)
-
-- [1019](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767/cbs767_19_parseSorted.out)
-
-- [1002](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767/cbs767_02_parseSorted.out)
-
-- [1017](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767/cbs767_17_parseSorted.out)
-
-- [1009](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767/cbs767_09_parseSorted.out)
-
