@@ -117,3 +117,7 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 - Done with blastn and parsing resulting table, results [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Compare_weirdstrains_vs_cbs767)
 
 - Check results comparing them with other strains known to be Debaryomyces hansenii (In the same folder).
+
+#### Fourth meeting - 22nd of January, [report](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/meeting22january.pdf).
+
+- Conclusions for next steps: SNP calling, phylogeny.
