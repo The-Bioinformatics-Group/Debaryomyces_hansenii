@@ -21,6 +21,8 @@ Work_files/rawdata_workfolder/VarScan/VarScan_mpileup2cns_Deha
 data_references/
 Work_files/rawdata_workfolder/raw_reads/
 Work_files/reference/*.fna
+Work_files/reference/*.faa
+Work_files/reference/*.gff
 Work_files/rawdata_workfolder/Bowtie2mapping_ATCC6260/*.sam
 Work_files/rawdata_workfolder/Bowtie2mapping_ATCC6260/*.fastq
 Work_files/rawdata_workfolder/Bowtie2mapping_ATCC6260/*.bt2
