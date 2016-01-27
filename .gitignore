@@ -77,3 +77,8 @@ Work_files/merce_assemblies_workfolder/06_and_12_first_test/1012_SOAPdenovo_k25.
 Work_files/merce_assemblies_workfolder/06_and_12_first_test/1012_SOAPdenovo_k25.vertex
 Work_files/rawdata_workfolder/PreQC/1012_k25.err
 Work_files/rawdata_workfolder/PreQC/1012_k25.log
+
+/Work_files/Only_Debaryomyceshansenii/*.bam
+/Work_files/Only_Debaryomyceshansenii/Hybrids/*.bam
+/Work_files/Only_Debaryomyceshansenii/Others/*.bam
+/Work_files/Only_Debaryomyceshansenii/Sc/*.bam
