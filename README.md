@@ -121,3 +121,11 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 #### Fourth meeting - 22nd of January, [report](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/meeting22january.pdf).
 
 - Conclusions for next steps: SNP calling, phylogeny.
+
+##### 18. Pre-Variant calling
+
+- Alignment - Already done in step 2 with Bowtie2. Usage was found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/Bowtie2mapping_CBS767reference).
+
+- Remove PCR duplicates - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/RemovePCRduplicates)
+
+- 
