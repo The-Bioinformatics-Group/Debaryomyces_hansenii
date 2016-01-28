@@ -132,4 +132,6 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Local realignment/BAQ - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/BAQ).
 
-- Freebayes
+##### 19. Variant calling - Freebayes
+
+- Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Freebayes).
