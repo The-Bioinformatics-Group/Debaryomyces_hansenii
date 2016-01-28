@@ -130,4 +130,6 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Add read groups - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/AddOrReplaceReadGroups).
 
-- Local realignment/BAQ 
+- Local realignment/BAQ - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/BAQ).
+
+- Freebayes
