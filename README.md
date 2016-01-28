@@ -126,12 +126,12 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Alignment - Already done in step 2 with Bowtie2. Usage was found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/Bowtie2mapping_CBS767reference).
 
-- Remove PCR duplicates - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/RemovePCRduplicates)
+- Remove PCR duplicates - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/RemovePCRduplicates)
 
-- Add read groups - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/AddOrReplaceReadGroups).
+- Add read groups - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/AddOrReplaceReadGroups).
 
-- Local realignment/BAQ - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/BAQ).
+- Local realignment/BAQ - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/BAQ).
 
 ##### 19. Variant calling - Freebayes
 
-- Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Freebayes).
+- Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/Freebayes).
