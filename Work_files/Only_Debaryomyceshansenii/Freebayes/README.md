@@ -9,7 +9,7 @@ Index all bam files from pre-variant calling steps
 
 - content of Deha.txt
 
-"""
+```
 /data02/merce/Only_Debaryomyceshansenii/1001_AH_rmDUP_readGROUP_BAQ.bam
 /data02/merce/Only_Debaryomyceshansenii/1001_BC_rmDUP_readGROUP_BAQ.bam
 /data02/merce/Only_Debaryomyceshansenii/1002_AH_rmDUP_readGROUP_BAQ.bam
@@ -34,4 +34,4 @@ Index all bam files from pre-variant calling steps
 /data02/merce/Only_Debaryomyceshansenii/1016_BC_rmDUP_readGROUP_BAQ.bam
 /data02/merce/Only_Debaryomyceshansenii/1019_AH_rmDUP_readGROUP_BAQ.bam
 /data02/merce/Only_Debaryomyceshansenii/1019_BC_rmDUP_readGROUP_BAQ.bam
-"""
+```
