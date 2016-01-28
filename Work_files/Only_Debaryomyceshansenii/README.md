@@ -1,4 +1,16 @@
-### Variant calling
+Only using Debaryomyces hansenii strains
+
+12 strains with 2 libraries each:
+
+1001, 1002, 1003, 1004, 1005, 1007, 1008, 1013, 1014, 1015, 1016, 1019
+
+
+Libraries: AH and BC
+
+(Comes from AH9BY4ADXX and BC47HDACXX)
+
+
+## Variant calling
 
 #### Pre-variant calling
 
@@ -6,6 +18,14 @@
 
 - Remove PCR duplicates, using picard tools.
 
-- Local realignment / BAQ
-
 - AddOrReplaceReadGroups (To use Freebayes cohort variant calling)
+
+- Local realignment/BAQ
+
+#### Freebayes
+
+- Cohort analysis without filtering. 
+
+#### Post-variant calling
+
+- Filter vcf file
