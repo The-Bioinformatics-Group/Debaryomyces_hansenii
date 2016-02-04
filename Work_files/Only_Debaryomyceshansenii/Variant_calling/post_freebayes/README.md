@@ -130,3 +130,12 @@ GCA_000006445.2.29.reference : ftp.ensemblgenomes.org
         GCA_000006445.2.29.F.codonTable : Alternative_Yeast_Nuclear
         GCA_000006445.2.29.G.codonTable : Alternative_Yeast_Nuclear
 ```
+
+
+#### variants
+
+280133 protein coding variants
+
+103604 missense variants
+
+175837 synonymous variants
