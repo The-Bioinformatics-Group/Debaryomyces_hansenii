@@ -71,6 +71,7 @@ CR382139.2 (G)
 
 - Change chromosome names on vcf file:
 
+
 	$ sed 's/CR382133.2/CR382133/' Deha_all_snp_indel.vcf > Deha1chrm.vcf
 
 	$ sed 's/CR382134.2/B/' Deha1chrm.vcf > Deha2chrm.vcf
@@ -93,4 +94,15 @@ When running snpEff and SnpSift it doesn't count the different strains genotypes
 Using vcffilter I could filter them, but still not extract fields to create a table:
 
 	$ ~/vcflib/bin/vcffilter -g "DP > 10" Deha_finalvcf.vcf > Deha_vcffilter10DPg.vcf
+
+
+#### Counting snps and indels:
+
+Number of snps: ~ 342649
+
+Number of ins: ~ 9753
+
+Number of del: ~ 10266
+
+Number of complex variations: ~ 55128
 
