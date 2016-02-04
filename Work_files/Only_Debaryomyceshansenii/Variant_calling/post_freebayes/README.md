@@ -62,11 +62,17 @@ It doesn't work. Error "No chromosome (nr chromosome) found" in every line.
 Original names:
 
 CR382133.2 (CR382133)
+
 CR382134.2 (B)
+
 CR382135.2 (C)
+
 CR382136.2 (CR382136)
+
 CR382137.2 (E)
+
 CR382138.2 (F)
+
 CR382139.2 (G)
 
 - Change chromosome names on vcf file:
@@ -106,3 +112,21 @@ Number of del: ~ 10266
 
 Number of complex variations: ~ 55128
 
+
+**Other problem:**
+
+snpEff has Debaryomyces hansenii as standard codon, when it should be the Alternative_Yeast_Nuclear
+
+Solved on snpEff.config file:
+
+```
+GCA_000006445.2.29.genome : Debaryomyces_hansenii_cbs767
+GCA_000006445.2.29.reference : ftp.ensemblgenomes.org
+        GCA_000006445.2.29.CR382133.codonTable : Alternative_Yeast_Nuclear
+        GCA_000006445.2.29.B.codonTable : Alternative_Yeast_Nuclear
+        GCA_000006445.2.29.C.codonTable : Alternative_Yeast_Nuclear
+        GCA_000006445.2.29.CR382136.codonTable : Alternative_Yeast_Nuclear
+        GCA_000006445.2.29.E.codonTable : Alternative_Yeast_Nuclear
+        GCA_000006445.2.29.F.codonTable : Alternative_Yeast_Nuclear
+        GCA_000006445.2.29.G.codonTable : Alternative_Yeast_Nuclear
+```
