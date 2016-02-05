@@ -41,7 +41,7 @@ Index all bam files from pre-variant calling steps
 - Example of command:
 
 
-	$ freebayes --fasta-reference reference/GCA_000006445.2_ASM644v2_genomic.fna --ploidy 1 --bam 1001_AH_rmDUP_readGROUP_BAQ.bam > Individual_freebayes/1001_AH.vcf
+		$ freebayes --fasta-reference reference/GCA_000006445.2_ASM644v2_genomic.fna --ploidy 1 --bam 1001_AH_rmDUP_readGROUP_BAQ.bam > Individual_freebayes/1001_AH.vcf
 
 
 - All commands on bash file: [freebayes_individualDeha.sh](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/Freebayes/freebayes_individualDeha.sh).
