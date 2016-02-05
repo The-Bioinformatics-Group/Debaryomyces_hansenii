@@ -82,3 +82,4 @@ Work_files/rawdata_workfolder/PreQC/1012_k25.log
 /Work_files/Only_Debaryomyceshansenii/Hybrids/*.bam
 /Work_files/Only_Debaryomyceshansenii/Others/*.bam
 /Work_files/Only_Debaryomyceshansenii/Sc/*.bam
+/Work_files/Only_Debaryomyceshansenii/Variant_calling/post_freebayes/VCF/*
