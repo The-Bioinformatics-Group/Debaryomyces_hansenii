@@ -78,19 +78,19 @@ CR382139.2 (G)
 - Change chromosome names on vcf file:
 
 
-	$ sed 's/CR382133.2/CR382133/' Deha_all_snp_indel.vcf > Deha1chrm.vcf
+		$ sed 's/CR382133.2/CR382133/' Deha_all_snp_indel.vcf > Deha1chrm.vcf
+	
+		$ sed 's/CR382134.2/B/' Deha1chrm.vcf > Deha2chrm.vcf
 
-	$ sed 's/CR382134.2/B/' Deha1chrm.vcf > Deha2chrm.vcf
+		$ sed 's/CR382135.2/C/' Deha2chrm.vcf > Deha3chrm.vcf
 
-	$ sed 's/CR382135.2/C/' Deha2chrm.vcf > Deha3chrm.vcf
+		$ sed 's/CR382136.2/CR382136/' Deha3chrm.vcf > Deha4chrm.vcf
 
-	$ sed 's/CR382136.2/CR382136/' Deha3chrm.vcf > Deha4chrm.vcf
+		$ sed 's/CR382137.2/E/' Deha4chrm.vcf > Deha5chrm.vcf
 
-	$ sed 's/CR382137.2/E/' Deha4chrm.vcf > Deha5chrm.vcf
+		$ sed 's/CR382138.2/F/' Deha5chrm.vcf > Deha6chrm.vcf
 
-	$ sed 's/CR382138.2/F/' Deha5chrm.vcf > Deha6chrm.vcf
-
-	$ sed 's/CR382139.2/G/' Deha6chrm.vcf > Deha_finalvcf.vcf
+		$ sed 's/CR382139.2/G/' Deha6chrm.vcf > Deha_finalvcf.vcf
 
 
 PROBLEM
