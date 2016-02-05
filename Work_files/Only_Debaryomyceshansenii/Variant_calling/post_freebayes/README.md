@@ -9,7 +9,7 @@ It doesn't work. Error "No chromosome (nr chromosome) found" in every line.
 
 - Check chromosome names in snpEff database:
 
-	$ java -jar ~/snpEff/snpEff.jar -v GCA_000006445.2.29
+		$ java -jar ~/snpEff/snpEff.jar -v GCA_000006445.2.29
 
 
 ```
