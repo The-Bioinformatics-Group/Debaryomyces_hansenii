@@ -8,7 +8,7 @@ Index of the reference genome sequence CBS767:
 
 Alignment done in weird strains and 2 control strains of *Debaryomyces hansenii*
 
-[pipeline]()
+[pipeline](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/rawdata_workfolder/Bowtie2mapping_CBS789/mapping_debfab_deha.sh)
 
 ## Results
 
