@@ -144,4 +144,8 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/VarScan).
 
+##### 22. Bowtie2 mapping against Debaryomyces fabryi
 
+- Because of the [publication of its genome](http://genomea.asm.org/content/4/1/e01580-15.long)
+
+- Results [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/Bowtie2mapping_CBS789)
