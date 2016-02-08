@@ -11,4 +11,18 @@ Disable BAQ computation:
 
 #### VarScan
 
+	$  java -jar ~/VarScan.v2.3.9.jar mpileup2snp mpileup_Deha.mpileup > varscan_deha_snp_mpileupBAQ.vcf
 
+
+	$ java -jar ~/VarScan.v2.3.9.jar mpileup2snp mpileup_Deha_withoutBAQ.mpileup > varscan_deha_snp_mpileup.vcf
+
+
+Â```
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.2
+Min avg qual:	15
+P-value thresh:	0.01
+```
