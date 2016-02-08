@@ -140,4 +140,8 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Problems and pipeline [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/post_freebayes).
 
-¤¤ 
+##### 21. VarScan
+
+- Usage [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/VarScan).
+
+
