@@ -1,4 +1,4 @@
-## Mapping of the raw reads using Saccharomyces cerevisiae as a reference
+## Mapping of the raw reads using Meyerozyma guillermondii as a reference
 Reference used:
 
 - *Meyerozyma guilliermondii* ATCC 6260:
