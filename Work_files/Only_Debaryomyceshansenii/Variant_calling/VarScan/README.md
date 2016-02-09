@@ -26,3 +26,18 @@ Min var freq:	0.2
 Min avg qual:	15
 P-value thresh:	0.01
 ```
+
+	$ java -jar ~/VarScan.v2.3.9.jar mpileup2indel mpileup_Deha.mpileup > varscan_deha_indel_mpileupBAQ.vcf
+
+	
+	$ java -jar ~/VarScan.v2.3.9.jar mpileup2indel mpileup_Deha_withoutBAQ.mpileup > varscan_deha_indel_mpileup.vcf
+
+```
+Only indels will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.2
+Min avg qual:	15
+P-value thresh:	0.01
+```
