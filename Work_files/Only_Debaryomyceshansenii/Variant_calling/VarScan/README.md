@@ -11,6 +11,7 @@ Disable BAQ computation:
 
 #### VarScan
 
+##### SNPs
 	$  java -jar ~/VarScan.v2.3.9.jar mpileup2snp mpileup_Deha.mpileup > varscan_deha_snp_mpileupBAQ.vcf
 
 
@@ -26,6 +27,8 @@ Min var freq:	0.2
 Min avg qual:	15
 P-value thresh:	0.01
 ```
+
+##### Indels
 
 	$ java -jar ~/VarScan.v2.3.9.jar mpileup2indel mpileup_Deha.mpileup > varscan_deha_indel_mpileupBAQ.vcf
 
