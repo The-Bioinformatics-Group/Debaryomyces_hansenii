@@ -42,6 +42,8 @@ sed -e 's/CR382133.2/CR382133/g' -e 's/CR382134.2/B/g' -e 's/CR382135.2/C/g' -e 
 
 sed -e 's/CR382133.2/CR382133/g' -e 's/CR382134.2/B/g' -e 's/CR382135.2/C/g' -e 's/CR382136.2/CR382136/g' -e 's/CR382137.2/E/g' -e 's/CR382138.2/F/g' -e 's/CR382139.2/G/g' 1016_AH.vcf > 1016_AH_finalvcf.vcf
 
+sed -e 's/CR382133.2/CR382133/g' -e 's/CR382134.2/B/g' -e 's/CR382135.2/C/g' -e 's/CR382136.2/CR382136/g' -e 's/CR382137.2/E/g' -e 's/CR382138.2/F/g' -e 's/CR382139.2/G/g' 1016_BC.vcf > 1016_BC_finalvcf.vcf
+
 sed -e 's/CR382133.2/CR382133/g' -e 's/CR382134.2/B/g' -e 's/CR382135.2/C/g' -e 's/CR382136.2/CR382136/g' -e 's/CR382137.2/E/g' -e 's/CR382138.2/F/g' -e 's/CR382139.2/G/g' 1019_AH.vcf > 1019_AH_finalvcf.vcf
 
 sed -e 's/CR382133.2/CR382133/g' -e 's/CR382134.2/B/g' -e 's/CR382135.2/C/g' -e 's/CR382136.2/CR382136/g' -e 's/CR382137.2/E/g' -e 's/CR382138.2/F/g' -e 's/CR382139.2/G/g' 1019_BC.vcf > 1019_BC_finalvcf.vcf
