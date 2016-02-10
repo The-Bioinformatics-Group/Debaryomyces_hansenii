@@ -26,6 +26,18 @@ Libraries: AH and BC
 
 - Cohort analysis without filtering. 
 
+- Individual analysis without filtering.
+
 #### Post-variant calling
 
 - Filter vcf file
+
+- snpEff
+
+#### VarScan
+
+- Mpileup analysis using default settings.
+
+#### Post-variant calling
+
+- snpEff
