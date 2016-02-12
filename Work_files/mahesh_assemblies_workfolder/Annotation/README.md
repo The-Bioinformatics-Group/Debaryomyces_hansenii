@@ -244,3 +244,9 @@ clean_up=0 #removes theVoid directory with individual analysis files, 1 = yes, 0
 TMP= #specify a directory other than the system default temporary directory for temporary files
 ```
 
+### Important information!
+
+Not available alternative codon tables.
+
+Codon usage by *D. hansenii* deviates from the universal genetic code. The **CUG** codon (usually encoding leucine) is used as a codon for serine, which is read by the special, single copy tRNA-Ser (CAG), as already described for 10 species of the genus *Candida*.
+
