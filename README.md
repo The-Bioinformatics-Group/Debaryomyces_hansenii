@@ -158,4 +158,7 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Results freebayes [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/README.md).
 
+##### 25. Annotation using Maker
+
+- Initial information about control files [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Annotation/README.md)
 
