@@ -149,3 +149,13 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 - Because of the [publication of its genome](http://genomea.asm.org/content/4/1/e01580-15.long)
 
 - Results [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/rawdata_workfolder/Bowtie2mapping_CBS789)
+
+##### 23. Post-varscan
+
+- [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/post_varscan)
+
+##### 24. Variant calling in numbers
+
+- Results freebayes [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/README.md).
+
+
