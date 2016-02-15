@@ -2,7 +2,7 @@
 Mapping the raw reads to the reference CBS789 (*Debaryomyces fabryi*).
 
 ## Mapping
-Index of the reference genome sequence CBS767:
+Index of the reference genome sequence CBS789:
 
 	$ bowtie2-build GCA_001447935.1_debFab1.0_genomic.fna Reference_DebFab
 
