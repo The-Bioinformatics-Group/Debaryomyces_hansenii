@@ -87,6 +87,8 @@ merce@dna:/data02/merce/maker/cbs767/test2/GCA_000006445.2_ASM644v2_genomic.make
 
 			- theVoid.CR382135.2
 
+				contains raw output files from all the programs MAKER runs (Blast, SNAP, RepeatMasker, etc.). You can usually ignore this directory and its contents. 
+
 				```
 				0                                 CR382135%2E2.14.pred.raw.section  CR382135%2E2.6.raw.section       evidence_6.gff
 				1                                 CR382135%2E2.14.raw.section       CR382135%2E2.7-8.raw.section     evidence_7.gff
