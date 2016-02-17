@@ -77,26 +77,109 @@ merce@dna:/data02/merce/maker/cbs767/test2/GCA_000006445.2_ASM644v2_genomic.make
 
 		- CR382135.2
 
+```
+CR382135%2E2.gff  run.log  theVoid.CR382135.2
+```
+
+			- CR382135%2E2.gff: gff annotation file for that contig.
+
+			- run.log: log file of the analysis of that contig.
+
+			- theVoid.CR382135.2
+
 - 25
 
 	- 60
+
+		- CR382139.2
+
+```
+CR382139%2E2.gff  run.log  theVoid.CR382139.2
+```
+
+			- CR382139%2E2.gff: gff annotation file for that contig.
+
+			- run.log: log file of the analysis of that contig.
+
+			- theVoid.CR382139.2
 
 - AB
 
 	- D9
 
+		- CR382133.2
+
+```
+CR382133%2E2.gff  run.log  theVoid.CR382133.2
+```
+
+			- CR382133%2E2.gff: gff annotation file for that contig.
+
+			- run.log: log file of the analysis of that contig.
+
+			- theVoid.CR382133.2
+
 - B7
 
 	- DF
+
+		- CR382134.2
+
+```
+CR382134%2E2.gff  run.log  theVoid.CR382134.2
+```
+
+			- CR382134%2E2.gff: gff annotation file for that contig.
+
+			- run.log: log file of the analysis of that contig.
+
+			- theVoid.CR382134.2
 
 - BD
 
 	- 94
 
+		- CR382136.2
+
+```
+CR382136%2E2.gff  run.log  theVoid.CR382136.2
+```
+
+			- CR382136%2E2.gff: gff annotation file for that contig.
+
+			- run.log: log file of the analysis of that contig.
+
+			- theVoid.CR382136.2
+
 - DE
 
 	- 65
 
+		- CR382138.2
+
+```
+CR382138%2E2.gff  run.log  theVoid.CR382138.2
+```
+
+			- CR382138%2E2.gff: gff annotation file for that contig.
+
+			- run.log: log file of the analysis of that contig.
+
+			- theVoid.CR382138.2
+
+
 - EF
 
 	- 9A
+
+		- CR382137.2
+
+			```
+			CR382137%2E2.gff  run.log  theVoid.CR382137.2
+			```
+
+			- CR382137%2E2.gff: gff annotation file for that contig.
+
+			- run.log: log file of the analysis of that contig.
+
+			- theVoid.CR382137.2
