@@ -56,7 +56,7 @@ wget ftp://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/RefSeqGene/*genomic*fna* -P ~/k
 
 #gunzip
 
-guzip ~/kraken/kraken_db/all_fungi_$now/*.gz
+gunzip ~/kraken/kraken_db/all_fungi_$now/*.gz
 
 gunzip ~/kraken/kraken_db/human_$now/*.gz
 
