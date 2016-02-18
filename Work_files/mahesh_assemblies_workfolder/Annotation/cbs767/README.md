@@ -288,3 +288,22 @@ Contains all the references used and indexed:
 	te_proteins%2Efasta.mpi.10.1.index  te_proteins%2Efasta.mpi.10.4        te_proteins%2Efasta.mpi.10.6.index  te_proteins%2Efasta.mpi.10.9
 	te_proteins%2Efasta.mpi.10.2        te_proteins%2Efasta.mpi.10.4.index  te_proteins%2Efasta.mpi.10.7        te_proteins%2Efasta.mpi.10.9.index
 	```
+
+### On test3, modifyied control files to get protein and transcript files:
+
+```
+merce@dna:/data02/merce/maker/cbs767/test3/GCA_000006445.2_ASM644v2_genomic.maker.output/GCA_000006445.2_ASM644v2_genomic_datastore$ ls 25/60/CR382139.2/
+CR382139%2E2.gff  CR382139%2E2.maker.proteins.fasta  CR382139%2E2.maker.transcripts.fasta  run.log  theVoid.CR382139.2
+merce@dna:/data02/merce/maker/cbs767/test3/GCA_000006445.2_ASM644v2_genomic.maker.output/GCA_000006445.2_ASM644v2_genomic_datastore$ ls AB/D9/CR382133.2/
+CR382133%2E2.gff  CR382133%2E2.maker.proteins.fasta  CR382133%2E2.maker.transcripts.fasta  run.log  theVoid.CR382133.2
+merce@dna:/data02/merce/maker/cbs767/test3/GCA_000006445.2_ASM644v2_genomic.maker.output/GCA_000006445.2_ASM644v2_genomic_datastore$ ls B7/DF/CR382134.2/
+CR382134%2E2.gff  CR382134%2E2.maker.proteins.fasta  CR382134%2E2.maker.transcripts.fasta  run.log  theVoid.CR382134.2
+merce@dna:/data02/merce/maker/cbs767/test3/GCA_000006445.2_ASM644v2_genomic.maker.output/GCA_000006445.2_ASM644v2_genomic_datastore$ ls BD/94/CR382136.2/
+CR382136%2E2.gff  CR382136%2E2.maker.proteins.fasta  CR382136%2E2.maker.transcripts.fasta  run.log  theVoid.CR382136.2
+merce@dna:/data02/merce/maker/cbs767/test3/GCA_000006445.2_ASM644v2_genomic.maker.output/GCA_000006445.2_ASM644v2_genomic_datastore$ ls DE/65/CR382138.2/
+CR382138%2E2.gff  CR382138%2E2.maker.proteins.fasta  CR382138%2E2.maker.transcripts.fasta  run.log  theVoid.CR382138.2
+merce@dna:/data02/merce/maker/cbs767/test3/GCA_000006445.2_ASM644v2_genomic.maker.output/GCA_000006445.2_ASM644v2_genomic_datastore$ ls EF/9A/CR382137.2/
+CR382137%2E2.gff  CR382137%2E2.maker.proteins.fasta  CR382137%2E2.maker.transcripts.fasta  run.log  theVoid.CR382137.2
+merce@dna:/data02/merce/maker/cbs767/test3/GCA_000006445.2_ASM644v2_genomic.maker.output/GCA_000006445.2_ASM644v2_genomic_datastore$ ls 1C/EB/CR382135.2/
+CR382135%2E2.gff  CR382135%2E2.maker.proteins.fasta  CR382135%2E2.maker.transcripts.fasta  run.log  theVoid.CR382135.2
+```
