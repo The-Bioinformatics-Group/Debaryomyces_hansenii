@@ -386,7 +386,7 @@ kraken --threads 24 --db ~/kraken/kraken_db/standard_db_$now --fastq-input /home
 1> ~/kraken/kraken_standard$now/raw_reads/results/1019BC2_stdkraken.kraken 2> ~/kraken/kraken_standard$now/raw_reads/log_files/1019BC2kraken.log
 
 #
-#Kraken first output:
+#Description of kraken first output:
 #Each sequence classified by Kraken results in a single line of output. Output lines contain five tab-delimited fields; from left to right, they are:
 #
 #    "C"/"U": one letter code indicating that the sequence was either classified or unclassified.
@@ -462,3 +462,550 @@ kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standa
 kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1019_stdkraken.kraken \
 1> ~/kraken/kraken_standard$now/assemblies/results/1019_stdkraken.labels 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1019kraken.log
 
+
+#Kraken translate on raw reads:
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1001AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1001AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1001AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1001AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1001AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1001AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1001BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1001BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1001BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1001BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1001BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1001BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1002AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1002AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1002AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1002AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1002AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1002AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1002BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1002BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1002BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1002BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1002BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1002BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1003AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1003AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1003AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1003AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1003AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1003AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1003BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1003BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1003BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1003BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1003BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1003BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1004AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1004AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1004AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1004AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1004AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1004AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1004BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1004BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1004BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1004BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1004BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1004BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1005AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1005AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1005AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1005AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1005AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1005AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1005BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1005BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1005BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1005BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1005BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1005BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1006AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1006AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1006AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1006AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1006AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1006AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1006BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1006BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1006BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1006BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1006BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1006BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1007AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1007AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1007AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1007AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1007AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1007AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1007BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1007BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1007BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1007BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1007BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1007BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1008AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1008AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1008AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1008AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1008AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1008AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1008BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1008BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1008BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1008BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1008BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1008BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1009AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1009AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1009AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1009AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1009AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1009AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1009BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1009BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1009BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1009BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1009BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1009BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1010AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1010AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1010AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1010AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1010AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1010AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1010BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1010BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1010BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1010BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1010BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1010BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1011AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1011AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1011AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1011AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1011AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1011AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1011BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1011BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1011BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1011BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1011BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1011BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1012AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1012AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1012AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1012AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1012AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1012AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1012BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1012BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1012BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1012BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1012BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1012BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1013AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1013AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1013AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1013AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1013AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1013AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1013BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1013BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1013BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1013BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1013BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1013BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1014AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1014AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1014AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1014AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1014AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1014AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1014BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1014BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1014BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1014BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1014BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1014BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1015AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1015AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1015AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1015AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1015AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1015AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1015BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1015BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1015BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1015BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1015BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1015BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1016AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1016AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1016AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1016AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1016AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1016AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1016BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1016BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1016BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1016BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1016BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1016BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1017AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1017AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1017AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1017AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1017AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1017AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1017BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1017BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1017BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1017BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1017BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1017BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1018AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1018AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1018AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1018AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1018AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1018AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1018BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1018BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1018BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1018BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1018BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1018BC2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1019AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1019AH1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1019AH1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1019AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1019AH2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1019AH2kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1019BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1019BC1_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1019BC1kraken.log
+
+kraken-translate --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1019BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1019BC2_stdkraken.labels 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1019BC2kraken.log
+
+#
+#Description of kraken translate output:
+#
+#It only reports classified sequences, the output format generated is a text file with two tab-delimited columns and one line for each sequence.
+#The first column is the sequence ID of the classified sequences, and the second column contains the taxonomy of the sequence. 
+#Example: SEQ1 root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Escherichia;Escherichia coli
+#
+
+
+#Kraken report
+
+#kraken report on assemblies:
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1001_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1001_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1001kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1002_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1002_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1002kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1003_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1003_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1003kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1004_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1004_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1004kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1005_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1005_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1005kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1006_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1006_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1006kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1007_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1007_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1007kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1008_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1008_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1008kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1009_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1009_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1009kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1010_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1010_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1010kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1011_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1011_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1011kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1012_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1012_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1012kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1013_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1013_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1013kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1014_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1014_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1014kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1015_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1015_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1015kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1016_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1016_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1016kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1017_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1017_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1017kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1018_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1018_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1018kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/assemblies/results/1019_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/assemblies/results/1019_stdkraken.report 2>> ~/kraken/kraken_standard$now/assemblies/log_files/1019kraken.log
+
+
+#Kraken report on raw reads:
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1001AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1001AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1001AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1001AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1001AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1001AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1001BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1001BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1001BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1001BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1001BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1001BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1002AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1002AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1002AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1002AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1002AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1002AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1002BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1002BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1002BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1002BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1002BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1002BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1003AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1003AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1003AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1003AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1003AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1003AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1003BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1003BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1003BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1003BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1003BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1003BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1004AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1004AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1004AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1004AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1004AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1004AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1004BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1004BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1004BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1004BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1004BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1004BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1005AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1005AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1005AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1005AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1005AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1005AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1005BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1005BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1005BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1005BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1005BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1005BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1006AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1006AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1006AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1006AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1006AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1006AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1006BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1006BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1006BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1006BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1006BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1006BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1007AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1007AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1007AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1007AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1007AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1007AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1007BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1007BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1007BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1007BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1007BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1007BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1008AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1008AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1008AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1008AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1008AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1008AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1008BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1008BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1008BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1008BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1008BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1008BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1009AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1009AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1009AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1009AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1009AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1009AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1009BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1009BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1009BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1009BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1009BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1009BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1010AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1010AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1010AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1010AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1010AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1010AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1010BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1010BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1010BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1010BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1010BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1010BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1011AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1011AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1011AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1011AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1011AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1011AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1011BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1011BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1011BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1011BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1011BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1011BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1012AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1012AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1012AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1012AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1012AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1012AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1012BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1012BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1012BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1012BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1012BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1012BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1013AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1013AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1013AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1013AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1013AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1013AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1013BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1013BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1013BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1013BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1013BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1013BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1014AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1014AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1014AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1014AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1014AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1014AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1014BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1014BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1014BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1014BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1014BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1014BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1015AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1015AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1015AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1015AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1015AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1015AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1015BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1015BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1015BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1015BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1015BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1015BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1016AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1016AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1016AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1016AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1016AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1016AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1016BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1016BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1016BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1016BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1016BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1016BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1017AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1017AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1017AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1017AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1017AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1017AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1017BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1017BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1017BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1017BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1017BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1017BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1018AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1018AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1018AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1018AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1018AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1018AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1018BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1018BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1018BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1018BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1018BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1018BC2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1019AH1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1019AH1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1019AH1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1019AH2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1019AH2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1019AH2kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1019BC1_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1019BC1_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1019BC1kraken.log
+
+kraken-report --db ~/kraken/kraken_db/standard_db_$now ~/kraken/kraken_standard$now/raw_reads/results/1019BC2_stdkraken.kraken \
+1> ~/kraken/kraken_standard$now/raw_reads/results/1019BC2_stdkraken.report 2>> ~/kraken/kraken_standard$now/raw_reads/log_files/1019BC2kraken.log
+
+#
+#Description of kraken reports:
+#Used to get an idea of the kraken's results across the entire sample.
+#
+#The output is tab delimites, with one line per taxon. Fields:
+#
+#    Percentage of reads covered by the clade rooted at this taxon
+#    Number of reads covered by the clade rooted at this taxon
+#    Number of reads assigned directly to this taxon
+#    A rank code, indicating (U)nclassified, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. All other ranks are simply '-'.
+#    NCBI taxonomy ID
+#    indented scientific name
+#
+#The scientific names are indented using spaces, according to the tree structure specified by the taxonomy.
+#
