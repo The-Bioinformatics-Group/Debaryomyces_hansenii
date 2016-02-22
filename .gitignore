@@ -85,3 +85,5 @@ Work_files/rawdata_workfolder/PreQC/1012_k25.log
 /Work_files/Only_Debaryomyceshansenii/Variant_calling/post_freebayes/VCF/*
 
 /Work_files/Only_Debaryomyceshansenii/Variant_calling/post_varscan/results/*.html
+
+/Project_pipeline/intermediate_files/*
