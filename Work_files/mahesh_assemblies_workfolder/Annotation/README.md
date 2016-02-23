@@ -11,7 +11,9 @@ https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Wo
 
 Just use this command:
 
-```/usr/local/maker/bin/maker```
+```
+/usr/local/maker/bin/maker
+```
 
 inside the folder with the 3 control files.
 
