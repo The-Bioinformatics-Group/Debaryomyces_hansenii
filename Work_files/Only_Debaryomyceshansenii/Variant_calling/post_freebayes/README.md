@@ -8,7 +8,7 @@ Commands [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hanseni
 
 **Without filter**
 
-Commands (will soon be) [here]()
+Commands [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/post_freebayes/snpEff_individualfreebayes_nofilter.sh)
 
 #### Cohort analysis
 

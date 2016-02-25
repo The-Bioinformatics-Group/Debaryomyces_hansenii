@@ -167,3 +167,9 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 - Analysis and results of the *D. hansenii* strains [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Annotation/README.md)
 
 - Different strains still running.
+
+##### 26. Repeat post-Variant calling freebayes - without filtering
+
+- All the info can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/post_freebayes).
+
+
