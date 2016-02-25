@@ -245,4 +245,4 @@ grep -c -e">" /data02/merce/maker/1012/maker_debestprot/transcripts/1012_deb_tra
 |      |1006|1009|1010|1011|1012|
 |------|----|----|----|----|----|
 |deb   |5934|    |6099|    |5830|
-|candeb|
+|candeb|    |    |    |    |5823|
