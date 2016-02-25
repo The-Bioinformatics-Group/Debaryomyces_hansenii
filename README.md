@@ -164,3 +164,6 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - First tests on CBS767. Control files [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Annotation/cbs767)
 
+- Analysis and results of the *D. hansenii* strains [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Annotation/README.md)
+
+- Different strains still running.
