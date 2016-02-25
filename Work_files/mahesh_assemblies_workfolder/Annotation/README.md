@@ -51,10 +51,18 @@ inside the folder with the 3 control files.
 
 - Different strains:
 
-Not analyzed yet.
+[1006](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Annotation/1006)
+
+[1009](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Annotation/1009)
+
+[1010](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Annotation/1010)
+
+[1011](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Annotation/1011)
+
+[1012](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Annotation/1012)
 
 
-#### Results
+#### Results for *D. hansenii* strains:
 
 A description of how the results are presented can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/mahesh_assemblies_workfolder/Annotation/cbs767/README.md)
 
