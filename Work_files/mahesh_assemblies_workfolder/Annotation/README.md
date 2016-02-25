@@ -236,7 +236,13 @@ cp /data02/merce/maker/1012/maker_candebestprot/P1260_1012_preliminary_assembly.
 cat /data02/merce/maker/1012/maker_candebestprot/transcripts/* >> /data02/merce/maker/1012/maker_candebestprot/transcripts/1012_candeb_transcripts.fasta
 ```
 
+**Number of transcripts**
+
+```
+grep -c -e">" /data02/merce/maker/1012/maker_debestprot/transcripts/1012_deb_transcripts.fasta
+```
+
 |      |1006|1009|1010|1011|1012|
 |------|----|----|----|----|----|
-|deb   |6326|6064|6401|6097|    |
+|deb   |    |    |    |    |5830|
 |candeb|
