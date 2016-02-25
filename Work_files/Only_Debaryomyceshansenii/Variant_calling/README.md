@@ -129,6 +129,68 @@ Of which come from complex variants:
 9813
 ```
 
+#### Variants of Individual_freebayes/nofilter/1001AH_freebayes_individual_nofilter_snpEff
+
+```
+SNPs
+257858
+Indels
+13129
+Complex variants:
+41072
+SNPs on protein coding regions:
+196909
+Indels on protein coding regions:
+1665
+Missense variants on protein coding regions:
+79516 Individual_freebayes/nofilter/1001AH_freebayes_individual_nofilter_snpEff_protcod_missense.vcf
+Of which come from SNPs:
+58512
+Of which come from Indels:
+32
+Of which come from complex variants:
+14796
+Synonymous variants on protein coding regions:
+148091 Individual_freebayes/nofilter/1001AH_freebayes_individual_nofilter_snpEff_protcod_synonymous.vcf
+Of which come from SNPs:
+137975
+Of which come from Indels:
+23
+Of which come from complex variants:
+9755
+```
+
+#### Variants of Individual_freebayes/nofilter/1001BC_freebayes_individual_nofilter_snpEff
+
+```
+SNPs
+259553
+Indels
+13699
+Complex variants:
+42160
+SNPs on protein coding regions:
+196937
+Indels on protein coding regions:
+1729
+Missense variants on protein coding regions:
+79638 Individual_freebayes/nofilter/1001BC_freebayes_individual_nofilter_snpEff_protcod_missense.vcf
+Of which come from SNPs:
+58471
+Of which come from Indels:
+29
+Of which come from complex variants:
+14891
+Synonymous variants on protein coding regions:
+148221 Individual_freebayes/nofilter/1001BC_freebayes_individual_nofilter_snpEff_protcod_synonymous.vcf
+Of which come from SNPs:
+138044
+Of which come from Indels:
+21
+Of which come from complex variants:
+9813
+```
+
 #### Variants of Individual_freebayes/1002AH_freebayes_individual_filtered_snpEff
 
 ```
