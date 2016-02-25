@@ -165,3 +165,78 @@ grep -c -e">" /data02/merce/maker/cbs767/test3/transcripts/cbs767_transcripts.fa
 |Maker|6326  |6064|6401|6097|    |6327|6219|6326|6421|6096|6375|6153|6380|	
 |Ref  |6290  |    |    |    |    |    |    |    |    |    |    |    |5313|
 
+
+#### Results for non-*D. hansenii* strains:
+
+**Getting gff files into 1:**
+
+```
+cp /data02/merce/maker/1006/maker_debestprot/P1260_1006_preliminary_assembly.maker.output/P1260_1006_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1006/maker_debestprot/gff
+cat /data02/merce/maker/1006/maker_debestprot/gff/* >> /data02/merce/maker/1006/maker_debestprot/gff/1006_deb.gff
+
+cp /data02/merce/maker/1006/maker_candebestprot/P1260_1006_preliminary_assembly.maker.output/P1260_1006_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1006/maker_candebestprot/gff
+cat /data02/merce/maker/1006/maker_candebestprot/gff/* >> /data02/merce/maker/1006/maker_candebestprot/gff/1006_candeb.gff
+
+cp /data02/merce/maker/1009/maker_debestprot/P1260_1009_preliminary_assembly.maker.output/P1260_1009_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1009/maker_debestprot/gff
+cat /data02/merce/maker/1009/maker_debestprot/gff/* >> /data02/merce/maker/1009/maker_debestprot/gff/1009_deb.gff
+
+cp /data02/merce/maker/1009/maker_candebestprot/P1260_1009_preliminary_assembly.maker.output/P1260_1009_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1009/maker_candebestprot/gff
+cat /data02/merce/maker/1009/maker_candebestprot/gff/* >> /data02/merce/maker/1009/maker_candebestprot/gff/1009_candeb.gff
+
+cp /data02/merce/maker/1010/maker_debestprot/P1260_1010_preliminary_assembly.maker.output/P1260_1010_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1010/maker_debestprot/gff
+cat /data02/merce/maker/1010/maker_debestprot/gff/* >> /data02/merce/maker/1010/maker_debestprot/gff/1010_deb.gff
+
+cp /data02/merce/maker/1010/maker_candebestprot/P1260_1010_preliminary_assembly.maker.output/P1260_1010_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1010/maker_candebestprot/gff
+cat /data02/merce/maker/1010/maker_candebestprot/gff/* >> /data02/merce/maker/1010/maker_candebestprot/gff/1010_candeb.gff
+
+cp /data02/merce/maker/1011/maker_debestprot/P1260_1011_preliminary_assembly.maker.output/P1260_1011_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1011/maker_debestprot/gff
+cat /data02/merce/maker/1011/maker_debestprot/gff/* >> /data02/merce/maker/1011/maker_debestprot/gff/1011_deb.gff
+
+cp /data02/merce/maker/1011/maker_candebestprot/P1260_1011_preliminary_assembly.maker.output/P1260_1011_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1011/maker_candebestprot/gff
+cat /data02/merce/maker/1011/maker_candebestprot/gff/* >> /data02/merce/maker/1011/maker_candebestprot/gff/1011_candeb.gff
+
+cp /data02/merce/maker/1006/maker_debestprot/P1260_1012_preliminary_assembly.maker.output/P1260_1012_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1012/maker_debestprot/gff
+cat /data02/merce/maker/1006/maker_debestprot/gff/* >> /data02/merce/maker/1012/maker_debestprot/gff/1012_deb.gff
+
+cp /data02/merce/maker/1012/maker_candebestprot/P1260_1012_preliminary_assembly.maker.output/P1260_1012_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1012/maker_candebestprot/gff
+cat /data02/merce/maker/1012/maker_candebestprot/gff/* >> /data02/merce/maker/1012/maker_candebestprot/gff/1012_candeb.gff
+```
+
+**Getting the transcript files into 1:**
+
+```
+cp /data02/merce/maker/1006/maker_debestprot/P1260_1006_preliminary_assembly.maker.output/P1260_1006_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1006/maker_debestprot/transcripts
+cat /data02/merce/maker/1006/maker_debestprot/transcripts/* >> /data02/merce/maker/1006/maker_debestprot/transcripts/1006_deb_transcripts.fasta
+
+cp /data02/merce/maker/1006/maker_candebestprot/P1260_1006_preliminary_assembly.maker.output/P1260_1006_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1006/maker_candebestprot/transcripts
+cat /data02/merce/maker/1006/maker_candebestprot/transcripts/* >> /data02/merce/maker/1006/maker_candebestprot/transcripts/1006_candeb_transcripts.fasta
+
+cp /data02/merce/maker/1009/maker_debestprot/P1260_1009_preliminary_assembly.maker.output/P1260_1009_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1009/maker_debestprot/transcripts
+cat /data02/merce/maker/1009/maker_debestprot/transcripts/* >> /data02/merce/maker/1009/maker_debestprot/transcripts/1009_deb_transcripts.fasta
+
+cp /data02/merce/maker/1009/maker_candebestprot/P1260_1009_preliminary_assembly.maker.output/P1260_1009_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1009/maker_candebestprot/transcripts
+cat /data02/merce/maker/1009/maker_candebestprot/transcripts/* >> /data02/merce/maker/1009/maker_candebestprot/transcripts/1009_candeb_transcripts.fasta
+
+cp /data02/merce/maker/1010/maker_debestprot/P1260_1010_preliminary_assembly.maker.output/P1260_1010_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1010/maker_debestprot/transcripts
+cat /data02/merce/maker/1010/maker_debestprot/transcripts/* >> /data02/merce/maker/1010/maker_debestprot/transcripts/1010_deb_transcripts.fasta
+
+cp /data02/merce/maker/1010/maker_candebestprot/P1260_1010_preliminary_assembly.maker.output/P1260_1010_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1010/maker_candebestprot/transcripts
+cat /data02/merce/maker/1010/maker_candebestprot/transcripts/* >> /data02/merce/maker/1010/maker_candebestprot/transcripts/1010_candeb_transcripts.fasta
+
+cp /data02/merce/maker/1011/maker_debestprot/P1260_1011_preliminary_assembly.maker.output/P1260_1011_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1011/maker_debestprot/transcripts
+cat /data02/merce/maker/1011/maker_debestprot/transcripts/* >> /data02/merce/maker/1011/maker_debestprot/transcripts/1011_deb_transcripts.fasta
+
+cp /data02/merce/maker/1011/maker_candebestprot/P1260_1011_preliminary_assembly.maker.output/P1260_1011_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1011/maker_candebestprot/transcripts
+cat /data02/merce/maker/1011/maker_candebestprot/transcripts/* >> /data02/merce/maker/1011/maker_candebestprot/transcripts/1011_candeb_transcripts.fasta
+
+cp /data02/merce/maker/1012/maker_debestprot/P1260_1012_preliminary_assembly.maker.output/P1260_1012_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1012/maker_debestprot/transcripts
+cat /data02/merce/maker/1012/maker_debestprot/transcripts/* >> /data02/merce/maker/1012/maker_debestprot/transcripts/1012_deb_transcripts.fasta
+
+cp /data02/merce/maker/1012/maker_candebestprot/P1260_1012_preliminary_assembly.maker.output/P1260_1012_preliminary_assembly_datastore/*/*/*/*.transcripts.fasta /data02/merce/maker/1012/maker_candebestprot/transcripts
+cat /data02/merce/maker/1012/maker_candebestprot/transcripts/* >> /data02/merce/maker/1012/maker_candebestprot/transcripts/1012_candeb_transcripts.fasta
+```
+
+|      |1006|1009|1010|1011|1012|
+|------|----|----|----|----|----|
+|deb   |6326|6064|6401|6097|    |
+|candeb|
