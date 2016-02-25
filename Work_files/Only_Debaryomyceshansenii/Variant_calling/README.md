@@ -2,7 +2,7 @@
 
 ## Cohort freebayes
 
-#### Variants of freebayes_good/freebayes_cohort_filtered_snpEff
+#### Variants of freebayes_good/filtering/freebayes_cohort_filtered_snpEff
 
 ```
 SNPs
@@ -32,6 +32,38 @@ Of which come from Indels:
 Of which come from complex variants:
 11621
 ```
+
+#### Variants of freebayes_good/without_filtering/Deha_nofilter_snpEff
+
+```
+SNPs
+332565
+Indels
+18481
+Complex variants:
+50689
+SNPs on protein coding regions:
+242660
+Indels on protein coding regions:
+2570
+Missense variants on protein coding regions:
+103604 freebayes_good/without_filtering/Deha_nofilter_snpEff_protcod_missense.vcf
+Of which come from SNPs:
+79566
+Of which come from Indels:
+186
+Of which come from complex variants:
+17168
+Synonymous variants on protein coding regions:
+175837 freebayes_good/without_filtering/Deha_nofilter_snpEff_protcod_synonymous.vcf
+Of which come from SNPs:
+163454
+Of which come from Indels:
+94
+Of which come from complex variants:
+11621
+```
+
 
 ## Individual freebayes
 
