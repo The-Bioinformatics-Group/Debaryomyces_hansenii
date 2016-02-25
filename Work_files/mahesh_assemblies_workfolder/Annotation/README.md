@@ -195,8 +195,8 @@ cat /data02/merce/maker/1011/maker_debestprot/gff/* >> /data02/merce/maker/1011/
 cp /data02/merce/maker/1011/maker_candebestprot/P1260_1011_preliminary_assembly.maker.output/P1260_1011_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1011/maker_candebestprot/gff
 cat /data02/merce/maker/1011/maker_candebestprot/gff/* >> /data02/merce/maker/1011/maker_candebestprot/gff/1011_candeb.gff
 
-cp /data02/merce/maker/1006/maker_debestprot/P1260_1012_preliminary_assembly.maker.output/P1260_1012_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1012/maker_debestprot/gff
-cat /data02/merce/maker/1006/maker_debestprot/gff/* >> /data02/merce/maker/1012/maker_debestprot/gff/1012_deb.gff
+cp /data02/merce/maker/1012/maker_debestprot/P1260_1012_preliminary_assembly.maker.output/P1260_1012_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1012/maker_debestprot/gff
+cat /data02/merce/maker/1012/maker_debestprot/gff/* >> /data02/merce/maker/1012/maker_debestprot/gff/1012_deb.gff
 
 cp /data02/merce/maker/1012/maker_candebestprot/P1260_1012_preliminary_assembly.maker.output/P1260_1012_preliminary_assembly_datastore/*/*/*/*.gff /data02/merce/maker/1012/maker_candebestprot/gff
 cat /data02/merce/maker/1012/maker_candebestprot/gff/* >> /data02/merce/maker/1012/maker_candebestprot/gff/1012_candeb.gff
