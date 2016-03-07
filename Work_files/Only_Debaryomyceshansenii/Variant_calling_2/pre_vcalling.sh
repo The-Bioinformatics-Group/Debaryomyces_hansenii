@@ -2,7 +2,7 @@
 
 #Merge bam files, remove duplicates already done before that:
 
-#samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001.bam /data02/merce/Only_Debaryomyceshansenii/1001_AH_rmDUP.bam /data02/merce/Only_Debaryomyceshansenii/1001_BC_rmDUP.bam
+samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001.bam /data02/merce/Only_Debaryomyceshansenii/1001_AH_rmDUP.bam /data02/merce/Only_Debaryomyceshansenii/1001_BC_rmDUP.bam
 
 samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002.bam /data02/merce/Only_Debaryomyceshansenii/1002_AH_rmDUP.bam /data02/merce/Only_Debaryomyceshansenii/1002_BC_rmDUP.bam
 
