@@ -2,11 +2,11 @@
 
 #Remove PCR duplicates:
 
-#mkdir /data02/merce/Only_Debaryomyceshansenii/Vcalling2/metrics_files
+mkdir /data02/merce/Only_Debaryomyceshansenii/Vcalling2/metrics_files
 
-#java -jar ~/picard/dist/picard.jar MarkDuplicates INPUT=/data02/merce/Only_Debaryomyceshansenii/1001_pea_DehaAH_sorted.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP.bam REMOVE_DUPLICATES=true METRICS_FILE=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/metrics_files/metrics_file1001ah.txt AS=true
+java -jar ~/picard/dist/picard.jar MarkDuplicates INPUT=/data02/merce/Only_Debaryomyceshansenii/1001_pea_DehaAH_sorted.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP.bam REMOVE_DUPLICATES=true METRICS_FILE=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/metrics_files/metrics_file1001ah.txt AS=true
 
-#java -jar ~/picard/dist/picard.jar MarkDuplicates INPUT=/data02/merce/Only_Debaryomyceshansenii/1001_pea_DehaBC_sorted.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP.bam REMOVE_DUPLICATES=true METRICS_FILE=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/metrics_files/metrics_file1001bc.txt AS=true
+java -jar ~/picard/dist/picard.jar MarkDuplicates INPUT=/data02/merce/Only_Debaryomyceshansenii/1001_pea_DehaBC_sorted.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP.bam REMOVE_DUPLICATES=true METRICS_FILE=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/metrics_files/metrics_file1001bc.txt AS=true
 
 java -jar ~/picard/dist/picard.jar MarkDuplicates INPUT=/data02/merce/Only_Debaryomyceshansenii/1002_pea_DehaAH_sorted.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_AH_rmDUP.bam REMOVE_DUPLICATES=true METRICS_FILE=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/metrics_files/metrics_file1002ah.txt AS=true
 
@@ -54,11 +54,11 @@ java -jar ~/picard/dist/picard.jar MarkDuplicates INPUT=/data02/merce/Only_Debar
 
 #AddOrReplaceReadGroups
 
-#mkdir /data02/merce/Only_Debaryomyceshansenii/Vcalling2/log_files
+mkdir /data02/merce/Only_Debaryomyceshansenii/Vcalling2/log_files
 
-#java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP_readGROUP.bam RGID=1001 RGLB=1001 RGPL=illumina RGPU=1001 RGSM=1001
+java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP_readGROUP.bam RGID=1001 RGLB=1001 RGPL=illumina RGPU=1001 RGSM=1001
 
-#java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP_readGROUP.bam RGID=1001 RGLB=1001 RGPL=illumina RGPU=1001 RGSM=1001
+java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP_readGROUP.bam RGID=1001 RGLB=1001 RGPL=illumina RGPU=1001 RGSM=1001
 
 java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_AH_rmDUP.bam OUTPUT=/data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_AH_rmDUP_readGROUP.bam RGID=1002 RGLB=1002 RGPL=illumina RGPU=1002 RGSM=1002
 
@@ -106,7 +106,7 @@ java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/On
 
 #Merge bam files:
 
-#samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP_readGROUP.bam
+samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP_readGROUP.bam
 
 samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_BC_rmDUP_readGROUP.bam
 
