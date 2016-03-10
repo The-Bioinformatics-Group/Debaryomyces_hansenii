@@ -173,3 +173,13 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 - All the info can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Variant_calling/post_freebayes).
 
 #### Fifth meeting - 26th of February, [pdf](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/PDFs_and_other_additional_information/meeting26february.pdf).
+
+##### 27. Variant calling 2. 
+
+- Start from 0 again to merge bam files
+
+- Pipeline: [Pre_vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_2/1_Pre_vcalling.sh), [vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_2/2_vcalling.sh), [Post_vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_2/3_Post_vcalling.sh).
+
+
+
+
