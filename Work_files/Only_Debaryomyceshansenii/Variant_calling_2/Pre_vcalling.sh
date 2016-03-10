@@ -106,29 +106,29 @@ java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/On
 
 #Merge bam files:
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1001_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1002_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1003_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1003_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1003_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1003_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1003_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1003_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1004_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1004_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1004_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1004_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1004_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1004_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1005_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1005_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1005_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1005_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1005_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1005_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1007_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1007_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1007_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1007_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1007_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1007_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1008_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1008_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1008_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1008_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1008_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1008_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1013_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1013_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1013_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1013_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1013_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1013_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1014_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1014_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1014_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1014_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1014_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1014_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1015_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1015_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1015_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1015_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1015_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1015_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1016_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1016_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1016_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1016_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1016_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1016_BC_rmDUP_readGROUP.bam
 
-samtools merge -nr /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1019_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1019_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1019_BC_rmDUP_readGROUP.bam
+samtools merge /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1019_dpRG.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1019_AH_rmDUP_readGROUP.bam /data02/merce/Only_Debaryomyceshansenii/Vcalling2/1019_BC_rmDUP_readGROUP.bam
 
 #Local realignment BAQ
 
