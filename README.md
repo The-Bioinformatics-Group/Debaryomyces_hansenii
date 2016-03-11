@@ -180,6 +180,10 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Pipeline: [Pre_vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_2/1_Pre_vcalling.sh), [vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_2/2_vcalling.sh), [Post_vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_2/3_Post_vcalling.sh).
 
+##### 28. Variant calling 3.
 
+- Complete failure of the Variant calling 2 pipeline, never got till the point of doing the vcalling step... Error in freebayes due to RG. Even when having used AddOrReplaceReadGroups, even twice! The problem might be on the merging. New one using the flag -c.
+
+- Pipeline: [Pre-vcalling3](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_3/1_Pre_vcalling3.sh), [vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_3/2_vcalling3.sh)
 
 
