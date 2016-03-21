@@ -2,9 +2,9 @@
 
 #AddOrReplaceReadGroups
 
-#java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/deha_vcalling/Bowtie2/1001_sorted.bam OUTPUT=/data02/merce/deha_vcalling/1001_RG.bam RGID=1001 RGLB=1001 RGPL=illumina RGPU=1001 RGSM=1001
+java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/deha_vcalling/Bowtie2/1001_sorted.bam OUTPUT=/data02/merce/deha_vcalling/1001_RG.bam RGID=1001 RGLB=1001 RGPL=illumina RGPU=1001 RGSM=1001
 
-#java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/deha_vcalling/Bowtie2/1002_sorted.bam OUTPUT=/data02/merce/deha_vcalling/1002_RG.bam RGID=1002 RGLB=1002 RGPL=illumina RGPU=1002 RGSM=1002
+java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/deha_vcalling/Bowtie2/1002_sorted.bam OUTPUT=/data02/merce/deha_vcalling/1002_RG.bam RGID=1002 RGLB=1002 RGPL=illumina RGPU=1002 RGSM=1002
 
 java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/deha_vcalling/Bowtie2/1003_sorted.bam OUTPUT=/data02/merce/deha_vcalling/1003_RG.bam RGID=1003 RGLB=1003 RGPL=illumina RGPU=1003 RGSM=1003
 
@@ -28,9 +28,9 @@ java -jar ~/picard/dist/picard.jar AddOrReplaceReadGroups INPUT=/data02/merce/de
 
 #Local realignment BAQ
 
-#samtools calmd -Arb /data02/merce/deha_vcalling/1001_RG.bam /data02/merce/Only_Debaryomyceshansenii/reference/GCA_000006445.2_ASM644v2_genomic.fna > /data02/merce/deha_vcalling/1001_RGBAQ.bam
+samtools calmd -Arb /data02/merce/deha_vcalling/1001_RG.bam /data02/merce/Only_Debaryomyceshansenii/reference/GCA_000006445.2_ASM644v2_genomic.fna > /data02/merce/deha_vcalling/1001_RGBAQ.bam
 
-#samtools calmd -Arb /data02/merce/deha_vcalling/1002_RG.bam /data02/merce/Only_Debaryomyceshansenii/reference/GCA_000006445.2_ASM644v2_genomic.fna > /data02/merce/deha_vcalling/1002_RGBAQ.bam
+samtools calmd -Arb /data02/merce/deha_vcalling/1002_RG.bam /data02/merce/Only_Debaryomyceshansenii/reference/GCA_000006445.2_ASM644v2_genomic.fna > /data02/merce/deha_vcalling/1002_RGBAQ.bam
 
 samtools calmd -Arb /data02/merce/deha_vcalling/1003_RG.bam /data02/merce/Only_Debaryomyceshansenii/reference/GCA_000006445.2_ASM644v2_genomic.fna > /data02/merce/deha_vcalling/1003_RGBAQ.bam
 
@@ -54,9 +54,9 @@ samtools calmd -Arb /data02/merce/deha_vcalling/1019_RG.bam /data02/merce/Only_D
 
 #Index
 
-#samtools index /data02/merce/deha_vcalling/1001_RGBAQ.bam
+samtools index /data02/merce/deha_vcalling/1001_RGBAQ.bam
 
-#samtools index /data02/merce/deha_vcalling/1002_RGBAQ.bam
+samtools index /data02/merce/deha_vcalling/1002_RGBAQ.bam
 
 samtools index /data02/merce/deha_vcalling/1003_RGBAQ.bam
 
