@@ -80,7 +80,7 @@ samtools index /data02/merce/deha_vcalling/1019_RGBAQ.bam
 
 #File with bam paths for Freebayes:
 
-echo -e '/data02/merce/deha_vcalling/1001_RGBAQ.bam \n/data02/merce/deha_vcalling/1002_RGBAQ.bam \n/data02/merce/deha_vcalling/1003_RGBAQ.bam \n/data02/merce/deha_vcalling/1004_RGBAQ.bam \n/data02/merce/deha_vcalling/1005_RGBAQ.bam \n/data02/merce/deha_vcalling/1007_RGBAQ.bam \n/data02/merce/deha_vcalling/1008_RGBAQ.bam \n/data02/merce/deha_vcalling/1013_RGBAQ.bam \n/data02/merce/deha_vcalling/1014_RGBAQ.bam \n/data02/merce/deha_vcalling/1015_RGBAQ.bam \n/data02/merce/deha_vcalling/1016_RGBAQ.bam \n/data02/merce/deha_vcalling/1019_RGBAQ.bam' >> /data02/merce/deha_vcalling/bam.txt
+echo -e '/data02/merce/deha_vcalling/1001_RGBAQ.bam\n/data02/merce/deha_vcalling/1002_RGBAQ.bam\n/data02/merce/deha_vcalling/1003_RGBAQ.bam\n/data02/merce/deha_vcalling/1004_RGBAQ.bam\n/data02/merce/deha_vcalling/1005_RGBAQ.bam\n/data02/merce/deha_vcalling/1007_RGBAQ.bam\n/data02/merce/deha_vcalling/1008_RGBAQ.bam\n/data02/merce/deha_vcalling/1013_RGBAQ.bam\n/data02/merce/deha_vcalling/1014_RGBAQ.bam\n/data02/merce/deha_vcalling/1015_RGBAQ.bam\n/data02/merce/deha_vcalling/1016_RGBAQ.bam\n/data02/merce/deha_vcalling/1019_RGBAQ.bam' >> /data02/merce/deha_vcalling/bam.txt
 
 mkdir /data02/merce/deha_vcalling/FB_cohort
 
