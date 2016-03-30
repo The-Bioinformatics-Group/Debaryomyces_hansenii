@@ -166,6 +166,37 @@ grep -c -e">" /data02/merce/maker/cbs767/test3/transcripts/cbs767_transcripts.fa
 |Ref  |6290  |    |    |    |    |    |    |    |    |    |    |    |5313|
 
 
+
+Identifier in all of the headers:
+
+```
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1001_maker/g' 1001/transcripts/1001_transcripts.fasta > 1001_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1002_maker/g' 1002/transcripts/1002_transcripts.fasta > 1002_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1003_maker/g' 1003/transcripts/1003_transcripts.fasta > 1003_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1004_maker/g' 1004/transcripts/1004_transcripts.fasta > 1004_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1005_maker/g' 1005/transcripts/1005_transcripts.fasta > 1005_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1007_maker/g' 1007/transcripts/1007_transcripts.fasta > 1007_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1008_maker/g' 1008/transcripts/1008_transcripts.fasta > 1008_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1013_maker/g' 1013/transcripts/1013_transcripts.fasta > 1013_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1014_maker/g' 1014/transcripts/1014_transcripts.fasta > 1014_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1015_maker/g' 1015/transcripts/1015_transcripts.fasta > 1015_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1016_maker/g' 1016/transcripts/1016_transcripts.fasta > 1016_transcripts_labeled.fasta
+
+merce@dna:/data02/merce/maker$ sed 's/>maker/>1019_maker/g' 1019/transcripts/1019_transcripts.fasta > 1019_transcripts_labeled.fasta
+
+
+___________________________________________________
+
 #### Results for non-*D. hansenii* strains:
 
 **Getting gff files into 1:**
