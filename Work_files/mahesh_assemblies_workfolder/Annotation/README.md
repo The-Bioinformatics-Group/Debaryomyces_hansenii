@@ -193,7 +193,13 @@ merce@dna:/data02/merce/maker$ sed 's/>maker/>1015_maker/g' 1015/transcripts/101
 merce@dna:/data02/merce/maker$ sed 's/>maker/>1016_maker/g' 1016/transcripts/1016_transcripts.fasta > 1016_transcripts_labeled.fasta
 
 merce@dna:/data02/merce/maker$ sed 's/>maker/>1019_maker/g' 1019/transcripts/1019_transcripts.fasta > 1019_transcripts_labeled.fasta
+```
 
+Cat files into 1:
+
+```
+merce@dna:/data02/merce/maker$ cat *.fasta >> Deha_all_transcripts.fasta
+```
 
 ___________________________________________________
 
