@@ -186,4 +186,21 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Pipeline: [Pre-vcalling3](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_3/1_Pre_vcalling3.sh), [vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_3/2_vcalling3.sh)
 
+##### 29. Variant calling 4.
+
+- It was a space!!!! D: D:
+
+- Pipeline: [PCRduplicates removal](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_4/1_pcrdupl.sh), [Merge fastq](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_4/2_cat.sh), [Bowtie2](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_4/3_bowtie2mapping_CBS767.sh), [Pre-vcalling and vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_4/4_preandvcalling.sh), [Post-vcalling](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_4/5_post_vcalling.sh), [Filtering and tests](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Work_files/Only_Debaryomyceshansenii/Variant_calling_4/README.md).
+
+#### Sixth meeting - 23th of March
+
+##### 30. Phylogeny
+
+- [PhyloSNP](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Phylogeny/PhyloSNP).
+
+##### 31. Map Reads to Assemblies in pairs 
+
+- All the strains except for *S. cerevisiae*
+
+- Can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Align_reads_assemblies).
 
