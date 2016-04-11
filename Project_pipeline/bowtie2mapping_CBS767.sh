@@ -100,81 +100,81 @@ mkdir ~/Bowtie2/logs
 
 #Samtools to convert sam to bam and sort:
 
-samtools view -Sb ~/Bowtie2/1001_DehaAH.sam | samtools sort - ~/Bowtie2/1001_DehaAH_sorted.bam > ~/Bowtie2/logs/1001AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1001_DehaAH.sam | samtools sort - ~/Bowtie2/1001_DehaAH_sorted > ~/Bowtie2/logs/1001AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1002_DehaAH.sam | samtools sort - ~/Bowtie2/1002_DehaAH_sorted.bam > ~/Bowtie2/logs/1002AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1002_DehaAH.sam | samtools sort - ~/Bowtie2/1002_DehaAH_sorted > ~/Bowtie2/logs/1002AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1003_DehaAH.sam | samtools sort - ~/Bowtie2/1003_DehaAH_sorted.bam > ~/Bowtie2/logs/1003AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1003_DehaAH.sam | samtools sort - ~/Bowtie2/1003_DehaAH_sorted > ~/Bowtie2/logs/1003AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1004_DehaAH.sam | samtools sort - ~/Bowtie2/1004_DehaAH_sorted.bam > ~/Bowtie2/logs/1004AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1004_DehaAH.sam | samtools sort - ~/Bowtie2/1004_DehaAH_sorted > ~/Bowtie2/logs/1004AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1005_DehaAH.sam | samtools sort - ~/Bowtie2/1005_DehaAH_sorted.bam > ~/Bowtie2/logs/1005AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1005_DehaAH.sam | samtools sort - ~/Bowtie2/1005_DehaAH_sorted > ~/Bowtie2/logs/1005AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1006_DehaAH.sam | samtools sort - ~/Bowtie2/1006_DehaAH_sorted.bam > ~/Bowtie2/logs/1006AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1006_DehaAH.sam | samtools sort - ~/Bowtie2/1006_DehaAH_sorted > ~/Bowtie2/logs/1006AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1007_DehaAH.sam | samtools sort - ~/Bowtie2/1007_DehaAH_sorted.bam > ~/Bowtie2/logs/1007AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1007_DehaAH.sam | samtools sort - ~/Bowtie2/1007_DehaAH_sorted > ~/Bowtie2/logs/1007AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1008_DehaAH.sam | samtools sort - ~/Bowtie2/1008_DehaAH_sorted.bam > ~/Bowtie2/logs/1008AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1008_DehaAH.sam | samtools sort - ~/Bowtie2/1008_DehaAH_sorted > ~/Bowtie2/logs/1008AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1009_DehaAH.sam | samtools sort - ~/Bowtie2/1009_DehaAH_sorted.bam > ~/Bowtie2/logs/1009AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1009_DehaAH.sam | samtools sort - ~/Bowtie2/1009_DehaAH_sorted > ~/Bowtie2/logs/1009AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1010_DehaAH.sam | samtools sort - ~/Bowtie2/1010_DehaAH_sorted.bam > ~/Bowtie2/logs/1010AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1010_DehaAH.sam | samtools sort - ~/Bowtie2/1010_DehaAH_sorted > ~/Bowtie2/logs/1010AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1011_DehaAH.sam | samtools sort - ~/Bowtie2/1011_DehaAH_sorted.bam > ~/Bowtie2/logs/1011AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1011_DehaAH.sam | samtools sort - ~/Bowtie2/1011_DehaAH_sorted > ~/Bowtie2/logs/1011AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1012_DehaAH.sam | samtools sort - ~/Bowtie2/1012_DehaAH_sorted.bam > ~/Bowtie2/logs/1012AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1012_DehaAH.sam | samtools sort - ~/Bowtie2/1012_DehaAH_sorted > ~/Bowtie2/logs/1012AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1013_DehaAH.sam | samtools sort - ~/Bowtie2/1013_DehaAH_sorted.bam > ~/Bowtie2/logs/1013AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1013_DehaAH.sam | samtools sort - ~/Bowtie2/1013_DehaAH_sorted > ~/Bowtie2/logs/1013AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1014_DehaAH.sam | samtools sort - ~/Bowtie2/1014_DehaAH_sorted.bam > ~/Bowtie2/logs/1014AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1014_DehaAH.sam | samtools sort - ~/Bowtie2/1014_DehaAH_sorted > ~/Bowtie2/logs/1014AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1015_DehaAH.sam | samtools sort - ~/Bowtie2/1015_DehaAH_sorted.bam > ~/Bowtie2/logs/1015AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1015_DehaAH.sam | samtools sort - ~/Bowtie2/1015_DehaAH_sorted > ~/Bowtie2/logs/1015AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1016_DehaAH.sam | samtools sort - ~/Bowtie2/1016_DehaAH_sorted.bam > ~/Bowtie2/logs/1016AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1016_DehaAH.sam | samtools sort - ~/Bowtie2/1016_DehaAH_sorted > ~/Bowtie2/logs/1016AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1017_DehaAH.sam | samtools sort - ~/Bowtie2/1017_DehaAH_sorted.bam > ~/Bowtie2/logs/1017AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1017_DehaAH.sam | samtools sort - ~/Bowtie2/1017_DehaAH_sorted > ~/Bowtie2/logs/1017AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1018_DehaAH.sam | samtools sort - ~/Bowtie2/1018_DehaAH_sorted.bam > ~/Bowtie2/logs/1018AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1018_DehaAH.sam | samtools sort - ~/Bowtie2/1018_DehaAH_sorted > ~/Bowtie2/logs/1018AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1019_DehaAH.sam | samtools sort - ~/Bowtie2/1019_DehaAH_sorted.bam > ~/Bowtie2/logs/1019AHsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1019_DehaAH.sam | samtools sort - ~/Bowtie2/1019_DehaAH_sorted > ~/Bowtie2/logs/1019AHsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1001_DehaBC.sam | samtools sort - ~/Bowtie2/1001_DehaBC_sorted.bam > ~/Bowtie2/logs/1001BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1001_DehaBC.sam | samtools sort - ~/Bowtie2/1001_DehaBC_sorted > ~/Bowtie2/logs/1001BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1002_DehaBC.sam | samtools sort - ~/Bowtie2/1002_DehaBC_sorted.bam > ~/Bowtie2/logs/1002BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1002_DehaBC.sam | samtools sort - ~/Bowtie2/1002_DehaBC_sorted > ~/Bowtie2/logs/1002BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1003_DehaBC.sam | samtools sort - ~/Bowtie2/1003_DehaBC_sorted.bam > ~/Bowtie2/logs/1003BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1003_DehaBC.sam | samtools sort - ~/Bowtie2/1003_DehaBC_sorted > ~/Bowtie2/logs/1003BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1004_DehaBC.sam | samtools sort - ~/Bowtie2/1004_DehaBC_sorted.bam > ~/Bowtie2/logs/1004BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1004_DehaBC.sam | samtools sort - ~/Bowtie2/1004_DehaBC_sorted > ~/Bowtie2/logs/1004BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1005_DehaBC.sam | samtools sort - ~/Bowtie2/1005_DehaBC_sorted.bam > ~/Bowtie2/logs/1005BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1005_DehaBC.sam | samtools sort - ~/Bowtie2/1005_DehaBC_sorted > ~/Bowtie2/logs/1005BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1006_DehaBC.sam | samtools sort - ~/Bowtie2/1006_DehaBC_sorted.bam > ~/Bowtie2/logs/1006BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1006_DehaBC.sam | samtools sort - ~/Bowtie2/1006_DehaBC_sorted > ~/Bowtie2/logs/1006BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1007_DehaBC.sam | samtools sort - ~/Bowtie2/1007_DehaBC_sorted.bam > ~/Bowtie2/logs/1007BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1007_DehaBC.sam | samtools sort - ~/Bowtie2/1007_DehaBC_sorted > ~/Bowtie2/logs/1007BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1008_DehaBC.sam | samtools sort - ~/Bowtie2/1008_DehaBC_sorted.bam > ~/Bowtie2/logs/1008BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1008_DehaBC.sam | samtools sort - ~/Bowtie2/1008_DehaBC_sorted > ~/Bowtie2/logs/1008BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1009_DehaBC.sam | samtools sort - ~/Bowtie2/1009_DehaBC_sorted.bam > ~/Bowtie2/logs/1009BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1009_DehaBC.sam | samtools sort - ~/Bowtie2/1009_DehaBC_sorted > ~/Bowtie2/logs/1009BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1010_DehaBC.sam | samtools sort - ~/Bowtie2/1010_DehaBC_sorted.bam > ~/Bowtie2/logs/1010BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1010_DehaBC.sam | samtools sort - ~/Bowtie2/1010_DehaBC_sorted > ~/Bowtie2/logs/1010BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1011_DehaBC.sam | samtools sort - ~/Bowtie2/1011_DehaBC_sorted.bam > ~/Bowtie2/logs/1011BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1011_DehaBC.sam | samtools sort - ~/Bowtie2/1011_DehaBC_sorted > ~/Bowtie2/logs/1011BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1012_DehaBC.sam | samtools sort - ~/Bowtie2/1012_DehaBC_sorted.bam > ~/Bowtie2/logs/1012BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1012_DehaBC.sam | samtools sort - ~/Bowtie2/1012_DehaBC_sorted > ~/Bowtie2/logs/1012BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1013_DehaBC.sam | samtools sort - ~/Bowtie2/1013_DehaBC_sorted.bam > ~/Bowtie2/logs/1013BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1013_DehaBC.sam | samtools sort - ~/Bowtie2/1013_DehaBC_sorted > ~/Bowtie2/logs/1013BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1014_DehaBC.sam | samtools sort - ~/Bowtie2/1014_DehaBC_sorted.bam > ~/Bowtie2/logs/1014BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1014_DehaBC.sam | samtools sort - ~/Bowtie2/1014_DehaBC_sorted > ~/Bowtie2/logs/1014BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1015_DehaBC.sam | samtools sort - ~/Bowtie2/1015_DehaBC_sorted.bam > ~/Bowtie2/logs/1015BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1015_DehaBC.sam | samtools sort - ~/Bowtie2/1015_DehaBC_sorted > ~/Bowtie2/logs/1015BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1016_DehaBC.sam | samtools sort - ~/Bowtie2/1016_DehaBC_sorted.bam > ~/Bowtie2/logs/1016BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1016_DehaBC.sam | samtools sort - ~/Bowtie2/1016_DehaBC_sorted > ~/Bowtie2/logs/1016BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1017_DehaBC.sam | samtools sort - ~/Bowtie2/1017_DehaBC_sorted.bam > ~/Bowtie2/logs/1017BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1017_DehaBC.sam | samtools sort - ~/Bowtie2/1017_DehaBC_sorted > ~/Bowtie2/logs/1017BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1018_DehaBC.sam | samtools sort - ~/Bowtie2/1018_DehaBC_sorted.bam > ~/Bowtie2/logs/1018BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1018_DehaBC.sam | samtools sort - ~/Bowtie2/1018_DehaBC_sorted > ~/Bowtie2/logs/1018BCsamtools.log 2>&1
 
-samtools view -Sb ~/Bowtie2/1019_DehaBC.sam | samtools sort - ~/Bowtie2/1019_DehaBC_sorted.bam > ~/Bowtie2/logs/1019BCsamtools.log 2>&1
+samtools view -Sb ~/Bowtie2/1019_DehaBC.sam | samtools sort - ~/Bowtie2/1019_DehaBC_sorted > ~/Bowtie2/logs/1019BCsamtools.log 2>&1
 
 #Index bam files:
 
@@ -253,3 +253,4 @@ samtools index ~/Bowtie2/1017_DehaBC_sorted.bam ~/Bowtie2/1017_DehaBC_sorted.bai
 samtools index ~/Bowtie2/1018_DehaBC_sorted.bam ~/Bowtie2/1018_DehaBC_sorted.bai
 
 samtools index ~/Bowtie2/1019_DehaBC_sorted.bam ~/Bowtie2/1019_DehaBC_sorted.bai
+
