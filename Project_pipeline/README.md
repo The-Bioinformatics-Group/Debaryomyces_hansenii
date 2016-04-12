@@ -2,6 +2,22 @@
 
 Needed: access to files on DNA server of University of Gothenburg bioinformatics department.
 
+If run on home folder, to change pathway:
+
+```sed s'~/\/new\/pathway/g' some_script.sh newfile.sh```
+
+(bowtie2mapping_CBS767.sh and kraken.sh)
+
+Others run on data02/merce, to change pathway:
+
+```sed s'/\/data02\/merce/\/new\/pathway/g' some_script.sh newfile.sh```
+
+(the rest)
+
+#### Kraken - contamination check and specie identification
+
+Pathway for both default database and custom database: [kraken.sh](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Project_pipeline/kraken.sh).
+
 #### Bowtie2 - reads against CBS767
 
 Whole pathway: [bowtie2mapping_CBS767.sh](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Project_pipeline/bowtie2mapping_CBS767.sh).
@@ -11,8 +27,6 @@ Run on home folder, to change pathway:
 ```sed s'~/\/new\/pathway/g' bowtie2mapping_CBS767.sh newfile.sh```
 
 Others run on data02/merce, to change pathway:
-
-```sed s'/\/home\/merce/\/new\/pathway/g' some_script.sh newfile.sh```
 
 #### Remove PCR duplicates and merge Fastq files:
 
