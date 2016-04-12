@@ -48,7 +48,7 @@ Whole pathway: [preandvcalling.sh](https://github.com/The-Bioinformatics-Group/D
 
 It includes: 
 
-- Picard AddOrReplaceGroups
+- Picard AddOrReplaceReadGroups
 
 - Local realignment (BAQ) using samtools calmd
 
