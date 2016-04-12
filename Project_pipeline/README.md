@@ -2,8 +2,6 @@
 
 Needed: access to files on DNA server of University of Gothenburg bioinformatics department.
 
-This could be modified on the script by changing all the "~/" for the wanted path.
-
 #### Bowtie2 - reads against CBS767
 
 Whole pathway: [bowtie2mapping_CBS767.sh](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Project_pipeline/bowtie2mapping_CBS767.sh).
@@ -12,9 +10,27 @@ Run on home folder, to change pathway:
 
 ```sed s'~/\/new\/pathway/g' bowtie2mapping_CBS767.sh newfile.sh```
 
+Others run on data02/merce, to change pathway:
+
+```sed s'/\/home\/merce/\/new\/pathway/g' some_script.sh newfile.sh```
+
 #### Remove PCR duplicates and merge Fastq files:
 
 Whole pathway: [merge_fastq.sh](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Project_pipeline/merge_fastq.sh).
+
+#### Bowtie2
+
+Run on /data02/merce/mapping_speciename
+
+If needed, change using sed as shown before.
+
+**Other alignments**
+
+- *S. cerevisiae*: [bowtie2mapping_S288c.sh](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Project_pipeline/bowtie2mapping_S288c.sh).
+
+- *D. fabryi*: [bowtie2mapping_CBS789.sh](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Project_pipeline/bowtie2mapping_CBS789.sh).
+
+- *M. guillermondii*: [bowtie2mapping_ATCC6260.sh](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Project_pipeline/bowtie2mapping_ATCC6260.sh).
 
 #### Vcalling
 
