@@ -111,3 +111,14 @@ blastn -db /data02/merce/genes/DeHa_Allassemblies.fasta -query /data02/merce/gen
 **1018**
 
 ```blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1018_jcf7180000049452 -range 3641-4760 -strand plus -out act1_1018.fasta```
+
+
+#### Sequences
+
+cat filÃes together:
+
+```cat act1_10* >> act1_extracted.fasta```
+
+take out the lcl thing to have the strain number at first:
+
+```sed s'/lcl|//g' act1_extracted.fasta > act1_deha.fasta```
