@@ -63,4 +63,8 @@ Join together with the act1 sequences of our strains:
 
 ```cat act1_deha.fasta act1_debaryomyces_sp.fasta >> act1_all.fasta```
 
-#### Phylogeny with that file.
+Two types have to be done, exon2 only to compare with the rest of strains and complete sequence to compare D. hansenii strains.
+
+
+
+
