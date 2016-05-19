@@ -1,0 +1,771 @@
+[MPI] Testing MPI environment... (kmb-OptiPlex-760)
+[MPI] Proceed without MPI
+-------------------------- jModeltest 2.1.10 v20160303 --------------------------
+(c) 2011-onwards D. Darriba, G.L. Taboada, R. Doallo and D. Posada,
+(1) Department of Biochemistry, Genetics and Immunology
+    University of Vigo, 36310 Vigo, Spain.
+(2) Department of Electronics and Systems
+    University of A Coruna, 15071 A Coruna, Spain.
+e-mail: ddarriba@udc.es, dposada@uvigo.es
+--------------------------------------------------------------------------------
+ 
+Wed May 18 10:26:57 CEST 2016
+Linux 3.19.0-25-generic, arch: amd64, bits: 64, numcores: 2
+ 
+--------------------------------------------------------------------------------
+Citation: Darriba D, Taboada GL, Doallo R and Posada D. 2012.
+          "jModelTest 2: more models, new heuristics and parallel computing".
+          Nature Methods 9(8), 772.
+--------------------------------------------------------------------------------
+ 
+jModelTest 2.1.10 v20160303
+Copyright (C) 2011 D. Darriba, G.L. Taboada, R. Doallo and D. Posada
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it under certain
+conditions
+ 
+Notice: This program may contain errors. Please inspect results carefully.
+ 
+PhyML binary: /home/kmb/Documents/Merce/phylogeny/For_transformations/jmodeltest-2.1.10/exe/phyml/PhyML_3.0_linux64 v20130103
+ 
+Arguments = -d Muscle_ACT1_Complete_sequence_for_phylogeny.fasta.alter.phy -g 4 -i -f -AIC -BIC -a
+
+Reading data file "Muscle_ACT1_Complete_sequence_for_phylogeny.fasta.alter.phy"... OK.
+  number of sequences: 20
+  number of sites: 1487
+ 
+ 
+---------------------------------------------------------------
+*                                                             *
+*        COMPUTATION OF LIKELIHOOD SCORES WITH PHYML          *
+*                                                             *
+---------------------------------------------------------------
+ 
+::Settings::
+ 
+ Phyml version = 20130103
+ Phyml binary = PhyML_3.0_linux64
+ Phyml path = /home/kmb/Documents/Merce/phylogeny/For_transformations/jmodeltest-2.1.10/exe/phyml/
+ Candidate models = 24
+   number of substitution schemes = 3
+   including models with equal/unequal base frequencies (+F)
+   including models with/without a proportion of invariable sites (+I)
+   including models with/without rate variation among sites (+G) (nCat = 4)
+ Optimized free parameters (K) = substitution parameters + 37 branch lengths + topology 
+ Base tree for likelihood calculations = ML tree
+ Tree topology search operation = BEST
+ 
+ 
+ 
+::Progress::
+ 
+Model 		 Exec. Time 	 Total Time 	 -lnL
+-------------------------------------------------------------------------
+F81+I+G		00h:00:07:06	00h:00:07:06	    3352.8166	 (1/24)
+HKY+I+G		00h:00:11:05	00h:00:11:05	    3281.5183	 (2/24)
+JC+I+G		00h:00:07:08	00h:00:19:03	    3363.0791	 (3/24)
+K80+I+G		00h:00:16:03	00h:00:35:06	    3292.1132	 (4/24)
+GTR+I+G		00h:00:31:05	00h:00:39:01	    3274.7499	 (5/24)
+F81+G		00h:00:05:00	00h:00:44:02	    3352.7927	 (6/24)
+HKY+G		00h:00:05:06	00h:00:49:07	    3281.5041	 (7/24)
+GTR+G		00h:00:05:09	00h:00:55:06	    3274.7500	 (8/24)
+SYM+I+G		00h:00:21:03	00h:00:56:09	    3284.9350	 (9/24)
+JC+G		00h:00:05:06	00h:01:01:03	    3363.0521	 (10/24)
+K80+G		00h:00:07:08	00h:01:04:08	    3292.1132	 (11/24)
+F81+I		00h:00:04:00	00h:01:08:08	    3352.6848	 (12/24)
+SYM+G		00h:00:07:06	00h:01:08:09	    3284.9350	 (13/24)
+HKY+I		00h:00:05:01	00h:01:13:09	    3281.3560	 (14/24)
+GTR+I		00h:00:05:05	00h:01:14:04	    3274.5702	 (15/24)
+JC+I		00h:00:03:06	00h:01:17:05	    3362.9343	 (16/24)
+K80+I		00h:00:04:05	00h:01:18:09	    3291.9404	 (17/24)
+F81		00h:00:01:09	00h:01:20:08	    3361.7016	 (18/24)
+SYM+I		00h:00:04:01	00h:01:21:06	    3284.7223	 (19/24)
+HKY		00h:00:01:09	00h:01:22:06	    3292.6960	 (20/24)
+GTR		00h:00:01:09	00h:01:23:05	    3285.8300	 (21/24)
+JC		00h:00:01:07	00h:01:24:03	    3372.3476	 (22/24)
+K80		00h:00:01:08	00h:01:25:03	    3304.1675	 (23/24)
+SYM		00h:00:01:08	00h:01:26:01	    3297.3170	 (24/24)
+ 
+   Model = JC
+   partition = 000000
+   -lnL = 3372.3476
+   K = 38 
+ 
+   Model = JC+I
+   partition = 000000
+   -lnL = 3362.9343
+   K = 39
+   p-inv = 0.5880 
+ 
+   Model = JC+G
+   partition = 000000
+   -lnL = 3363.0521
+   K = 39
+   gamma shape = 0.3780 
+ 
+   Model = JC+I+G
+   partition = 000000
+   -lnL = 3363.0791
+   K = 40
+   p-inv = 0.1780
+   gamma shape = 0.6010 
+ 
+   Model = F81
+   partition = 000000
+   -lnL = 3361.7016
+   K = 41
+   freqA = 0.2737 
+   freqC = 0.2131 
+   freqG = 0.2334 
+   freqT = 0.2799  
+ 
+   Model = F81+I
+   partition = 000000
+   -lnL = 3352.6848
+   K = 42
+   freqA = 0.2731 
+   freqC = 0.2140 
+   freqG = 0.2333 
+   freqT = 0.2796 
+   p-inv = 0.5790 
+ 
+   Model = F81+G
+   partition = 000000
+   -lnL = 3352.7927
+   K = 42
+   freqA = 0.2731 
+   freqC = 0.2140 
+   freqG = 0.2333 
+   freqT = 0.2796 
+   gamma shape = 0.3970 
+ 
+   Model = F81+I+G
+   partition = 000000
+   -lnL = 3352.8166
+   K = 43
+   freqA = 0.2731 
+   freqC = 0.2140 
+   freqG = 0.2333 
+   freqT = 0.2796 
+   p-inv = 0.1970
+   gamma shape = 0.6720 
+ 
+   Model = K80
+   partition = 010010
+   -lnL = 3304.1675
+   K = 39
+   kappa = 5.1719 (ti/tv = 2.5859) 
+ 
+   Model = K80+I
+   partition = 010010
+   -lnL = 3291.9404
+   K = 40
+   kappa = 5.6462 (ti/tv = 2.8231)
+   p-inv = 0.6400 
+ 
+   Model = K80+G
+   partition = 010010
+   -lnL = 3292.1132
+   K = 40
+   kappa = 5.6677 (ti/tv = 2.8338)
+   gamma shape = 0.2680 
+ 
+   Model = K80+I+G
+   partition = 010010
+   -lnL = 3292.1132
+   K = 41
+   kappa = 5.6675 (ti/tv = 2.8337)
+   p-inv = 0.0000
+   gamma shape = 0.2680 
+ 
+   Model = HKY
+   partition = 010010
+   -lnL = 3292.6959
+   K = 42
+   freqA = 0.2740 
+   freqC = 0.2127 
+   freqG = 0.2314 
+   freqT = 0.2819 
+   kappa = 5.2260 (ti/tv = 2.5791) 
+ 
+   Model = HKY+I
+   partition = 010010
+   -lnL = 3281.3560
+   K = 43
+   freqA = 0.2740 
+   freqC = 0.2137 
+   freqG = 0.2323 
+   freqT = 0.2801 
+   kappa = 5.6451 (ti/tv = 2.7887)
+   p-inv = 0.6250 
+ 
+   Model = HKY+G
+   partition = 010010
+   -lnL = 3281.5041
+   K = 43
+   freqA = 0.2740 
+   freqC = 0.2136 
+   freqG = 0.2323 
+   freqT = 0.2800 
+   kappa = 5.6675 (ti/tv = 2.7998)
+   gamma shape = 0.2980 
+ 
+   Model = HKY+I+G
+   partition = 010010
+   -lnL = 3281.5183
+   K = 44
+   freqA = 0.2740 
+   freqC = 0.2136 
+   freqG = 0.2323 
+   freqT = 0.2800 
+   kappa = 5.6667 (ti/tv = 2.7994)
+   p-inv = 0.0440
+   gamma shape = 0.3330 
+ 
+   Model = SYM
+   partition = 012345
+   -lnL = 3297.3170
+   K = 43
+   R(a) [AC] =  0.4906
+   R(b) [AG] =  2.6386
+   R(c) [AT] =  0.6236
+   R(d) [CG] =  0.3634
+   R(e) [CT] =  3.8870
+   R(f) [GT] =  1.0000 
+ 
+   Model = SYM+I
+   partition = 012345
+   -lnL = 3284.7223
+   K = 44
+   R(a) [AC] =  0.4362
+   R(b) [AG] =  2.6741
+   R(c) [AT] =  0.6337
+   R(d) [CG] =  0.3030
+   R(e) [CT] =  4.1144
+   R(f) [GT] =  1.0000
+   p-inv = 0.6440 
+ 
+   Model = SYM+G
+   partition = 012345
+   -lnL = 3284.9350
+   K = 44
+   R(a) [AC] =  0.4343
+   R(b) [AG] =  2.6848
+   R(c) [AT] =  0.6334
+   R(d) [CG] =  0.3030
+   R(e) [CT] =  4.1190
+   R(f) [GT] =  1.0000
+   gamma shape = 0.2600 
+ 
+   Model = SYM+I+G
+   partition = 012345
+   -lnL = 3284.9349
+   K = 45
+   R(a) [AC] =  0.4345
+   R(b) [AG] =  2.6837
+   R(c) [AT] =  0.6334
+   R(d) [CG] =  0.3029
+   R(e) [CT] =  4.1215
+   R(f) [GT] =  1.0000
+   p-inv = 0.0000
+   gamma shape = 0.2600 
+ 
+   Model = GTR
+   partition = 012345
+   -lnL = 3285.8300
+   K = 46
+   freqA = 0.2806 
+   freqC = 0.2097 
+   freqG = 0.2352 
+   freqT = 0.2744 
+   R(a) [AC] =  0.5184
+   R(b) [AG] =  2.6141
+   R(c) [AT] =  0.5670
+   R(d) [CG] =  0.4167
+   R(e) [CT] =  4.1295
+   R(f) [GT] =  1.0000 
+ 
+   Model = GTR+I
+   partition = 012345
+   -lnL = 3274.5702
+   K = 47
+   freqA = 0.2804 
+   freqC = 0.2119 
+   freqG = 0.2356 
+   freqT = 0.2721 
+   R(a) [AC] =  0.4674
+   R(b) [AG] =  2.6523
+   R(c) [AT] =  0.5675
+   R(d) [CG] =  0.3624
+   R(e) [CT] =  4.3169
+   R(f) [GT] =  1.0000
+   p-inv = 0.6220 
+ 
+   Model = GTR+G
+   partition = 012345
+   -lnL = 3274.7500
+   K = 47
+   freqA = 0.2804 
+   freqC = 0.2119 
+   freqG = 0.2356 
+   freqT = 0.2721 
+   R(a) [AC] =  0.4655
+   R(b) [AG] =  2.6613
+   R(c) [AT] =  0.5663
+   R(d) [CG] =  0.3627
+   R(e) [CT] =  4.3220
+   R(f) [GT] =  1.0000
+   gamma shape = 0.3030 
+ 
+   Model = GTR+I+G
+   partition = 012345
+   -lnL = 3274.7499
+   K = 48
+   freqA = 0.2804 
+   freqC = 0.2119 
+   freqG = 0.2356 
+   freqT = 0.2721 
+   R(a) [AC] =  0.4657
+   R(b) [AG] =  2.6616
+   R(c) [AT] =  0.5665
+   R(d) [CG] =  0.3629
+   R(e) [CT] =  4.3246
+   R(f) [GT] =  1.0000
+   p-inv = 0.0000
+   gamma shape = 0.3030 
+ 
+  Best-fit models should be reoptimized for comparison with unconstrained likelihood
+ 
+Computation of likelihood scores completed. It took 00h:01:26:02.
+ 
+
+
+
+---------------------------------------------------------------
+*                                                             *
+*             AKAIKE INFORMATION CRITERION (AIC)              *
+*                                                             *
+---------------------------------------------------------------
+ 
+ Model selected: 
+   Model = GTR+I
+   partition = 012345
+   -lnL = 3274.5702
+   K = 47
+   freqA = 0.2804 
+   freqC = 0.2119 
+   freqG = 0.2356 
+   freqT = 0.2721 
+   R(a) [AC] =  0.4674
+   R(b) [AG] =  2.6523
+   R(c) [AT] =  0.5675
+   R(d) [CG] =  0.3624
+   R(e) [CT] =  4.3169
+   R(f) [GT] =  1.0000
+   p-inv = 0.6220 
+ 
+Tree for the best AIC model = (1006_NODE_:0.00000000,1012_NODE_:0.00000000,(1010_jcf71:0.03520019,((1011_jcf71:0.01691929,(1009_jcf_1:0.00000000,(1009_jcf_0:0.00000000,1009_jcf71:0.00000002):0.00000000):0.00214129):0.00861694,(((1014_NODE_:0.00000000,1016_NODE_:0.00000000):0.00066837,(1001_NODE_:0.00000002,(1003_NODE_:0.00000000,1004_NODE_:0.00134536):0.00000002):0.00067312):0.00184587,(1019_NODE_:0.00000000,(1007_NODE_:0.00000000,(1005_NODE_:0.00000000,(1002_NODE_:0.00000000,(1013_NODE_:0.00067286,((1008_NODE_:0.00000000,1015_NODE_:0.00000000):0.00067362,gi|2946570:0.00000000):0.00000003):0.00000003):0.00000004):0.00000003):0.00000003):0.00705648):0.00844006):0.06017104):0.02997612);
+ 
+ 
+* AIC MODEL SELECTION : Selection uncertainty
+ 
+Model             -lnL    K      AIC       delta       weight   cumWeight
+------------------------------------------------------------------------- 
+GTR+I       3274.57018   47  6643.140360   0.000000    0.438845   0.438845 
+GTR+G       3274.74997   47  6643.499940   0.359580    0.366631   0.805477 
+GTR+I+G     3274.74994   48  6645.499880   2.359520    0.134880   0.940357 
+HKY+I       3281.35602   43  6648.712040   5.571680    0.027067   0.967424 
+HKY+G       3281.50413   43  6649.008260   5.867900    0.023341   0.990764 
+HKY+I+G     3281.51828   44  6651.036560   7.896200    0.008466   0.999230 
+SYM+I       3284.72226   44  6657.444520  14.304160    0.000344   0.999574 
+SYM+G       3284.93498   44  6657.869960  14.729600    0.000278   0.999852 
+SYM+I+G     3284.93495   45  6659.869900  16.729540    0.000102   0.999954 
+GTR         3285.83002   46  6663.660040  20.519680   1.54e-005   0.999970 
+K80+I       3291.94043   40  6663.880860  20.740500   1.38e-005   0.999983 
+K80+G       3292.11321   40  6664.226420  21.086060   1.16e-005   0.999995 
+K80+I+G     3292.11320   41  6666.226400  23.086040   4.26e-006   0.999999 
+HKY         3292.69595   42  6669.391900  26.251540   8.75e-007   1.000000 
+SYM         3297.31700   43  6680.634000  37.493640   3.17e-009   1.000000 
+K80         3304.16749   39  6686.334980  43.194620   1.83e-010   1.000000 
+F81+I       3352.68477   42  6789.369540  146.229180   7.75e-033   1.000000 
+F81+G       3352.79267   42  6789.585340  146.444980   6.95e-033   1.000000 
+F81+I+G     3352.81664   43  6791.633280  148.492920   2.50e-033   1.000000 
+JC+I        3362.93428   39  6803.868560  160.728200   5.50e-036   1.000000 
+JC+G        3363.05209   39  6804.104180  160.963820   4.89e-036   1.000000 
+F81         3361.70161   41  6805.403220  162.262860   2.55e-036   1.000000 
+JC+I+G      3363.07908   40  6806.158160  163.017800   1.75e-036   1.000000 
+JC          3372.34759   38  6820.695180  177.554820   1.22e-039   1.000000
+-------------------------------------------------------------------------
+-lnL:	negative log likelihod
+ K:	number of estimated parameters
+ AIC:	Akaike Information Criterion
+ delta:	AIC difference
+ weight:	AIC weight
+ cumWeight:	cumulative AIC weight
+ 
+ 
+* AIC MODEL SELECTION : Confidence interval
+ 
+There are 24 models in the 100% confidence interval: [ GTR+I GTR+G GTR+I+G HKY+I HKY+G HKY+I+G SYM+I SYM+G SYM+I+G GTR K80+I K80+G K80+I+G HKY SYM K80 F81+I F81+G F81+I+G JC+I JC+G F81 JC+I+G JC ] 
+ 
+ 
+* AIC MODEL SELECTION : Best Model's command line
+ 
+phyml  -i /tmp/jmodeltest6555183027579409317.phy -d nt -n 1 -b 0 --run_id GTR+I -m 012345 -f m -v e -c 1 --no_memory_check -o tlr -s BEST
+ 
+ 
+ 
+---------------------------------------------------------------
+*                                                             *
+*                    MODEL AVERAGED PHYLOGENY                 *
+*                                                             *
+---------------------------------------------------------------
+ 
+Selection criterion: . . . . AIC
+Confidence interval: . . . . 1.00
+Consensus type:. . . . . . . 50% majority rule
+ 
+ 
+Using 24 models in the 1.00 confidence interval = GTR+I GTR+G GTR+I+G HKY+I HKY+G HKY+I+G SYM+I SYM+G SYM+I+G GTR K80+I K80+G K80+I+G HKY SYM K80 F81+I F81+G F81+I+G JC+I JC+G F81 JC+I+G JC  
+ 
+Species in order:
+ 
+    1. 1006_NODE_
+    2. 1012_NODE_
+    3. 1010_jcf71
+    4. 1011_jcf71
+    5. 1009_jcf_1
+    6. 1009_jcf_0
+    7. 1009_jcf71
+    8. 1014_NODE_
+    9. 1016_NODE_
+    10. 1001_NODE_
+    11. 1003_NODE_
+    12. 1004_NODE_
+    13. 1019_NODE_
+    14. 1007_NODE_
+    15. 1005_NODE_
+    16. 1002_NODE_
+    17. 1013_NODE_
+    18. 1008_NODE_
+    19. 1015_NODE_
+    20. gi|2946570
+ 
+Bipartitions included in the consensus tree
+ 
+    12345678911111111112
+             01234567890
+    ******************** ( 1.0 )
+    --****************** ( 1.0 )
+    ---***************** ( 1.0 )
+    ---****------------- ( 1.0 )
+    ----***------------- ( 1.0 )
+    -----**------------- ( 1.0 )
+    -------************* ( 1.0 )
+    -------*****-------- ( 1.0 )
+    -------**----------- ( 1.0 )
+    ---------***-------- ( 1.0 )
+    ------------******** ( 1.0 )
+    -------------******* ( 0.85632 )
+    --------------****** ( 0.8563 )
+    ---------------***** ( 0.85619 )
+    ----------------**** ( 0.85632 )
+    -----------------*** ( 0.85666 )
+    -----------------**- ( 1.0 )
+
+ 
+                                        +-20 1009_jcf71
+                                     +-32
+                                     |  +-19 1009_jcf_0
+                                  +-33
+                                  |  +-18 1009_jcf_1
+                               +-34
+                               |  +----17 1011_jcf71
+          +-------------------35
+          |                    |        +-16 1004_NODE_
+          |                    |        |
+          |                    |        +-15 1003_NODE_
+          |                    |     +-29
+          |                    |     |  +-14 1001_NODE_
+          |                    |  +-30
+          |                    |  |  |  +-13 1016_NODE_
+          |                    |  |  +-28
+          |                    |  |     +-12 1014_NODE_
+          |                    +-31
+          |                       |                    +-11 1015_NODE_
+          |                       |                 +-21
+          |                       |                 |  +-10 1008_NODE_
+          |                       |              +-22
+          |                       |              |  +--9 gi|2946570
+          |                       |           +-23
+          |                       |           |  +--8 1013_NODE_
+          |                       |        +-24
+          |                       |        |  +--7 1002_NODE_
+          |                       |     +-25
+          |                       |     |  +--6 1005_NODE_
+          |                       |  +-26
+          |                       |  |  +--5 1007_NODE_
+          |                       +-27
+          |                          +--4 1019_NODE_
++--------36
+|         +-----------3 1010_jcf71
+|
++--2 1012_NODE_
+|
++--1 1006_NODE_
+
+ 
+(1006_NODE_:0.0000000100,1012_NODE_:0.0000000100,(1010_jcf71:0.0354677400,(((1019_NODE_:0.0000000100,(1007_NODE_:0.0000000100,(1005_NODE_:0.0000000100,(1002_NODE_:0.0000000100,(1013_NODE_:0.0006730800,(gi|2946570:0.0000000100,(1008_NODE_:0.0000000100,1015_NODE_:0.0000000100):1.0000:0.0006738400):0.8567:0.0000000300):0.8563:0.0000000300):0.8562:0.0000000400):0.8563:0.0000000300):0.8563:0.0000000300):1.0000:0.0070639000,((1014_NODE_:0.0000000100,1016_NODE_:0.0000000100):1.0000:0.0006683600,(1001_NODE_:0.0000000200,1003_NODE_:0.0000000100,1004_NODE_:0.0013463200):1.0000:0.0006743400):1.0000:0.0018491600):1.0000:0.0084586600,(1011_jcf71:0.0169598400,(1009_jcf_1:0.0000000100,(1009_jcf_0:0.0000000100,1009_jcf71:0.0000000200):1.0000:0.0000000100):1.0000:0.0021383000):1.0000:0.0086583200):1.0000:0.0606013200):1.0000:0.0301362400);
+ 
+Note: this tree is unrooted. Branch lengths are the expected number of substitutions per site. Labels next to parentheses represent phylogenetic uncertainty due to model selection (see documentation)
+
+
+
+---------------------------------------------------------------
+*                                                             *
+*             BAYESIAN INFORMATION CRITERION (BIC)            *
+*                                                             *
+---------------------------------------------------------------
+ 
+ Sample size: 1487.0
+ 
+ Model selected: 
+   Model = K80+I
+   partition = 010010
+   -lnL = 3291.9404
+   K = 40
+   kappa = 5.6462 (ti/tv = 2.8231)
+   p-inv = 0.6400 
+ 
+Tree for the best BIC model = (1006_NODE_:0.00000000,1012_NODE_:0.00000000,(1010_jcf71:0.03596960,((1011_jcf71:0.01705896,(1009_jcf_1:0.00000000,(1009_jcf_0:0.00000000,1009_jcf71:0.00000003):0.00000000):0.00206086):0.00857273,(((1014_NODE_:0.00000000,1016_NODE_:0.00000000):0.00067180,(1001_NODE_:0.00000002,(1003_NODE_:0.00000000,1004_NODE_:0.00135324):0.00000002):0.00067763):0.00182579,(1019_NODE_:0.00000000,((1002_NODE_:0.00000000,1005_NODE_:0.00000000):0.00000000,(1007_NODE_:0.00000000,(1013_NODE_:0.00067622,(gi|2946570:0.00000000,(1008_NODE_:0.00000000,1015_NODE_:0.00000000):0.00067713):0.00000002):0.00000004):0.00000001):0.00000001):0.00712029):0.00869993):0.06056649):0.02965358);
+ 
+ 
+* BIC MODEL SELECTION : Selection uncertainty
+ 
+Model             -lnL    K      BIC       delta       weight   cumWeight
+------------------------------------------------------------------------- 
+K80+I       3291.94043   40  6876.061498   0.000000    0.316073   0.316073 
+K80+G       3292.11321   40  6876.407058   0.345560    0.265920   0.581993 
+HKY+I       3281.35602   43  6876.806226   0.744728    0.217807   0.799800 
+HKY+G       3281.50413   43  6877.102446   1.040948    0.187823   0.987623 
+K80+I+G     3292.11320   41  6883.711554   7.650056    0.006896   0.994520 
+HKY+I+G     3281.51828   44  6884.435262   8.373764    0.004802   0.999322 
+SYM+I       3284.72226   44  6890.843222  14.781724    0.000195   0.999517 
+SYM+G       3284.93498   44  6891.268662  15.207164    0.000158   0.999674 
+HKY         3292.69595   42  6892.181570  16.120072   9.99e-005   0.999774 
+GTR+I       3274.57018   47  6892.452609  16.391112   8.72e-005   0.999861 
+GTR+G       3274.74997   47  6892.812189  16.750692   7.28e-005   0.999934 
+K80         3304.16749   39  6893.211102  17.149604   5.97e-005   0.999994 
+SYM+I+G     3284.93495   45  6898.573118  22.511620   4.09e-006   0.999998 
+GTR+I+G     3274.74994   48  6900.116645  24.055148   1.89e-006   1.000000 
+GTR         3285.83002   46  6907.667774  31.606276   4.33e-008   1.000000 
+SYM         3297.31700   43  6908.728186  32.666688   2.55e-008   1.000000 
+JC+I        3362.93428   39  7010.744682  134.683184   1.79e-030   1.000000 
+JC+G        3363.05209   39  7010.980302  134.918804   1.59e-030   1.000000 
+F81+I       3352.68477   42  7012.159210  136.097712   8.84e-031   1.000000 
+F81+G       3352.79267   42  7012.375010  136.313512   7.94e-031   1.000000 
+JC+I+G      3363.07908   40  7018.338798  142.277300   4.02e-032   1.000000 
+F81+I+G     3352.81664   43  7019.727466  143.665968   2.01e-032   1.000000 
+JC          3372.34759   38  7022.266786  146.205288   5.65e-033   1.000000 
+F81         3361.70161   41  7022.888374  146.826876   4.14e-033   1.000000
+-------------------------------------------------------------------------
+-lnL:	negative log likelihod
+K:	number of estimated parameters
+BIC:	Bayesian Information Criterion
+delta:	BIC difference
+weight:	BIC weight
+cumWeight:	cumulative BIC weight
+ 
+ 
+* BIC MODEL SELECTION : Confidence interval
+ 
+There are 24 models in the 100% confidence interval: [ K80+I K80+G HKY+I HKY+G K80+I+G HKY+I+G SYM+I SYM+G HKY GTR+I GTR+G K80 SYM+I+G GTR+I+G GTR SYM JC+I JC+G F81+I F81+G JC+I+G F81+I+G JC F81 ] 
+ 
+ 
+* BIC MODEL SELECTION : Best Model's command line
+ 
+phyml  -i /tmp/jmodeltest6555183027579409317.phy -d nt -n 1 -b 0 --run_id K80+I -m 010010 -f 0.25,0.25,0.25,0.25 -v e -c 1 --no_memory_check -o tlr -s BEST
+ 
+ 
+ 
+---------------------------------------------------------------
+*                                                             *
+*                    MODEL AVERAGED PHYLOGENY                 *
+*                                                             *
+---------------------------------------------------------------
+ 
+Selection criterion: . . . . BIC
+Confidence interval: . . . . 1.00
+Consensus type:. . . . . . . 50% majority rule
+ 
+ 
+Using 24 models in the 1.00 confidence interval = K80+I K80+G HKY+I HKY+G K80+I+G HKY+I+G SYM+I SYM+G HKY GTR+I GTR+G K80 SYM+I+G GTR+I+G GTR SYM JC+I JC+G F81+I F81+G JC+I+G F81+I+G JC F81  
+ 
+Species in order:
+ 
+    1. 1006_NODE_
+    2. 1012_NODE_
+    3. 1010_jcf71
+    4. 1011_jcf71
+    5. 1009_jcf_1
+    6. 1009_jcf_0
+    7. 1009_jcf71
+    8. 1014_NODE_
+    9. 1016_NODE_
+    10. 1001_NODE_
+    11. 1003_NODE_
+    12. 1004_NODE_
+    13. 1019_NODE_
+    14. 1002_NODE_
+    15. 1005_NODE_
+    16. 1007_NODE_
+    17. 1013_NODE_
+    18. gi|2946570
+    19. 1008_NODE_
+    20. 1015_NODE_
+ 
+Bipartitions included in the consensus tree
+ 
+    12345678911111111112
+             01234567890
+    ******************** ( 1.0 )
+    --****************** ( 1.0 )
+    ---***************** ( 1.0 )
+    ---****------------- ( 1.0 )
+    ----***------------- ( 1.0 )
+    -----**------------- ( 1.0 )
+    -------************* ( 1.0 )
+    -------*****-------- ( 1.0 )
+    -------**----------- ( 1.0 )
+    ---------***-------- ( 1.0 )
+    ------------******** ( 1.0 )
+    -------------******* ( 0.99501 )
+    -------------**-**** ( 0.67893 )
+    -------------*--**** ( 0.67203 )
+    ----------------**** ( 0.99501 )
+    -----------------*** ( 0.9952 )
+    ------------------** ( 1.0 )
+
+ 
+                                        +-20 1009_jcf71
+                                     +-32
+                                     |  +-19 1009_jcf_0
+                                  +-33
+                                  |  +-18 1009_jcf_1
+                               +-34
+                               |  +----17 1011_jcf71
+          +-------------------35
+          |                    |                       +-16 1015_NODE_
+          |                    |                    +-24
+          |                    |                    |  +-15 1008_NODE_
+          |                    |                 +-25
+          |                    |                 |  +-14 gi|2946570
+          |                    |              +-26
+          |                    |              |  +-13 1013_NODE_
+          |                    |           +-27
+          |                    |           |  +-12 1002_NODE_
+          |                    |        +-28
+          |                    |        |  +-11 1005_NODE_
+          |                    |     +-29
+          |                    |     |  +-10 1007_NODE_
+          |                    |  +-30
+          |                    |  |  +--9 1019_NODE_
+          |                    +-31
+          |                       |     +--8 1016_NODE_
+          |                       |  +-22
+          |                       |  |  +--7 1014_NODE_
+          |                       +-23
+          |                          |  +--6 1004_NODE_
+          |                          |  |
+          |                          |  +--5 1003_NODE_
+          |                          +-21
+          |                             +--4 1001_NODE_
++--------36
+|         +-----------3 1010_jcf71
+|
++--2 1012_NODE_
+|
++--1 1006_NODE_
+
+ 
+(1006_NODE_:0.0000000000,1012_NODE_:0.0000000000,(1010_jcf71:0.0359696000,((((1001_NODE_:0.0000000200,1003_NODE_:0.0000000000,1004_NODE_:0.0013532400):1.0000:0.0006776300,(1014_NODE_:0.0000000000,1016_NODE_:0.0000000000):1.0000:0.0006718000):1.0000:0.0018293400,(1019_NODE_:0.0000000000,(1007_NODE_:0.0000000000,(1005_NODE_:0.0000000000,(1002_NODE_:0.0000000000,(1013_NODE_:0.0006762200,(gi|2946570:0.0000000000,(1008_NODE_:0.0000000000,1015_NODE_:0.0000000000):1.0000:0.0006771300):0.9952:0.0000000300):0.9950:0.0000000400):0.6720:0.0000000500):0.6789:0.0000000400):0.9950:0.0000000300):1.0000:0.0071202900):1.0000:0.0086999300,(1011_jcf71:0.0170589600,(1009_jcf_1:0.0000000000,(1009_jcf_0:0.0000000000,1009_jcf71:0.0000000300):1.0000:0.0000000000):1.0000:0.0020608600):1.0000:0.0085727300):1.0000:0.0605664900):1.0000:0.0298169100);
+ 
+Note: this tree is unrooted. Branch lengths are the expected number of substitutions per site. Labels next to parentheses represent phylogenetic uncertainty due to model selection (see documentation)
+ 
+ 
+ 
+---------------------------------------------------------------
+*                                                             *
+*                    SELECTION SUMMARY                        *
+*                                                             *
+---------------------------------------------------------------
+
+::Optimized Topologies Summary::
+
+There are 8 different topologies.
+
+Topology Id: 1
+	Rank	Weight		 RF	AvgEucl		VarEucl
+AIC	  1	 46.59%		  0	3.72e-04	1.38e-07
+BIC	  5	 21.79%		  4	1.54e-03	2.93e-08
+Models supporting:   2
+                     HKY+I GTR+I 
+
+Topology Id: 2
+	Rank	Weight		 RF	AvgEucl		VarEucl
+AIC	  2	 39.03%		  2	6.74e-03	1.24e-05
+BIC	  6	 45.41%		  6	7.17e-03	1.40e-05
+Models supporting:   12
+                     JC JC+G F81 F81+G K80 K80+G HKY HKY+G SYM SYM+G GTR GTR+G 
+
+Topology Id: 3
+	Rank	Weight		 RF	AvgEucl		VarEucl
+AIC	  3	  0.01%		  2	3.14e-03	1.91e-06
+BIC	  2	  0.69%		  2	2.66e-03	4.32e-06
+Models supporting:   3
+                     JC+I+G K80+I+G SYM+I+G 
+
+Topology Id: 4
+	Rank	Weight		 RF	AvgEucl		VarEucl
+AIC	  4	  0.00%		  4	5.63e-03	0.00e+00
+BIC	  4	  0.00%		  4	6.12e-03	0.00e+00
+Models supporting:   1
+                     JC+I 
+
+Topology Id: 5
+	Rank	Weight		 RF	AvgEucl		VarEucl
+AIC	  5	  0.00%		  4	1.37e-03	0.00e+00
+BIC	  1	 31.61%		  0	0.00e+00	0.00e+00
+Models supporting:   1
+                     K80+I 
+
+Topology Id: 6
+	Rank	Weight		 RF	AvgEucl		VarEucl
+AIC	  6	  0.00%		  6	5.86e-03	0.00e+00
+BIC	  3	  0.00%		  2	6.42e-03	0.00e+00
+Models supporting:   1
+                     F81+I 
+
+Topology Id: 7
+	Rank	Weight		 RF	AvgEucl		VarEucl
+AIC	  7	  0.03%		  8	2.40e-03	0.00e+00
+BIC	  7	  0.02%		  6	1.90e-03	0.00e+00
+Models supporting:   1
+                     SYM+I 
+
+Topology Id: 8
+	Rank	Weight		 RF	AvgEucl		VarEucl
+AIC	  8	 14.33%		 12	3.35e-03	2.71e-06
+BIC	  8	  0.48%		 12	3.78e-03	3.33e-06
+Models supporting:   3
+                     F81+I+G HKY+I+G GTR+I+G 
+
+ 
+ 
+ 
+::Best Models::
+ 
+	Model 		f(a) 	f(c) 	f(g) 	f(t) 	kappa 	titv 	Ra	Rb	Rc	Rd	Re	Rf	pInv 	gamma
+----------------------------------------------------------------------------------------------------------------------------------------
+AIC 	GTR+I		0.28	0.21	0.24	0.27	0.00	0.00	  0.467   2.652   0.567   0.362   4.317   1.000    0.62	N/A
+BIC 	K80+I		0.25	0.25	0.25	0.25	5.65	2.82	  1.000   5.646   1.000   1.000   5.646   1.000    0.64	N/A
