@@ -310,3 +310,74 @@ sed s'/lcl|//g' act1_extracted_exon2.fasta > act1_deha_exon2.fasta
 ```
 
 
+### GPD1
+
+#### Exctract sequences:
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1001_NODE_1_length_1037143_cov_38.0179_ID_10429 -range 673774-674943 -strand plus -out gpd1_1001.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1002_NODE_10_length_365995_cov_19.4662_ID_20781 -range 105184-106353 -strand minus -out gpd1_1002.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1003_NODE_2_length_771534_cov_35.3609_ID_6092 -range 362179-363348 -strand minus -out gpd1_1003.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1004_NODE_43_length_19882_cov_21.2168_ID_1136895 -range 5891-7060 -strand minus -out gpd1_1004.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1005_NODE_3_length_565268_cov_33.473_ID_19578 -range 296039-297208 -strand plus -out gpd1_1005.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1006_NODE_2_length_632767_cov_34.637_ID_14960 -range 570944-572113 -strand plus -out gpd1_1006.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1007_NODE_14_length_316042_cov_35.2553_ID_9824 -range 290132-291301 -strand plus -out gpd1_1007.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1008_NODE_2_length_323344_cov_20.3934_ID_7242 -range 232954-234123 -strand plus -out gpd1_1008.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1009_jcf7180000024121 -range 15102-16271 -strand plus -out gpd1_1009.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1011_jcf7180000063161 -range 4122-5291 -strand plus -out gpd1_1011_1.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1011_jcf7180000062931 -range 7-1176 -strand plus -out gpd1_1011_2.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1012_NODE_3_length_473900_cov_36.294_ID_17668 -range 60601-61770 -strand minus -out gpd1_1012.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1013_NODE_1_length_870695_cov_28.5962_ID_48926 -range 404894-406063 -strand plus -out gpd1_1013.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1014_NODE_10_length_285546_cov_36.0871_ID_7998 -range 261068-262237 -strand plus -out gpd1_1014.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1015_NODE_2_length_427471_cov_30.2162_ID_16875 -range 20162-21331 -strand minus -out gpd1_1015.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1016_NODE_9_length_430015_cov_48.5492_ID_7314 -range 204577-205746 -strand minus -out gpd1_1016.fasta
+```
+
+```
+blastdbcmd -db /data02/merce/genes/DeHa_Allassemblies.fasta -entry 1019_NODE_1_length_876801_cov_30.5766_ID_17176 -range 407939-409108 -strand plus -out gpd1_1019.fasta
+```
