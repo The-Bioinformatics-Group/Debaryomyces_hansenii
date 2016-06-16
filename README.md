@@ -204,3 +204,23 @@ Not possible, it needs a GI number to work, it needs to be included on the taxon
 
 - Can be found [here](https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/mahesh_assemblies_workfolder/Align_reads_assemblies).
 
+##### 32. Pipelines added to GitHub
+
+https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Project_pipeline
+
+##### 33. CD-Hit
+
+https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Phylogeny/cd-hit
+
+##### 34. GPD1 and ACT1 phylogenies
+
+Extract sequences: https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Phylogeny/genes/BLAST
+
+ACT1 Phylogeny: https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Phylogeny/genes/phylogeny_act1
+
+GPD1 Phylogeny: https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/tree/master/Work_files/Only_Debaryomyceshansenii/Phylogeny/genes/phylogeny_gpd1
+
+### Master's thesis final report
+
+https://github.com/The-Bioinformatics-Group/Debaryomyces_hansenii/blob/master/Mastersthesis_mercemontoliunerin.pdf
+
