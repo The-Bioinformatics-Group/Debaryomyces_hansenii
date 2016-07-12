@@ -1,0 +1,11 @@
+PASS	Basic Statistics	8_140619_BC47HDACXX_P1260_1001_1.fastq
+PASS	Per base sequence quality	8_140619_BC47HDACXX_P1260_1001_1.fastq
+PASS	Per sequence quality scores	8_140619_BC47HDACXX_P1260_1001_1.fastq
+FAIL	Per base sequence content	8_140619_BC47HDACXX_P1260_1001_1.fastq
+FAIL	Per base GC content	8_140619_BC47HDACXX_P1260_1001_1.fastq
+PASS	Per sequence GC content	8_140619_BC47HDACXX_P1260_1001_1.fastq
+PASS	Per base N content	8_140619_BC47HDACXX_P1260_1001_1.fastq
+PASS	Sequence Length Distribution	8_140619_BC47HDACXX_P1260_1001_1.fastq
+WARN	Sequence Duplication Levels	8_140619_BC47HDACXX_P1260_1001_1.fastq
+PASS	Overrepresented sequences	8_140619_BC47HDACXX_P1260_1001_1.fastq
+WARN	Kmer Content	8_140619_BC47HDACXX_P1260_1001_1.fastq

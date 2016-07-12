@@ -1,0 +1,11 @@
+PASS	Basic Statistics	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+PASS	Per base sequence quality	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+PASS	Per sequence quality scores	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+FAIL	Per base sequence content	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+FAIL	Per base GC content	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+PASS	Per sequence GC content	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+PASS	Per base N content	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+PASS	Sequence Length Distribution	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+WARN	Sequence Duplication Levels	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+PASS	Overrepresented sequences	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
+WARN	Kmer Content	1_140716_AH9BY4ADXX_P1260_1001_1.fastq
